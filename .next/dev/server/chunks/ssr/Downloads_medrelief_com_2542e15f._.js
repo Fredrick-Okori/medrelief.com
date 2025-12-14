@@ -606,89 +606,6 @@ function Hero() {
                         fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
                         lineNumber: 116,
                         columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 z-30",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: goPrev,
-                                "aria-label": "Previous slide",
-                                className: "h-11 w-11 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-all duration-200 backdrop-blur-sm",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    className: "w-5 h-5",
-                                    fill: "none",
-                                    stroke: "currentColor",
-                                    viewBox: "0 0 24 24",
-                                    strokeWidth: 2,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        strokeLinecap: "round",
-                                        strokeLinejoin: "round",
-                                        d: "M15 19l-7-7 7-7"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                        lineNumber: 173,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                    lineNumber: 172,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                lineNumber: 167,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex gap-2 items-center",
-                                children: slides.map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        "aria-label": `Go to slide ${i + 1}`,
-                                        onClick: ()=>setIndex(i),
-                                        className: `h-2 rounded-full transition-all duration-300 ${i === index ? "w-8 bg-white" : "w-2 bg-white/50 hover:bg-white/70"}`
-                                    }, i, false, {
-                                        fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                        lineNumber: 179,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                lineNumber: 177,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: goNext,
-                                "aria-label": "Next slide",
-                                className: "h-11 w-11 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-all duration-200 backdrop-blur-sm",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    className: "w-5 h-5",
-                                    fill: "none",
-                                    stroke: "currentColor",
-                                    viewBox: "0 0 24 24",
-                                    strokeWidth: 2,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        strokeLinecap: "round",
-                                        strokeLinejoin: "round",
-                                        d: "M9 5l7 7-7 7"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                        lineNumber: 196,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                    lineNumber: 195,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                lineNumber: 190,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                        lineNumber: 166,
-                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
@@ -711,7 +628,7 @@ function Hero() {
                                 children: action.icon
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                lineNumber: 211,
+                                lineNumber: 177,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -719,18 +636,18 @@ function Hero() {
                                 children: action.label
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                                lineNumber: 212,
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, i, true, {
                         fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                        lineNumber: 205,
+                        lineNumber: 171,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/Downloads/medrelief.com/components/hero.tsx",
-                lineNumber: 203,
+                lineNumber: 169,
                 columnNumber: 7
             }, this)
         ]

@@ -162,41 +162,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Navigation Controls */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 z-30">
-          <button
-            onClick={goPrev}
-            aria-label="Previous slide"
-            className="h-11 w-11 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-all duration-200 backdrop-blur-sm"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          <div className="flex gap-2 items-center">
-            {slides.map((_, i) => (
-              <button
-                key={i}
-                aria-label={`Go to slide ${i + 1}`}
-                onClick={() => setIndex(i)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  i === index ? "w-8 bg-white" : "w-2 bg-white/50 hover:bg-white/70"
-                }`}
-              />
-            ))}
-          </div>
-
-          <button
-            onClick={goNext}
-            aria-label="Next slide"
-            className="h-11 w-11 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center transition-all duration-200 backdrop-blur-sm"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        </div>
+ 
       </section>
 
       {/* Quick Actions - C-Care Style */}

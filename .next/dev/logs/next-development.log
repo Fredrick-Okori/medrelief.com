@@ -2171,3 +2171,4 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [04:46:34.057] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:57:47.849] Server  LOG      ✓ Compiled in 259ms

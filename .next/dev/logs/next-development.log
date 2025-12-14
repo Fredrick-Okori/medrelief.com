@@ -1,0 +1,2173 @@
+[00:00:01.825] Server  LOG      ✓ Ready in 1217ms
+[00:00:12.467] Server  LOG      ○ Compiling / ...
+[00:00:14.053] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:14.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.136] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.136] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:15.136] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765728054018}
+[00:00:22.454] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:33.678] Server  LOG      ✓ Compiled in 369ms
+[00:02:34.440] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:02:40.286] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:04:17.748] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:11:33.702] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:33.850] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:11:34.191] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:34.346] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:11:34.517] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:34.517] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:11:34.517] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#book color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#book","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765728731842}
+[00:11:52.677] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:11:55.388] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "95" which is not configured in images.qualities [75]. Please update your config to [75, 95].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:15:50.869] Server  LOG      ✓ Compiled in 447ms
+[00:15:51.440] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:15:53.921] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:15:56.936] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:15:57.085] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:15:57.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:57.648] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:15:57.807] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:57.808] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:57.808] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#book color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#book","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765728995137}
+[00:16:04.321] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:16:04.321] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:17.439] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:10.507] Server  LOG      ✓ Compiled in 222ms
+[00:19:11.442] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:13.638] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:19:23.156] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:25:44.288] Server  LOG      ✓ Compiled in 320ms
+[00:25:54.932] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:25:55.112] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:25:55.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:55.674] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:25:55.823] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:25:55.823] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:25:55.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#book color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#book","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765729593299}
+[00:26:00.808] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:26:00.922] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:26:10.439] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "85" which is not configured in images.qualities [75]. Please update your config to [75, 85].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:28:13.721] Server  LOG      ✓ Compiled in 433ms
+[00:29:10.399] Server  LOG      ✓ Compiled in 93ms
+[00:37:11.122] Server  LOG      ✓ Compiled in 92ms
+[00:37:11.440] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:37:13.016] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:40:26.440] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:43:03.611] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:45:07.434] Server  LOG      ✓ Compiled in 318ms
+[00:47:48.965] Server  LOG      ✓ Compiled in 91ms
+[00:47:53.217] Server  LOG      ✓ Compiled in 89ms
+[00:48:16.462] Server  LOG      ✓ Compiled in 85ms
+[00:48:29.300] Server  LOG      ✓ Compiled in 96ms
+[00:48:35.295] Server  LOG      ✓ Compiled in 89ms
+[00:48:41.220] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:48:41.393] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:48:41.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:41.934] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:48:42.190] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:42.190] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:48:42.190] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#book color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#book","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765730959659}
+[00:48:42.190] Browser WARN    Image with src "/images/team-work-home-care-39.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:48:43.125] Browser WARN    Image with src "/images/image-6.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:48:47.079] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:48:52.078] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:04:01.728] Server  LOG      ✓ Compiled in 92ms
+[01:19:32.081] Server  LOG      ✓ Compiled in 243ms
+[01:20:14.131] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:20:14.308] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:20:14.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:20:14.855] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:20:15.037] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:20:15.037] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:20:15.037] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#book color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#book","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765732852962}
+[01:20:20.014] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[01:20:25.016] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[02:55:54.651] Server  LOG      ✓ Compiled in 135ms
+[02:56:03.881] Server  LOG      ✓ Compiled in 93ms
+[02:56:12.401] Server  LOG      ✓ Compiled in 102ms
+[02:56:14.093] Server  LOG      ✓ Compiled in 90ms
+[02:56:17.505] Server  LOG      ✓ Compiled in 99ms
+[02:58:24.721] Server  LOG      ✓ Compiled in 260ms
+[03:00:05.014] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:00:05.182] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:05.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:05.966] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:06.159] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:00:06.159] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:00:06.159] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765738844598}
+[03:00:11.141] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:16.138] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:35.218] Server  LOG      ✓ Compiled in 105ms
+[03:00:43.224] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:00:43.470] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:43.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:00:44.116] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:44.286] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:00:44.287] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:00:44.287] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765738882726}
+[03:00:49.282] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:00:55.227] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:05:21.006] Server  LOG      ✓ Compiled in 305ms
+[03:07:31.078] Server  LOG      ✓ Compiled in 107ms
+[03:07:47.167] Server  LOG      ✓ Compiled in 117ms
+[03:07:53.123] Server  LOG      ✓ Compiled in 112ms
+[03:07:56.201] Server  LOG      ✓ Compiled in 83ms
+[03:08:02.376] Server  LOG      ✓ Compiled in 96ms
+[03:09:27.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:09:27.729] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:09:27.729] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/+256%20784%20040%20350","route":"/+256%20784%20040%20350"}
+[03:09:27.729] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/+256%20784%20040%20350 color: rgb(120, 120, 120) color: inherit {"dp":"/+256%20784%20040%20350","o":"http://localhost:3000/+256%20784%20040%20350","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765739406175}
+[03:09:33.941] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:09:34.122] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:09:34.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:09:34.616] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:09:34.829] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:09:34.829] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:09:34.829] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765739413275}
+[03:09:39.774] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:09:44.773] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:11:56.142] Server  LOG      ✓ Compiled in 338ms
+[03:14:33.805] Server  LOG      ✓ Compiled in 296ms
+[03:15:59.640] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.641] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.643] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.644] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.711] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.712] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.713] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.714] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.718] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.719] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.720] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.735] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.741] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.744] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.747] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.752] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.756] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.758] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.761] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.762] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.764] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.767] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.768] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.770] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.771] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.775] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.777] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.779] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.786] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.787] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.789] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.790] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.792] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.794] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.795] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.796] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.805] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.806] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.807] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.808] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:15:59.810] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.000] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.001] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.002] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.004] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.005] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.007] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.008] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.009] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.010] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.012] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.015] Server  ERROR    ⨯ ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:16:00.020] Server  LOG      ✓ Compiled in 441ms
+[03:16:00.227] Browser ERROR   ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:00.227] Browser ERROR   ./Downloads/medrelief.com/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/testimonials'
+   5 | import Features from "@/components/features"
+   6 | import HowItWorks from "@/components/how-it-works"
+>  7 | import Testimonials from "@/components/testimonials"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import About from "@/components/about"
+   9 | import WhyChooseUs from "@/components/why-choose-us"
+  10 | import CTA from "@/components/cta"
+
+Import map: aliased to relative './components/testimonials' inside of [project]/Downloads/medrelief.com
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[03:16:08.974] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:19:20.205] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:19:20.465] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:20.765] Server  LOG      ✓ Compiled in 0ms
+[03:19:21.433] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:21.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:22.228] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740000163}
+[03:19:22.228] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:19:22.228] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740000160}
+[03:19:28.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:28.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:31.151] Browser WARN    Image with src "/images/team-work-home-care-39.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:19:32.137] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:19:33.226] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:08.226] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:15:7
+Parsing ecmascript source code failed
+  13 | })
+  14 |
+> 15 | const ralew
+     |       ^^^^^
+  16 |
+  17 | export const metadata: Metadata = {
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+
+'const' declarations must be initialized
+[03:20:08.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:15:7
+Parsing ecmascript source code failed
+  13 | })
+  14 |
+> 15 | const ralew
+     |       ^^^^^
+  16 |
+  17 | export const metadata: Metadata = {
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+
+'const' declarations must be initialized
+[03:20:11.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:17:1
+Parsing ecmascript source code failed
+  15 | const raleway =
+  16 |
+> 17 | export const metadata: Metadata = {
+     | ^^^^^^
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+  19 |   description:
+  20 |     "Quality healthcare services including home care for complex children, geriatric care, and travel medicare. 24/7 support with professional medical staff.",
+
+Expression expected
+[03:20:11.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:17:1
+Parsing ecmascript source code failed
+  15 | const raleway =
+  16 |
+> 17 | export const metadata: Metadata = {
+     | ^^^^^^
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+  19 |   description:
+  20 |     "Quality healthcare services including home care for complex children, geriatric care, and travel medicare. 24/7 support with professional medical staff.",
+
+Expression expected
+[03:20:14.226] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:17:1
+Parsing ecmascript source code failed
+  15 | const raleway = 
+  16 |
+> 17 | export const metadata: Metadata = {
+     | ^^^^^^
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+  19 |   description:
+  20 |     "Quality healthcare services including home care for complex children, geriatric care, and travel medicare. 24/7 support with professional medical staff.",
+
+Expression expected
+[03:20:14.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:17:1
+Parsing ecmascript source code failed
+  15 | const raleway = 
+  16 |
+> 17 | export const metadata: Metadata = {
+     | ^^^^^^
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+  19 |   description:
+  20 |     "Quality healthcare services including home care for complex children, geriatric care, and travel medicare. 24/7 support with professional medical staff.",
+
+Expression expected
+[03:20:19.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:15:17
+Ecmascript file had an error
+  13 | })
+  14 |
+> 15 | const raleway = Raleway
+     |                 ^^^^^^^
+  16 |
+  17 | export const metadata: Metadata = {
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+
+Font loaders must be called and assigned to a const in the module scope
+[03:20:19.227] Browser ERROR   ./Downloads/medrelief.com/app/layout.tsx:15:17
+Ecmascript file had an error
+  13 | })
+  14 |
+> 15 | const raleway = Raleway
+     |                 ^^^^^^^
+  16 |
+  17 | export const metadata: Metadata = {
+  18 |   title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+
+Font loaders must be called and assigned to a const in the module scope
+[03:20:22.373] Server  LOG      ✓ Compiled in 267ms
+[03:20:22.701] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:20:22.925] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:23.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:20:23.789] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:20:24.260] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:24.264] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740062522}
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:20:25.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740062459}
+[03:20:31.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:31.227] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:36.226] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:20:36.226] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:06.622] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:21:06.911] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:07.333] Server  LOG      ✓ Compiled in 0ms
+[03:21:07.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:21:07.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:21:08.234] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:08.234] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:21:08.234] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:21:08.234] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740106199}
+[03:21:09.227] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:09.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:21:09.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:21:09.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740106261}
+[03:21:14.239] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:14.239] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:19.227] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:19.227] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:37.072] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:21:37.238] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:37.386] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:21:37.386] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:21:37.386] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740135380}
+[03:21:44.227] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:21:49.226] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:15.729] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:24:15.945] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:16.111] Server  LOG      ✓ Compiled in 0ms
+[03:24:16.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:16.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:24:17.227] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740295158}
+[03:24:17.227] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:24:17.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740295168}
+[03:24:23.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:23.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:28.227] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:24:28.227] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:29:15.288] Server  LOG      ✓ Compiled in 321ms
+[03:29:23.514] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:29:29.692] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740607640}
+[03:29:51.676] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740629626}
+[03:29:53.285] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/gericare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/gericare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740631241}
+[03:30:01.811] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740639757}
+[03:30:03.393] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/travelshield color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/travelshield","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740641345}
+[03:30:05.977] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740643927}
+[03:30:07.738] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/chronocare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/chronocare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740645694}
+[03:30:14.189] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740652136}
+[03:30:16.918] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/physiotherapy color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/physiotherapy","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740654874}
+[03:31:15.051] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:31:23.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:23.851] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:31:23.851] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services/physiotherapy","route":"/services/[id]"}
+[03:31:23.851] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/physiotherapy color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/physiotherapy","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740721812}
+[03:31:34.620] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:31:34.959] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:31:34.959] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740732907}
+[03:31:42.588] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:31:46.185] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:31:46.419] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:31:46.899] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:46.981] Server  LOG      ✓ Compiled in 19ms
+[03:31:47.270] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:31:48.226] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:31:48.226] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:31:48.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740745343}
+[03:31:51.401] Browser WARN    Image with src "/images/img-20231029-wa0015.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:31:52.369] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:31:59.622] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:33:15.566] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:33:15.835] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:33:16.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:33:16.268] Server  LOG      ✓ Compiled in 27ms
+[03:33:17.227] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:33:17.228] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:33:17.228] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:33:17.228] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765740834501}
+[03:33:19.154] Server  LOG      ✓ Compiled in 292ms
+[03:33:23.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:33:28.287] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:33:44.838] Browser WARN    Image with src "/images/team-work-home-care-39.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[03:45:05.100] Server  LOG      ✓ Compiled in 765ms
+[03:45:44.703] Server  LOG      ✓ Compiled in 132ms
+[03:45:45.231] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[03:45:45.231] Browser ERROR   Image is missing required "src" property: <img>
+[03:45:45.232] Browser WARN    Image with src "" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:45:47.564] Server  LOG      ✓ Compiled in 93ms
+[03:45:47.824] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:46:08.582] Server  LOG      ✓ Compiled in 81ms
+[03:46:09.227] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:46:46.056] Server  LOG      ✓ Compiled in 98ms
+[04:00:34.339] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:00:34.537] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:00:34.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:00:35.122] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:00:35.320] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:00:35.320] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:00:35.320] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:00:35.320] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765742473628}
+[04:00:45.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:00:45.261] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:00:45.398] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:00:45.398] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:00:45.398] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765742483697}
+[04:00:45.398] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:00:51.226] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:00:56.226] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:02:43.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:02:43.600] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:02:43.752] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:02:43.752] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:02:43.752] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765742602045}
+[04:02:43.752] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:02:56.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:02:59.446] Server  LOG      ✓ Compiled in 133ms
+[04:02:59.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:03:07.877] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:03:07.942] Server  LOG      ✓ Compiled in 134ms
+[04:03:08.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:03:08.868] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:03:08.868] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:03:08.868] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:03:08.868] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765742627143}
+[04:03:08.868] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:03:14.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:03:19.868] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:03:26.455] Server  LOG      ✓ Compiled in 84ms
+[04:03:29.924] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:03:35.722] Server  LOG      ✓ Compiled in 104ms
+[04:04:02.535] Server  LOG      ✓ Compiled in 130ms
+[04:04:06.495] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:04:06.681] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:04:07.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:04:07.192] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:04:07.373] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:04:07.373] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:04:07.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765742685669}
+[04:04:07.374] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:04:17.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:04:18.970] Server  LOG      ✓ Compiled in 94ms
+[04:04:21.699] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:04:26.864] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:06:03.340] Server  LOG      ✓ Compiled in 222ms
+[04:08:58.203] Server  LOG      ✓ Compiled in 114ms
+[04:09:02.011] Server  LOG      ✓ Compiled in 85ms
+[04:09:14.707] Server  LOG      ✓ Compiled in 97ms
+[04:09:39.696] Server  LOG      ✓ Compiled in 119ms
+[04:09:44.639] Server  LOG      ✓ Compiled in 197ms
+[04:10:03.983] Server  LOG      ✓ Compiled in 114ms
+[04:10:06.007] Server  LOG      ✓ Compiled in 83ms
+[04:10:28.813] Server  LOG      ✓ Compiled in 74ms
+[04:10:34.931] Server  LOG      ✓ Compiled in 116ms
+[04:10:39.136] Server  LOG      ✓ Compiled in 146ms
+[04:10:39.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:10:44.603] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:10:44.830] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:10:45.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:10:45.451] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:10:53.171] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:10:53.478] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:10:53.489] Server  LOG      ✓ Compiled in 109ms
+[04:10:53.655] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:10:53.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:10:54.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:10:55.251] Server  LOG      ✓ Compiled in 107ms
+[04:10:55.868] Browser ERROR   ./Downloads/medrelief.com/components/header.tsx:37:5
+Parsing ecmascript source code failed
+  35 |     alt="MedRelief logo"
+  36 |     width={}
+> 37 |     className="object-contain p-2"
+     |     ^^^^^^^^^
+  38 |   />
+  39 | </motion.div>
+  40 |           </Link>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/components/header.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/components/header.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+[04:10:58.057] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:10:58.269] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:10:58.468] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:10:58.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:10:58.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:01.386] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:01.605] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:01.809] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:10.463] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:10.665] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:10.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:19.218] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:11:19.510] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:11:19.521] Server  LOG      ✓ Compiled in 116ms
+[04:11:19.711] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:11:19.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:20.216] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:11:20.216] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:11:20.546] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:11:20.557] Server  LOG      ✓ Compiled in 77ms
+[04:11:20.765] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:21.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:21.485] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:11:21.486] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:11:21.713] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:11:21.729] Server  LOG      ✓ Compiled in 97ms
+[04:11:21.918] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:11:22.221] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:22.869] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:11:22.869] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:11:22.869] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:11:22.869] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765743121059}
+[04:11:39.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:11:44.869] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:12:06.665] Server  LOG      ✓ Compiled in 86ms
+[04:12:40.853] Server  LOG      ✓ Compiled in 83ms
+[04:13:57.983] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:13:58.218] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:13:59.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:13:59.800] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:14:01.104] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:14:01.104] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:14:01.104] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765743279467}
+[04:14:15.080] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:14:22.324] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:21:23.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:21:23.883] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:21:24.070] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:21:24.070] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:21:24.070] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765743722486}
+[04:21:33.700] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:21:42.388] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:22:44.636] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:22:44.805] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:22:44.987] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:22:44.987] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:22:44.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765743803406}
+[04:22:45.722] Browser WARN    Image with src "/images/img-20231029-wa0015.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:23:18.867] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:23:23.865] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:24:26.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:24:27.116] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:24:27.296] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:24:27.296] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:24:27.297] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765743905976}
+[04:25:23.741] Server  LOG      ✓ Compiled in 94ms
+[04:25:44.624] Server  LOG      ✓ Compiled in 187ms
+[04:25:48.583] Server  LOG      ✓ Compiled in 87ms
+[04:25:52.336] Server  LOG      ✓ Compiled in 85ms
+[04:25:52.870] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:25:53.905] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:25:54.214] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:25:54.223] Server  LOG      ✓ Compiled in 91ms
+[04:25:54.425] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:25:54.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:25:55.870] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:25:57.841] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:25:58.042] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:25:58.052] Server  LOG      ✓ Compiled in 86ms
+[04:25:58.266] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:25:58.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:25:59.354] Server  LOG      ✓ Compiled in 197ms
+[04:25:59.360] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:25:59.362] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:25:59.580] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:25:59.751] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:26:00.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:26:00.889] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:26:03.778] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:26:03.984] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:26:03.994] Server  LOG      ✓ Compiled in 69ms
+[04:26:04.162] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:26:04.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:26:05.867] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:26:05.867] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:26:05.867] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:26:05.867] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744004474}
+[04:26:08.932] Server  LOG      ✓ Compiled in 74ms
+[04:26:09.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:26:50.464] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:26:50.820] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:26:50.846] Server  LOG      ✓ Compiled in 70ms
+[04:26:51.265] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:26:52.374] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:26:53.874] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:26:53.874] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:26:53.874] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:26:53.874] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744052370}
+[04:26:59.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:27:04.869] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:28:08.573] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:28:09.041] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:28:09.754] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:28:09.754] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:28:09.754] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744128436}
+[04:28:14.716] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:28:23.483] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:28:29.920] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:28:29.920] Browser WARN    Image with src "/images/chrono-care.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:28:44.370] Server  LOG      ✓ Compiled in 100ms
+[04:28:49.988] Server  LOG      ✓ Compiled in 89ms
+[04:31:56.212] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:31:56.414] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:31:56.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:31:56.982] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:31:57.168] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:31:57.168] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:31:57.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744355851}
+[04:32:06.868] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:32:11.867] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:32:21.186] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:32:50.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:32:50.187] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:32:50.369] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:32:50.369] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:32:50.369] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744409053}
+[04:33:06.958] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:33:11.958] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:34:03.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:34:04.586] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:34:05.490] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:34:05.490] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:34:05.490] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744484173}
+[04:34:10.175] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:34:15.173] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:35:02.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:35:03.546] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:35:04.404] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:35:04.404] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:35:04.404] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744543089}
+[04:35:09.375] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:35:15.869] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:35:18.803] Server  LOG      ✓ Compiled in 86ms
+[04:35:25.530] Server  LOG      ✓ Compiled in 82ms
+[04:35:25.868] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "width" property.
+[04:36:22.427] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:36:22.688] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:36:22.709] Server  LOG      ✓ Compiled in 81ms
+[04:36:22.929] Server  ERROR    ⨯ Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:36:22.961] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:36:23.565] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:36:24.869] Browser ERROR   uncaughtError: Error: Image with src "/images/logo_white.webp" is missing required "height" property.
+[04:36:35.084] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:36:35.307] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:36:35.319] Server  LOG      ✓ Compiled in 86ms
+[04:36:35.510] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:36:36.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:36:37.868] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:36:37.868] Browser WARN    Image with src "http://localhost:3000/images/logo_white.webp" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
+[04:36:37.868] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:36:37.868] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:36:37.868] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765744636476}
+[04:36:38.113] Server  LOG      ✓ Compiled in 127ms
+[04:36:40.095] Server  LOG      ✓ Compiled in 115ms
+[04:36:42.974] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:36:48.869] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:37:02.957] Server  LOG      ✓ Compiled in 88ms
+[04:37:13.086] Server  LOG      ✓ Compiled in 75ms
+[04:40:37.502] Server  LOG      ✓ Compiled in 202ms
+[04:41:33.760] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:41:33.775] Server  LOG      ✓ Compiled in 87ms
+[04:41:33.968] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:41:36.959] Server  LOG      ✓ Compiled in 86ms
+[04:41:41.043] Server  LOG      ✓ Compiled in 104ms
+[04:41:43.201] Server  LOG      ✓ Compiled in 84ms
+[04:41:45.518] Server  LOG      ✓ Compiled in 81ms
+[04:41:47.011] Server  LOG      ✓ Compiled in 150ms
+[04:43:09.218] Server  LOG      ✓ Compiled in 77ms
+[04:43:13.873] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:43:14.045] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:43:14.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:43:14.590] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:43:14.801] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:43:14.801] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:43:14.801] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765745033431}
+[04:43:15.369] Browser WARN    Image with src "/images/team-work-home-care-39.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:43:15.666] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:43:19.740] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:43:25.307] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:44:39.866] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:44:40.933] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:44:41.563] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:44:41.563] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:44:41.563] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765745120194}
+[04:44:42.697] Browser WARN    Image with src "/images/team-work-home-care-9.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:44:46.455] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:44:54.218] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:46:17.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:46:17.667] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:46:17.827] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:46:17.827] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:46:17.827] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765745216459}
+[04:46:29.159] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[04:46:29.159] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:46:34.057] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities

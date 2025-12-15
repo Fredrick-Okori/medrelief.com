@@ -19,10 +19,10 @@ const SERVICES = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$baby$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Baby$3e$__["Baby"],
         title: "PediCare – Complex Needs",
         description: "Specialized home-based care for children with disabilities or chronic conditions.",
-        targetPopulation: "Children with disabilities or chronic conditions",
+        targetPopulation: "Children with complex needs or chronic conditions",
         fullDetails: "PediCare provides comprehensive home-based care designed specifically for children dealing with disabilities or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
         benefits: [
-            "In-home nursing care by pediatric specialists",
+            "In-home nursing care by pediatric nurses",
             "Personalized caregiver training for family members",
             "Medical equipment and therapy support",
             "Developmental monitoring and coaching",
@@ -72,14 +72,13 @@ const SERVICES = [
         benefits: [
             "Pre-travel medical consultations and risk assessment",
             "Travel vaccination and immunization planning",
-            "24/7 emergency medical hotline",
+            "24/7 emergency medical ",
             "Local healthcare provider network access",
             "Destination-specific health information",
-            "Travel insurance coordination"
+            "Travel emergency kit, resources, and escort services"
         ],
         process: [
             "Book pre-travel consultation",
-            "Complete health questionnaire",
             "Receive personalized travel health plan",
             "Access emergency support during travel",
             "Post-travel follow-up and wellness check"
@@ -92,20 +91,19 @@ const SERVICES = [
         title: "General Teleconsultation",
         description: "On-demand or scheduled virtual consultations with general practitioners and specialists.",
         targetPopulation: "All registered clients",
-        fullDetails: "General Teleconsultation brings professional healthcare directly to your home through secure video consultations with experienced doctors and specialists. Available on-demand or scheduled, our telemedicine platform makes quality healthcare accessible anytime, anywhere.",
+        fullDetails: "General Teleconsultation brings professional healthcare directly to your home through secure audio & video consultations with experienced doctors and specialists. Available on-demand or scheduled, our telemedicine platform makes quality healthcare accessible anytime, anywhere.",
         benefits: [
-            "Convenient video consultations with licensed doctors",
+            "Convenient audio, video consultations with licensed medic",
             "Specialist access without long waiting times",
-            "Digital prescriptions and medical records",
-            "Quick turnaround for consultations",
             "Reduced healthcare costs and travel time",
-            "Privacy and convenience from home"
+            "Privacy and convenience from home",
+            "Access to medical advice 24/7 anywhere"
         ],
         process: [
             "Book consultation slot via app or phone",
-            "Complete health questionnaire",
-            "Join secure video call with doctor",
-            "Receive digital prescription if needed",
+            "Prepare for a call",
+            "Join secure audio or video call with a medic",
+            "Receive digital prescription or advice where needed",
             "Follow-up support and care coordination"
         ],
         image: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp"

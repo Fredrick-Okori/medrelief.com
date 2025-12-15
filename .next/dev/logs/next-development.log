@@ -183,3 +183,44 @@ Import traces:
 [03:38:49.077] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
 [03:39:19.283] Server  LOG      ✓ Compiled in 83ms
 [03:40:21.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/chronocare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/chronocare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765797323836}
+[04:23:19.014] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:23:19.389] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765799902036}
+[04:23:21.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765799904214}
+[04:24:08.888] Server  LOG      ✓ Compiled in 175ms
+[04:24:39.614] Server  LOG      ✓ Compiled in 102ms
+[04:24:42.095] Server  LOG      ✓ Compiled in 88ms
+[04:24:45.058] Server  LOG      ✓ Compiled in 87ms
+[04:27:06.794] Server  LOG      ✓ Compiled in 101ms
+[04:27:15.842] Server  LOG      ✓ Compiled in 84ms
+[04:30:34.029] Server  LOG      ✓ Compiled in 215ms
+[04:31:02.825] Server  LOG      ✓ Compiled in 91ms
+[04:31:13.439] Server  LOG      ✓ Compiled in 94ms
+[04:31:15.051] Server  LOG      ✓ Compiled in 140ms
+[04:31:19.336] Server  LOG      ✓ Compiled in 107ms
+[04:31:26.070] Server  LOG      ✓ Compiled in 71ms
+[04:31:29.079] Server  LOG      ✓ Compiled in 84ms
+[04:31:35.333] Server  LOG      ✓ Compiled in 91ms
+[04:31:38.867] Server  LOG      ✓ Compiled in 106ms
+[04:31:40.236] Server  LOG      ✓ Compiled in 65ms
+[04:32:17.698] Server  LOG      ✓ Compiled in 91ms
+[04:32:18.852] Server  LOG      ✓ Compiled in 87ms
+[04:32:41.678] Server  LOG      ✓ Compiled in 96ms
+[04:33:03.582] Server  LOG      ✓ Compiled in 84ms
+[04:33:18.928] Server  LOG      ✓ Compiled in 81ms
+[04:33:57.673] Server  LOG      ✓ Compiled in 88ms
+[04:34:02.253] Server  LOG      ✓ Compiled in 93ms
+[04:34:07.196] Server  LOG      ✓ Compiled in 88ms
+[04:34:13.845] Server  LOG      ✓ Compiled in 80ms
+[04:34:25.244] Server  LOG      ✓ Compiled in 94ms
+[04:34:56.523] Server  LOG      ✓ Compiled in 90ms
+[04:34:58.879] Server  LOG      ✓ Compiled in 81ms
+[04:35:17.120] Server  LOG      ✓ Compiled in 81ms
+[04:35:37.367] Server  LOG      ✓ Compiled in 82ms
+[04:35:42.693] Server  LOG      ✓ Compiled in 94ms
+[04:35:54.564] Server  LOG      ✓ Compiled in 82ms
+[04:36:03.409] Server  LOG      ✓ Compiled in 83ms
+[04:36:05.196] Server  LOG      ✓ Compiled in 198ms
+[04:36:07.863] Server  LOG      ✓ Compiled in 77ms
+[04:36:13.177] Server  LOG      ✓ Compiled in 87ms
+[04:36:16.720] Server  LOG      ✓ Compiled in 164ms
+[04:36:21.316] Server  LOG      ✓ Compiled in 88ms

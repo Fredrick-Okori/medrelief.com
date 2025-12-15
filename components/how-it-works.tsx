@@ -193,13 +193,13 @@ export default function HowItWorks() {
                 <ArrowRight className="w-5 h-5" />
               </motion.a>
               <motion.a
-                href="tel:+1234567890"
+                href="tel:+256784040350"
                 className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Clock className="w-5 h-5" />
-                Call 24/7: +1 (234) 567-890
+                Call 24/7: +256784040350
               </motion.a>
             </div>
           </div>

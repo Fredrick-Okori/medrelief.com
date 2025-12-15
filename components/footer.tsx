@@ -64,9 +64,7 @@ export default function Footer() {
 
             {/* Countries Served */}
             <div>
-              <p className="text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wide">
-                Countries We Serve
-              </p>
+             
               <div className="flex flex-wrap gap-2">
                 {countries.map((country, index) => (
                   <motion.span

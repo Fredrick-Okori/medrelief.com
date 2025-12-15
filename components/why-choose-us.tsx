@@ -101,51 +101,7 @@ export default function WhyChooseUs() {
           ))}
         </motion.div>
 
-        {/* Image Grid */}
-        <motion.div
-          className="grid grid-cols-2 gap-4"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <div className="relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500">
-            <Image
-              src="/images/team-work-home-care-49-1024x682.webp"
-              alt="Nurse providing home care blood pressure check to elderly patient"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 50vw, 25vw"
-            />
-          </div>
-          <div className="relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 mt-8">
-            <Image
-              src="/images/team-work-home-care-9.webp"
-              alt="Doctor and nurse reviewing patient records together"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 50vw, 25vw"
-            />
-          </div>
-          <div className="relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500">
-            <Image
-              src="/images/image-6.webp"
-              alt="Two nurses collaborating on patient care documentation"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 50vw, 25vw"
-            />
-          </div>
-          <div className="relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 mt-8">
-            <Image
-              src="/images/team-work-home-care-39.webp"
-              alt="Nurse providing compassionate home care assistance to patient"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 50vw, 25vw"
-            />
-          </div>
-        </motion.div>
+       
       </div>
     </section>
   )

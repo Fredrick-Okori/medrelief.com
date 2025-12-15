@@ -106,3 +106,80 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [00:24:57.129] Server  LOG      ✓ Compiled in 142ms
 [00:24:59.477] Server  LOG      ✓ Compiled in 70ms
 [00:25:04.291] Server  LOG      ✓ Compiled in 210ms
+[03:21:35.697] Server  LOG      ✓ Compiled in 234ms
+[03:21:38.097] Server  LOG      ✓ Compiled in 96ms
+[03:21:45.950] Server  LOG      ✓ Compiled in 80ms
+[03:21:49.604] Server  LOG      ✓ Compiled in 75ms
+[03:21:53.796] Server  LOG      ✓ Compiled in 74ms
+[03:21:59.098] Server  LOG      ✓ Compiled in 82ms
+[03:22:02.733] Server  LOG      ✓ Compiled in 104ms
+[03:22:08.255] Server  LOG      ✓ Compiled in 78ms
+[03:22:09.940] Server  LOG      ✓ Compiled in 81ms
+[03:22:13.106] Server  LOG      ✓ Compiled in 91ms
+[03:22:19.715] Server  LOG      ✓ Compiled in 70ms
+[03:22:21.246] Server  LOG      ✓ Compiled in 67ms
+[03:22:29.172] Server  LOG      ✓ Compiled in 71ms
+[03:22:34.055] Server  LOG      ✓ Compiled in 71ms
+[03:22:38.519] Server  LOG      ✓ Compiled in 81ms
+[03:22:47.060] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:23:10.755] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:23:11.174] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:23:11.384] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:23:11.616] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:23:11.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:23:11.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765796294526}
+[03:23:18.586] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:23:24.330] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:25:09.247] Server  LOG      ✓ Compiled in 153ms
+[03:36:08.455] Server  LOG      ✓ Compiled in 171ms
+[03:36:12.033] Server  LOG      ✓ Compiled in 86ms
+[03:36:14.338] Server  LOG      ✓ Compiled in 96ms
+[03:36:17.476] Server  LOG      ✓ Compiled in 70ms
+[03:36:26.592] Server  LOG      ✓ Compiled in 71ms
+[03:36:30.813] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:36:31.070] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:36:31.503] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:36:31.718] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:36:31.957] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:36:31.957] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:36:31.957] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765797094793}
+[03:36:36.904] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:36:41.907] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[03:38:43.221] Server  LOG      ✓ Compiled in 615ms
+[03:38:43.369] Browser ERROR   ./Downloads/medrelief.com/components/why-choose-us.tsx:104:22
+Parsing ecmascript source code failed
+  102 |         </motion.div>
+  103 |
+> 104 |         </motion.div>
+      |                      ^
+> 105 |       </div>
+      | ^^^^^^^
+  106 |     </section>
+  107 |   )
+  108 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/components/why-choose-us.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/components/why-choose-us.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+[03:38:48.233] Server  LOG      ✓ Compiled in 270ms
+[03:38:49.077] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[03:39:19.283] Server  LOG      ✓ Compiled in 83ms
+[03:40:21.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/chronocare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/chronocare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765797323836}

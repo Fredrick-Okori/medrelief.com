@@ -348,8 +348,8 @@ const quickActions = [
             lineNumber: 31,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
-        label: "Call an Ambulance",
-        href: "tel:+1234567890"
+        label: "Call us Now",
+        href: "tel:+256784040350"
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -372,8 +372,8 @@ const quickActions = [
             lineNumber: 40,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
-        label: "Request an Appointment",
-        href: "#appointment"
+        label: "Request an Home Visit",
+        href: "#contact"
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -396,8 +396,8 @@ const quickActions = [
             lineNumber: 49,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0)),
-        label: "Request a Cost Estimate",
-        href: "#estimate"
+        label: "Request a Cost",
+        href: "#contact"
     }
 ];
 function Hero() {
@@ -1256,9 +1256,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$co
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$brain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Brain$3e$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/lucide-react/dist/esm/icons/brain.js [app-client] (ecmascript) <export default as Brain>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-client] (ecmascript) <export default as BarChart3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2d$round$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users2$3e$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/lucide-react/dist/esm/icons/users-round.js [app-client] (ecmascript) <export default as Users2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
-;
 ;
 ;
 ;
@@ -1440,289 +1438,6 @@ function Features() {
                 }, void 0, false, {
                     fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
                     lineNumber: 87,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    className: "grid md:grid-cols-2 gap-12 items-center bg-gradient-to-br from-white/10 to-white/5 rounded-3xl p-8 md:p-12 border border-white/20 backdrop-blur-sm",
-                    initial: {
-                        opacity: 0,
-                        y: 30
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: true,
-                        margin: "-50px"
-                    },
-                    transition: {
-                        duration: 0.6
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-80 rounded-2xl overflow-hidden shadow-xl hidden md:block",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/images/team-work-home-care-9.webp",
-                                    alt: "Healthcare team coordination",
-                                    fill: true,
-                                    className: "object-cover hover:scale-105 transition-transform duration-500",
-                                    sizes: "(max-width: 768px) 100vw, 50vw"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                    lineNumber: 126,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-0 bg-gradient-to-tr from-primary/20 via-transparent to-transparent"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                    lineNumber: 133,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                            lineNumber: 125,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "space-y-6",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    className: "space-y-3",
-                                    initial: {
-                                        opacity: 0,
-                                        x: 20
-                                    },
-                                    whileInView: {
-                                        opacity: 1,
-                                        x: 0
-                                    },
-                                    viewport: {
-                                        once: true
-                                    },
-                                    transition: {
-                                        duration: 0.6,
-                                        delay: 0.2
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-3xl font-serif font-bold text-foreground",
-                                            children: "Integrated Care Platform"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                            lineNumber: 144,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-lg text-foreground/70",
-                                            children: "Our advanced platform brings everything together—from appointments to health records, medications to test results—all in one secure, easy-to-access place."
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                            lineNumber: 145,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                    lineNumber: 137,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    className: "space-y-4",
-                                    initial: {
-                                        opacity: 0,
-                                        x: 20
-                                    },
-                                    whileInView: {
-                                        opacity: 1,
-                                        x: 0
-                                    },
-                                    viewport: {
-                                        once: true
-                                    },
-                                    transition: {
-                                        duration: 0.6,
-                                        delay: 0.3
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-primary font-bold",
-                                                        children: "✓"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                        lineNumber: 159,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 158,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold text-foreground",
-                                                            children: "Secure Health Records"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 162,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-foreground/60",
-                                                            children: "HIPAA-compliant storage of all your medical information"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 163,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 161,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                            lineNumber: 157,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-primary font-bold",
-                                                        children: "✓"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                        lineNumber: 169,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 168,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold text-foreground",
-                                                            children: "Real-time Notifications"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 172,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-foreground/60",
-                                                            children: "Instant alerts for appointments, test results, and updates"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 173,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 171,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                            lineNumber: 167,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-1",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "text-primary font-bold",
-                                                        children: "✓"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                        lineNumber: 179,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 178,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-semibold text-foreground",
-                                                            children: "Multi-device Access"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 182,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-foreground/60",
-                                                            children: "Access your health data anywhere, anytime on any device"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                            lineNumber: 183,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                                    lineNumber: 181,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                            lineNumber: 177,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                    lineNumber: 150,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                                    href: "#contact",
-                                    className: "inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-95 transition-all",
-                                    whileHover: {
-                                        scale: 1.05
-                                    },
-                                    whileTap: {
-                                        scale: 0.98
-                                    },
-                                    children: "Learn More"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                                    lineNumber: 188,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                            lineNumber: 136,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/Downloads/medrelief.com/components/features.tsx",
-                    lineNumber: 118,
                     columnNumber: 9
                 }, this)
             ]
@@ -2147,7 +1862,7 @@ function HowItWorks() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                                        href: "tel:+1234567890",
+                                        href: "tel:+256784040350",
                                         className: "inline-flex items-center gap-2 px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors",
                                         whileHover: {
                                             scale: 1.05
@@ -2163,7 +1878,7 @@ function HowItWorks() {
                                                 lineNumber: 201,
                                                 columnNumber: 17
                                             }, this),
-                                            "Call 24/7: +1 (234) 567-890"
+                                            "Call 24/7: +256784040350"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/medrelief.com/components/how-it-works.tsx",
@@ -2939,9 +2654,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-client] (ecmascript) <export default as CheckCircle2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/medrelief.com/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
-;
 ;
 ;
 ;
@@ -3116,102 +2829,6 @@ function WhyChooseUs() {
                 }, void 0, false, {
                     fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
                     lineNumber: 74,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                    className: "grid grid-cols-2 gap-4",
-                    initial: {
-                        opacity: 0,
-                        y: 30
-                    },
-                    whileInView: {
-                        opacity: 1,
-                        y: 0
-                    },
-                    viewport: {
-                        once: true
-                    },
-                    transition: {
-                        duration: 0.6,
-                        delay: 0.2
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/team-work-home-care-49-1024x682.webp",
-                                alt: "Nurse providing home care blood pressure check to elderly patient",
-                                fill: true,
-                                className: "object-cover hover:scale-105 transition-transform duration-500",
-                                sizes: "(max-width: 768px) 50vw, 25vw"
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                                lineNumber: 113,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                            lineNumber: 112,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 mt-8",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/team-work-home-care-9.webp",
-                                alt: "Doctor and nurse reviewing patient records together",
-                                fill: true,
-                                className: "object-cover hover:scale-105 transition-transform duration-500",
-                                sizes: "(max-width: 768px) 50vw, 25vw"
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                                lineNumber: 122,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                            lineNumber: 121,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/image-6.webp",
-                                alt: "Two nurses collaborating on patient care documentation",
-                                fill: true,
-                                className: "object-cover hover:scale-105 transition-transform duration-500",
-                                sizes: "(max-width: 768px) 50vw, 25vw"
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                                lineNumber: 131,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                            lineNumber: 130,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative h-48 md:h-56 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 mt-8",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/team-work-home-care-39.webp",
-                                alt: "Nurse providing compassionate home care assistance to patient",
-                                fill: true,
-                                className: "object-cover hover:scale-105 transition-transform duration-500",
-                                sizes: "(max-width: 768px) 50vw, 25vw"
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                                lineNumber: 140,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                            lineNumber: 139,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/Downloads/medrelief.com/components/why-choose-us.tsx",
-                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             ]
@@ -4478,56 +4095,46 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wide",
-                                            children: "Countries We Serve"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                            lineNumber: 67,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-wrap gap-2",
-                                            children: countries.map((country, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                                                    className: "text-sm font-medium text-gray-600",
-                                                    initial: {
-                                                        opacity: 0,
-                                                        x: -10
-                                                    },
-                                                    whileInView: {
-                                                        opacity: 1,
-                                                        x: 0
-                                                    },
-                                                    viewport: {
-                                                        once: true
-                                                    },
-                                                    transition: {
-                                                        delay: index * 0.05
-                                                    },
-                                                    children: [
-                                                        country,
-                                                        index < countries.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "ml-2 text-blue-600",
-                                                            children: "•"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                            lineNumber: 81,
-                                                            columnNumber: 54
-                                                        }, this)
-                                                    ]
-                                                }, country, true, {
-                                                    fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                    lineNumber: 72,
-                                                    columnNumber: 19
-                                                }, this))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                            lineNumber: 70,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex flex-wrap gap-2",
+                                        children: countries.map((country, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                                                className: "text-sm font-medium text-gray-600",
+                                                initial: {
+                                                    opacity: 0,
+                                                    x: -10
+                                                },
+                                                whileInView: {
+                                                    opacity: 1,
+                                                    x: 0
+                                                },
+                                                viewport: {
+                                                    once: true
+                                                },
+                                                transition: {
+                                                    delay: index * 0.05
+                                                },
+                                                children: [
+                                                    country,
+                                                    index < countries.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "ml-2 text-blue-600",
+                                                        children: "•"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
+                                                        lineNumber: 79,
+                                                        columnNumber: 54
+                                                    }, this)
+                                                ]
+                                            }, country, true, {
+                                                fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
+                                                lineNumber: 70,
+                                                columnNumber: 19
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
+                                        lineNumber: 68,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
                                     lineNumber: 66,
                                     columnNumber: 13
@@ -4559,7 +4166,7 @@ function Footer() {
                                                         children: "Phone:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 95,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4568,13 +4175,13 @@ function Footer() {
                                                         children: "+256 784 040 350"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 96,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 94,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4585,7 +4192,7 @@ function Footer() {
                                                         children: "WhatsApp:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 104,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4594,13 +4201,13 @@ function Footer() {
                                                         children: "+256 759 659 044"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 107,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4611,7 +4218,7 @@ function Footer() {
                                                         children: "Email:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 113,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4620,24 +4227,24 @@ function Footer() {
                                                         children: "medrelief325@gmail.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 114,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 114,
+                                                lineNumber: 112,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 87,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4647,7 +4254,7 @@ function Footer() {
                                             children: "Follow Us"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 126,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4681,23 +4288,23 @@ function Footer() {
                                                         className: "w-5 h-5 text-gray-600 group-hover:text-white transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 143,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, label, false, {
                                                     fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                    lineNumber: 133,
+                                                    lineNumber: 131,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 129,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -4731,7 +4338,7 @@ function Footer() {
                                         children: "Subscribe to our Bulletin"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4739,7 +4346,7 @@ function Footer() {
                                         children: "Stay updated with health tips, news, and exclusive offers from MedRelief."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 162,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -4758,7 +4365,7 @@ function Footer() {
                                                         className: "w-full px-4 py-3 pr-12 border-2 border-gray-200 rounded-lg focus:border-blue-600 focus:ring-4 focus:ring-blue-100 outline-none transition-all text-gray-900 placeholder:text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 168,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -4774,18 +4381,18 @@ function Footer() {
                                                             className: "w-5 h-5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                            lineNumber: 184,
+                                                            lineNumber: 182,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 176,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 167,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -4797,7 +4404,7 @@ function Footer() {
                                                         className: "mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 187,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4805,13 +4412,13 @@ function Footer() {
                                                         children: "Yes, subscribe me to your newsletter."
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                        lineNumber: 194,
+                                                        lineNumber: 192,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 188,
+                                                lineNumber: 186,
                                                 columnNumber: 17
                                             }, this),
                                             isSubscribed && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -4827,24 +4434,24 @@ function Footer() {
                                                 children: "✓ Successfully subscribed!"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                                lineNumber: 200,
+                                                lineNumber: 198,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                lineNumber: 160,
+                                lineNumber: 158,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                            lineNumber: 153,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, this)
                     ]
@@ -4879,7 +4486,7 @@ function Footer() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                lineNumber: 222,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4891,14 +4498,14 @@ function Footer() {
                                         children: "Privacy Policy"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 224,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "w-1 h-1 rounded-full bg-gray-400"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 229,
+                                        lineNumber: 227,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4907,24 +4514,24 @@ function Footer() {
                                         children: "Terms of Service"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                        lineNumber: 230,
+                                        lineNumber: 228,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                                lineNumber: 225,
+                                lineNumber: 223,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                        lineNumber: 221,
+                        lineNumber: 219,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/medrelief.com/components/footer.tsx",
-                    lineNumber: 214,
+                    lineNumber: 212,
                     columnNumber: 9
                 }, this)
             ]

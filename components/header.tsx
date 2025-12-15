@@ -28,7 +28,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <motion.div
-              className="relative w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 overflow-hidden"
+              className="relative w-30 h-12 sm:w-14 sm:h-14 md:w-40 md:h-16 overflow-hidden"
               whileHover={{ rotate: 6, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
@@ -37,11 +37,11 @@ export default function Header() {
                 src="/images/logo_white.png"
                 alt="MedRelief logo"
                 fill
-                sizes="(max-width: 640px) 36px, (max-width: 768px) 44px, 56px"
-                className="object-contain p-2"
+                sizes="(max-width: 640px) 100px, (max-width: 768px) 100px, 100px"
+                className="object-contain"
               />
             </motion.div>
-            <span className="font-medium text-lg text-white hidden sm:inline">MedRelief</span>
+
           </Link>
 
           {/* Desktop Navigation */}

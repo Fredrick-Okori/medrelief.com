@@ -64,43 +64,33 @@ function Header() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
                             className: "flex items-center gap-3",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                                    className: "relative w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 overflow-hidden",
-                                    whileHover: {
-                                        rotate: 6,
-                                        scale: 1.03
-                                    },
-                                    transition: {
-                                        type: "spring",
-                                        stiffness: 300
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/images/logo_white.png",
-                                        alt: "MedRelief logo",
-                                        fill: true,
-                                        sizes: "(max-width: 640px) 36px, (max-width: 768px) 44px, 56px",
-                                        className: "object-contain p-2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/medrelief.com/components/header.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 15
-                                    }, this)
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                className: "relative w-30 h-12 sm:w-14 sm:h-14 md:w-40 md:h-16 overflow-hidden",
+                                whileHover: {
+                                    rotate: 6,
+                                    scale: 1.03
+                                },
+                                transition: {
+                                    type: "spring",
+                                    stiffness: 300
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/logo_white.png",
+                                    alt: "MedRelief logo",
+                                    fill: true,
+                                    sizes: "(max-width: 640px) 100px, (max-width: 768px) 100px, 100px",
+                                    className: "object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/medrelief.com/components/header.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "font-medium text-lg text-white hidden sm:inline",
-                                    children: "MedRelief"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/medrelief.com/components/header.tsx",
-                                    lineNumber: 44,
-                                    columnNumber: 13
+                                    lineNumber: 36,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/medrelief.com/components/header.tsx",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/medrelief.com/components/header.tsx",
                             lineNumber: 29,
                             columnNumber: 11

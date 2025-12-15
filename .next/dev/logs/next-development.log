@@ -224,3 +224,85 @@ Import traces:
 [04:36:13.177] Server  LOG      ✓ Compiled in 87ms
 [04:36:16.720] Server  LOG      ✓ Compiled in 164ms
 [04:36:21.316] Server  LOG      ✓ Compiled in 88ms
+[04:39:16.186] Server  LOG      ✓ Compiled in 118ms
+[04:39:16.608] Browser ERROR   ./Downloads/medrelief.com/lib/services-data.ts:125:7
+Parsing ecmascript source code failed
+  123 |     benefits: [
+  124 |       ""
+> 125 |       "Dedicated care coordinator assigned to you",
+      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  126 |       "Personalized lifestyle coaching programs",
+  127 |       "Medication management and adherence tracking",
+  128 |       "Regular health metrics monitoring",
+
+Expected ',', got 'string literal (Dedicated care coordinator assigned to you, "Dedicated care coordinator assigned to you")'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component Browser]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component SSR]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+[04:39:19.135] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:39:31.523] Server  LOG      ✓ Compiled in 90ms
+[04:39:35.243] Server  LOG      ✓ Compiled in 75ms
+[04:39:37.362] Server  LOG      ✓ Compiled in 97ms
+[04:41:47.191] Server  LOG      ✓ Compiled in 85ms
+[04:41:47.571] Browser ERROR   ./Downloads/medrelief.com/lib/services-data.ts:126:7
+Parsing ecmascript source code failed
+  124 |       "A centralized medical record for all your healthcare needs",
+  125 | ""
+> 126 |       "Dedicated care coordinator assigned to you",
+      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  127 |       "Personalized lifestyle coaching programs",
+  128 |       "Medication management and adherence tracking",
+  129 |       "Regular health metrics monitoring",
+
+Expected ',', got 'string literal (Dedicated care coordinator assigned to you, "Dedicated care coordinator assigned to you")'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component Browser]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component SSR]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+[04:41:52.572] Browser ERROR   ./Downloads/medrelief.com/lib/services-data.ts:126:7
+Parsing ecmascript source code failed
+  124 |       "A centralized medical record for all your healthcare needs",
+  125 | "Cordinated illness"
+> 126 |       "Dedicated care coordinator assigned to you",
+      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  127 |       "Personalized lifestyle coaching programs",
+  128 |       "Medication management and adherence tracking",
+  129 |       "Regular health metrics monitoring",
+
+Expected ',', got 'string literal (Dedicated care coordinator assigned to you, "Dedicated care coordinator assigned to you")'
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component Browser]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component Browser]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/medrelief.com/lib/services-data.ts [Client Component SSR]
+    ./Downloads/medrelief.com/components/services.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Client Component SSR]
+    ./Downloads/medrelief.com/app/page.tsx [Server Component]
+[04:42:00.366] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[04:42:13.064] Server  LOG      ✓ Compiled in 184ms
+[04:42:14.033] Server  LOG      ✓ Compiled in 71ms
+[04:42:23.622] Server  LOG      ✓ Compiled in 74ms

@@ -787,7 +787,8 @@ const SERVICES = [
         targetPopulation: "Patients with chronic diseases",
         fullDetails: "ChronoCare Navigation simplifies managing chronic conditions through coordinated care, expert guidance, and continuous monitoring. Our holistic approach combines medical management with lifestyle coaching to help you achieve better health outcomes and improved quality of life.",
         benefits: [
-            "Dedicated care coordinator assigned to you",
+            "A centralized medical record for all your healthcare needs",
+            "Cordinated illness management.",
             "Personalized lifestyle coaching programs",
             "Medication management and adherence tracking",
             "Regular health metrics monitoring",

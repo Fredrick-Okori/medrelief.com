@@ -8,7 +8,7 @@ const slides = [
   {
     src: "/images/8eece8e7-banner-image-11.webp",
     alt: "Smiling doctor with stethoscope",
-    title: "Walking the Health Journey",
+    title: "Walking the Health Journey with you",
     subtitle: "Compassionate care for every generation",
   },
   {
@@ -42,7 +42,7 @@ const quickActions = [
     </svg>
   ),
   label: "Send WhatsApp",
-  href: "https://wa.me/+256759659044" // Replace with your WhatsApp number (country code + number, no + or spaces)
+  href: "https://wa.me/+256759659044"
 },
   {
     icon: (

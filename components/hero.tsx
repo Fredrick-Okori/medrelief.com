@@ -41,7 +41,7 @@ const quickActions = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
       </svg>
     ),
-    label: "Request an Home Visit",
+    label: "Request Home Visit",
     href: "#contact"
   },
   {
@@ -135,7 +135,7 @@ export default function Hero() {
             </AnimatePresence>
 
             <p className="text-base md:text-lg text-white/80 leading-relaxed mt-6 max-w-2xl">
-              Compassionate healthcare services tailored to your family's needs. From pediatric care to geriatric
+              Compassionate healthcare services tailored to your family needs. From pediatric care to geriatric
               support, we're here every step of your health journey.
             </p>
 

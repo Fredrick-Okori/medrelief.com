@@ -56,7 +56,7 @@ export default function Footer() {
                     <span className="text-white font-serif font-bold text-2xl">M</span>
                   </div>
                   <div>
-                    <span className="font-bold text-2xl text-gray-900 block leading-tight">MedRelief</span>
+                    <span className="font-bold text-2xl text-blue-600 block leading-tight">MedRelief</span>
                   </div>
                 </motion.div>
               </Link>

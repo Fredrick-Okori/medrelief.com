@@ -101,7 +101,7 @@ export default function Services() {
                     {/* Content Container */}
                     <div className="flex-1 p-6 flex flex-col space-y-4">
                       <div className="flex-1 space-y-3">
-                        <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                        <h3 className="text-xl font-bold text-blue-700 group-hover:text-blue-600 transition-colors">
                           {service.title}
                         </h3>
                         

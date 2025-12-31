@@ -1,6 +1,6 @@
 var R=require("./chunks/[turbopack]_runtime.js")("postcss.js")
-R.c("chunks/[turbopack-node]_transforms_postcss_ts_ed443e83._.js")
-R.c("chunks/[root-of-the-server]__1950c68b._.js")
+R.c("chunks/[turbopack-node]_transforms_postcss_ts_12a9f526._.js")
+R.c("chunks/[root-of-the-server]__9d9a5aad._.js")
 R.m("[turbopack-node]/globals.ts [postcss] (ecmascript)")
-R.m("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/Downloads/medrelief.com/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)")
-module.exports=R.m("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/Downloads/medrelief.com/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)").exports
+R.m("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/medrelief.com/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)")
+module.exports=R.m("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/medrelief.com/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)").exports

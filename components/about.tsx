@@ -120,7 +120,7 @@ export default function About() {
                 transition={{ duration: 0.6 }}
               >
                 <Image
-                  src="/images/img-20231029-wa0015.jpg"
+                  src="/images/Untitled-design-2025-02-10T155200.358.webp"
                   alt="MedRelief healthcare team - professional African medical staff members"
                   fill
                   className="object-cover"

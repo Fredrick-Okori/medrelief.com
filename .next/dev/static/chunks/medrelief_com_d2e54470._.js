@@ -751,7 +751,7 @@ const SERVICES = [
             "Access emergency support during travel",
             "Post-travel follow-up and wellness check"
         ],
-        image: "/images/dr.jpg"
+        image: "/images/c02fcf_3951dd06c1b0442199694ebc3ed4aeaa~mv2.avif"
     },
     {
         id: "teleconsult",
@@ -774,7 +774,7 @@ const SERVICES = [
             "Receive digital prescription or advice where needed",
             "Follow-up support and care coordination"
         ],
-        image: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp"
+        image: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446 copy.jpg"
     },
     {
         id: "chronocare",
@@ -800,7 +800,7 @@ const SERVICES = [
             "Medication optimization",
             "Quarterly progress reviews"
         ],
-        image: "/images/team-work-home-care-9.webp"
+        image: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif"
     },
     {
         id: "physiotherapy",

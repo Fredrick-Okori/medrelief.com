@@ -1,30 +1,30 @@
-[00:00:01.474] Server  LOG      ✓ Ready in 1058ms
-[00:00:06.302] Server  LOG      ○ Compiling / ...
-[00:00:08.444] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:00:08.643] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:02.159] Server  LOG      ✓ Ready in 1542ms
+[00:00:16.489] Server  LOG      ○ Compiling / ...
+[00:00:19.824] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:20.066] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:09.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.200] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:20.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.869] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:09.357] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.357] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:09.357] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767173791663}
-[00:00:14.429] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:21.049] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.049] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.049] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767263517244}
+[00:00:26.006] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:14.430] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:23.878] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:31.003] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:52:13.992] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:52:14.179] Server  WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:39.138] Server  LOG      ✓ Compiled in 189ms
+[00:00:39.185] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:52:14.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:52:14.831] Browser WARN    Image with src "/images/8eece8e7-banner-image-11.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:42.460] Server  LOG      ✓ Compiled in 225ms
+[00:00:49.937] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:50.155] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:52:15.019] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:52:15.019] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:52:15.019] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767176916569}
-[00:52:19.988] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:50.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:50.701] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:52:24.987] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:50.899] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:50.899] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:50.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767263547103}
+[00:01:04.049] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities

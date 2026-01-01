@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/graphics/medrelief.com/app/services/layout.tsx"],"sourcesContent":["import type React from \"react\"\nexport const metadata = {\n  title: \"Service Details | MedRelief\",\n  description: \"Detailed information about MedRelief healthcare services\",\n}\n\nexport default function ServicesLayout({ children }: { children: React.ReactNode }) {\n  return <>{children}</>\n}\n"],"names":[],"mappings":";;;;;;;;AACO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,eAAe,EAAE,QAAQ,EAAiC;IAChF,qBAAO;kBAAG;;AACZ"}}]
+}

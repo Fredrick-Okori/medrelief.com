@@ -308,7 +308,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        src: "/images/8eece8e7-banner-image-11.webp",
+        src: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif",
         alt: "Smiling doctor with stethoscope",
         title: "Walking the Health Journey with you",
         subtitle: "Compassionate care for every generation"
@@ -687,14 +687,15 @@ const SERVICES = [
         title: "PediCare – Complex Needs",
         description: "Specialized home-based care for children with disabilities or chronic conditions.",
         targetPopulation: "Children with complex needs or chronic conditions",
-        fullDetails: "PediCare provides comprehensive home-based care designed specifically for children dealing with disabilities or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
+        fullDetails: "PediCare provides comprehensive home-based care designed specifically for children of special needs or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
         benefits: [
             "In-home nursing care by pediatric nurses",
             "Personalized caregiver training for family members",
             "Medical equipment and therapy support",
             "Developmental monitoring and coaching",
             "24/7 emergency support access",
-            "Flexible scheduling around school and family needs"
+            "Flexible scheduling around school and family needs",
+            "Keep your files in one place"
         ],
         process: [
             "Initial consultation to understand your child's needs",
@@ -703,7 +704,7 @@ const SERVICES = [
             "Ongoing monitoring and care adjustments",
             "Regular family check-ins and progress updates"
         ],
-        image: "/images/team-work-home-care-39.webp"
+        image: "/images/Untitled-design-2025-02-10T151819.219.webp"
     },
     {
         id: "gericare",

@@ -6,7 +6,7 @@ import Image from "next/image"
 
 const slides = [
   {
-    src: "/images/8eece8e7-banner-image-11.webp",
+    src: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif",
     alt: "Smiling doctor with stethoscope",
     title: "Walking the Health Journey with you",
     subtitle: "Compassionate care for every generation",

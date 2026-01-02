@@ -309,3 +309,24 @@ Import traces:
 [00:25:36.173] Server  LOG      ✓ Compiled in 77ms
 [00:25:40.500] Server  LOG      ✓ Compiled in 95ms
 [00:26:29.876] Server  LOG      ✓ Compiled in 68ms
+[00:27:03.812] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:27:04.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347593261}
+[00:28:03.535] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:28:03.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:04.130] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347653546}
+[00:28:10.662] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:28:15.662] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:28:22.273] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446 copy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:31:18.380] Server  LOG      ✓ Compiled in 287ms
+[00:31:27.825] Server  LOG      ✓ Compiled in 82ms
+[00:31:30.469] Server  LOG      ✓ Compiled in 82ms
+[00:31:32.814] Server  LOG      ✓ Compiled in 78ms
+[00:32:13.437] Server  LOG      ✓ Compiled in 212ms

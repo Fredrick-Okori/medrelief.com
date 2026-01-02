@@ -123,7 +123,7 @@ export const SERVICES: Service[] = [
       "ChronoCare Navigation simplifies managing chronic conditions through coordinated care, expert guidance, and continuous monitoring. Our holistic approach combines medical management with lifestyle coaching to help you achieve better health outcomes and improved quality of life.",
     benefits: [
       "A centralized medical record for all your healthcare needs",
-      "Better illness outcomes through continuous monitoring",
+      "Better illness outcomes",
       "Personalized lifestyle coaching programs",
       "Medication management and adherence tracking",
       "Regular health metrics monitoring",

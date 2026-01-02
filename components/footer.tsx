@@ -103,10 +103,10 @@ export default function Footer() {
                 <div className="flex items-baseline gap-2">
                   <span className="text-sm font-semibold text-gray-700 min-w-[100px]">WhatsApp:</span>
                   <a
-                    href="https://wa.me/256759659044"
+                    href="https://wa.me/256784040350"
                     className="text-sm text-gray-600 hover:text-blue-600 transition-colors"
                   >
-                    +256 759 659 044
+                   +256 784 040 350
                   </a>
                 </div>
                 <div className="flex items-baseline gap-2">

@@ -785,7 +785,7 @@ const SERVICES = [
         fullDetails: "ChronoCare Navigation simplifies managing chronic conditions through coordinated care, expert guidance, and continuous monitoring. Our holistic approach combines medical management with lifestyle coaching to help you achieve better health outcomes and improved quality of life.",
         benefits: [
             "A centralized medical record for all your healthcare needs",
-            "Better illness outcomes through continuous monitoring",
+            "Better illness outcomes",
             "Personalized lifestyle coaching programs",
             "Medication management and adherence tracking",
             "Regular health metrics monitoring",
@@ -4200,9 +4200,9 @@ function Footer() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://wa.me/256759659044",
+                                                        href: "https://wa.me/256784040350",
                                                         className: "text-sm text-gray-600 hover:text-blue-600 transition-colors",
-                                                        children: "+256 759 659 044"
+                                                        children: "+256 784 040 350"
                                                     }, void 0, false, {
                                                         fileName: "[project]/medrelief.com/components/footer.tsx",
                                                         lineNumber: 105,

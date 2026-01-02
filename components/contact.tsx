@@ -121,7 +121,7 @@ export default function Contact() {
             <div className="space-y-6">
               {[
                 { icon: Phone, title: "Phone", content: "+256 784 040 350", href: "tel:+256784040350" },
-                { icon: MessageCircle, title: "WhatsApp", content: "+256 759 659 044", href: "https://wa.me/256759659044" },
+                { icon: MessageCircle, title: "WhatsApp", content: "+256 784 040 350", href: "https://wa.me/256784040350" },
                 { icon: Mail, title: "Email", content: "medrelief325@gmail.com", href: "mailto:medrelief325@gmail.com" },
                 { icon: MapPin, title: "Available", content: "Serving nationwide • 24/7 Support" },
               ].map((item, index) => (
@@ -243,7 +243,7 @@ export default function Contact() {
                 onChange={handleChange}
                 disabled={loading}
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 disabled:opacity-50 transition-all"
-                placeholder="+1 (555) 000-0000"
+                placeholder="+256 700 000 000"
                 whileFocus={{ scale: 1.02 }}
               />
             </div>
@@ -259,11 +259,12 @@ export default function Contact() {
                 className="w-full px-4 py-2 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 disabled:opacity-50 transition-all"
               >
                 <option value="">Select a service</option>
-                <option value="home-care">Home-Medicare for Complex Children</option>
-                <option value="geriatric">Geriatric Medicare</option>
-                <option value="travel">Travel Medicare</option>
-                <option value="physical-therapy">Physical Therapy</option>
-                <option value="chrono-care">Chrono-care</option>
+                <option value="home-care">Pedicare for Complex Children</option>
+                <option value="geriatric">Gericare - Eldery Homecare</option>
+                <option value="travel">Travelshield Medicare</option>
+                <option value="physical-therapy">Home-based PhysioTherapy</option>
+                <option value="chrono-care">Chrono-care Navigation</option>
+                <option value="general-consultation">General TeleConsultation</option>
               </select>
             </div>
 

@@ -180,7 +180,7 @@ export default function HowItWorks() {
             </h3>
             <p className="text-lg text-blue-100">
               Join thousands of families who trust MedRelief for their healthcare needs. 
-              Schedule your free consultation today and experience personalized care.
+              Schedule your consultation today and experience personalized care.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <motion.a
@@ -199,7 +199,7 @@ export default function HowItWorks() {
                 whileTap={{ scale: 0.95 }}
               >
                 <Clock className="w-5 h-5" />
-                Call 24/7: +256784040350
+                Call or Whatsapp 24/7: +256784040350
               </motion.a>
             </div>
           </div>

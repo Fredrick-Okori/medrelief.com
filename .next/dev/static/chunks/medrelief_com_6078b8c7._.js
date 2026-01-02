@@ -18,9 +18,9 @@ const SERVICES = [
         id: "pedicare",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$baby$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Baby$3e$__["Baby"],
         title: "PediCare – Complex Needs",
-        description: "Specialized home-based care for children with disabilities or chronic conditions.",
+        description: "Specialized home-based care for children with complex needs or chronic conditions.",
         targetPopulation: "Children with complex needs or chronic conditions",
-        fullDetails: "PediCare provides comprehensive home-based care designed specifically for children of special needs or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
+        fullDetails: "PediCare provides comprehensive home-based care designed specifically for children of with complex needs or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
         benefits: [
             "In-home nursing care by pediatric nurses",
             "Personalized caregiver training for family members",
@@ -84,7 +84,7 @@ const SERVICES = [
             "Access emergency support during travel",
             "Post-travel follow-up and wellness check"
         ],
-        image: "/images/dr.jpg"
+        image: "/images/c02fcf_3951dd06c1b0442199694ebc3ed4aeaa~mv2.avif"
     },
     {
         id: "teleconsult",
@@ -107,7 +107,7 @@ const SERVICES = [
             "Receive digital prescription or advice where needed",
             "Follow-up support and care coordination"
         ],
-        image: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp"
+        image: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446 copy.jpg"
     },
     {
         id: "chronocare",
@@ -118,7 +118,7 @@ const SERVICES = [
         fullDetails: "ChronoCare Navigation simplifies managing chronic conditions through coordinated care, expert guidance, and continuous monitoring. Our holistic approach combines medical management with lifestyle coaching to help you achieve better health outcomes and improved quality of life.",
         benefits: [
             "A centralized medical record for all your healthcare needs",
-            "Cordinated illness management.",
+            "Better illness outcomes through continuous monitoring",
             "Personalized lifestyle coaching programs",
             "Medication management and adherence tracking",
             "Regular health metrics monitoring",
@@ -133,12 +133,12 @@ const SERVICES = [
             "Medication optimization",
             "Quarterly progress reviews"
         ],
-        image: "/images/team-work-home-care-9.webp"
+        image: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif"
     },
     {
         id: "physiotherapy",
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$activity$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Activity$3e$__["Activity"],
-        title: "Home-Based physical therapy",
+        title: "Home-Based physiotherapy",
         description: "In-home physical therapy sessions for post-surgical, neurological, or mobility needs.",
         targetPopulation: "Clients with post-surgical, neurological, or mobility needs",
         fullDetails: "Home-Based physical therapy brings specialized rehabilitation directly to your home. Whether recovering from surgery, managing neurological conditions, or improving mobility, our licensed physiotherapists provide personalized treatment in the comfort of your own space.",
@@ -1159,7 +1159,7 @@ function ServiceDetail() {
         }, this);
     }
     const handleWhatsAppBooking = ()=>{
-        const phoneNumber = "256759659044";
+        const phoneNumber = "256784040350";
         const message = `Hi MedRelief! I'm interested in booking "${service.title}". Please provide more information and available appointment slots.`;
         const encodedMessage = encodeURIComponent(message);
         window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
@@ -1772,57 +1772,31 @@ function ServiceDetail() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-col sm:flex-row items-center justify-center gap-4 pt-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                                                    onClick: handleWhatsAppBooking,
-                                                    className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg",
-                                                    whileHover: {
-                                                        scale: 1.05
-                                                    },
-                                                    whileTap: {
-                                                        scale: 0.95
-                                                    },
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
-                                                            className: "w-5 h-5"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                                                            lineNumber: 271,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        "WhatsApp: +256 759 659 044"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                                                    lineNumber: 265,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                                                    onClick: handleCall,
-                                                    className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border-2 border-white/20",
-                                                    whileHover: {
-                                                        scale: 1.05
-                                                    },
-                                                    whileTap: {
-                                                        scale: 0.95
-                                                    },
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                            className: "w-5 h-5"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                                                            lineNumber: 280,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        "Call: +256 784 040 350"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                                                    lineNumber: 274,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                                onClick: handleCall,
+                                                className: "w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border-2 border-white/20",
+                                                whileHover: {
+                                                    scale: 1.05
+                                                },
+                                                whileTap: {
+                                                    scale: 0.95
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                        className: "w-5 h-5"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
+                                                        lineNumber: 272,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    "Whatsapp: +256 784 040 350"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
+                                                lineNumber: 266,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
                                             lineNumber: 264,
                                             columnNumber: 15
@@ -1832,7 +1806,7 @@ function ServiceDetail() {
                                             children: "Available 24/7 • Professional Staff • Compassionate Care"
                                         }, void 0, false, {
                                             fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -1860,7 +1834,7 @@ function ServiceDetail() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/medrelief.com/app/services/[id]/page.tsx",
-                lineNumber: 292,
+                lineNumber: 284,
                 columnNumber: 7
             }, this)
         ]

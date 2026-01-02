@@ -66,7 +66,7 @@ export default function About() {
             >
               <p>
                 Our mission is to empower families and individuals to lead healthy lives by providing seamless
-                healthcare support, fostering hope, and bringing joy – especially to children with complex needs and
+                healthcare support and continuity, fostering hope, and bringing joy – especially to children with complex needs and
                 their families.
               </p>
               <p>
@@ -196,7 +196,7 @@ export default function About() {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h3 className="text-2xl md:text-3xl font-bold">Our Commitment to You</h3>
             <p className="text-lg text-blue-100 leading-relaxed">
-              We understand that healthcare is more than just medical treatment—it's about compassion, dignity, and
+              We understand that healthcare is more than just medical treatment - it's about dignity, and
               personalized care. Every member of our team is dedicated to providing you and your loved ones with the
               highest quality healthcare services in the comfort of your own environment.
             </p>

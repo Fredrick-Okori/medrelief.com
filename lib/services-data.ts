@@ -18,10 +18,10 @@ export const SERVICES: Service[] = [
     id: "pedicare",
     icon: Baby,
     title: "PediCare – Complex Needs",
-    description: "Specialized home-based care for children with disabilities or chronic conditions.",
+    description: "Specialized home-based care for children with complex needs or chronic conditions.",
     targetPopulation: "Children with complex needs or chronic conditions",
     fullDetails:
-      "PediCare provides comprehensive home-based care designed specifically for children of special needs or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
+      "PediCare provides comprehensive home-based care designed specifically for children of with complex needs or chronic health conditions. Our specialized team of pediatric nurses, therapists, and caregivers work closely with families to create personalized care plans that support development, independence, and quality of life.",
     benefits: [
       "In-home nursing care by pediatric nurses",
       "Personalized caregiver training for family members",
@@ -123,8 +123,7 @@ export const SERVICES: Service[] = [
       "ChronoCare Navigation simplifies managing chronic conditions through coordinated care, expert guidance, and continuous monitoring. Our holistic approach combines medical management with lifestyle coaching to help you achieve better health outcomes and improved quality of life.",
     benefits: [
       "A centralized medical record for all your healthcare needs",
-"Cordinated illness management.",
-      
+      "Better illness outcomes through continuous monitoring",
       "Personalized lifestyle coaching programs",
       "Medication management and adherence tracking",
       "Regular health metrics monitoring",
@@ -144,7 +143,7 @@ export const SERVICES: Service[] = [
   {
     id: "physiotherapy",
     icon: Activity,
-    title: "Home-Based physical therapy",
+    title: "Home-Based physiotherapy",
     description: "In-home physical therapy sessions for post-surgical, neurological, or mobility needs.",
     targetPopulation: "Clients with post-surgical, neurological, or mobility needs",
     fullDetails:

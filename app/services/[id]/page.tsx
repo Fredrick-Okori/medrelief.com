@@ -32,7 +32,7 @@ export default function ServiceDetail() {
   }
 
   const handleWhatsAppBooking = () => {
-    const phoneNumber = "256759659044"
+    const phoneNumber = "256784040350"
     const message = `Hi MedRelief! I'm interested in booking "${service.title}". Please provide more information and available appointment slots.`
     const encodedMessage = encodeURIComponent(message)
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank")
@@ -262,15 +262,7 @@ export default function ServiceDetail() {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                <motion.button
-                  onClick={handleWhatsAppBooking}
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <MessageCircle className="w-5 h-5" />
-                  WhatsApp: +256 759 659 044
-                </motion.button>
+              
                 <motion.button
                   onClick={handleCall}
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border-2 border-white/20"
@@ -278,7 +270,7 @@ export default function ServiceDetail() {
                   whileTap={{ scale: 0.95 }}
                 >
                   <Phone className="w-5 h-5" />
-                  Call: +256 784 040 350
+                  Whatsapp: +256 784 040 350
                 </motion.button>
               </div>
 

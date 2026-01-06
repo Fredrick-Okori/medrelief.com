@@ -309,19 +309,19 @@ var _s = __turbopack_context__.k.signature();
 const slides = [
     {
         src: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif",
-        alt: "Smiling doctor with stethoscope",
+        alt: "Smiling doctor with stethoscope providing compassionate healthcare",
         title: "Walking the Health Journey with you",
         subtitle: "Compassionate care for every generation"
     },
     {
         src: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp",
-        alt: "Doctor on telehealth video call",
+        alt: "Doctor on telehealth video call providing remote healthcare",
         title: "Accessible Telehealth",
         subtitle: "Care that meets you where you are"
     },
     {
         src: "/images/chrono-care.webp",
-        alt: "Home care team providing support",
+        alt: "Home care team providing support to patients",
         title: "Family-Centered Support",
         subtitle: "Personalized plans for lasting wellbeing"
     }
@@ -995,9 +995,11 @@ function Services() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     src: service.image,
-                                                    alt: service.title,
+                                                    alt: `${service.title} - ${service.targetPopulation} healthcare service`,
                                                     fill: true,
-                                                    className: "object-cover group-hover:scale-105 transition-transform duration-500"
+                                                    className: "object-cover group-hover:scale-105 transition-transform duration-500",
+                                                    sizes: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
+                                                    loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
                                                     lineNumber: 82,
@@ -1007,7 +1009,7 @@ function Services() {
                                                     className: "absolute inset-0 bg-gradient-to-t from-gray-900/60 via-gray-900/20 to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 90,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1016,12 +1018,12 @@ function Services() {
                                                         className: "w-7 h-7 text-blue-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/medrelief.com/components/services.tsx",
-                                                        lineNumber: 92,
+                                                        lineNumber: 94,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 93,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,7 +1031,7 @@ function Services() {
                                                     children: String(index + 1).padStart(2, '0')
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 98,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
@@ -1049,7 +1051,7 @@ function Services() {
                                                             children: service.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/medrelief.com/components/services.tsx",
-                                                            lineNumber: 104,
+                                                            lineNumber: 106,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1057,13 +1059,13 @@ function Services() {
                                                             children: service.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/medrelief.com/components/services.tsx",
-                                                            lineNumber: 108,
+                                                            lineNumber: 110,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 105,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1076,7 +1078,7 @@ function Services() {
                                                                 children: service.targetPopulation
                                                             }, void 0, false, {
                                                                 fileName: "[project]/medrelief.com/components/services.tsx",
-                                                                lineNumber: 116,
+                                                                lineNumber: 118,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1093,44 +1095,44 @@ function Services() {
                                                                         children: "Learn more"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/medrelief.com/components/services.tsx",
-                                                                        lineNumber: 126,
+                                                                        lineNumber: 128,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                         className: "w-4 h-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/medrelief.com/components/services.tsx",
-                                                                        lineNumber: 127,
+                                                                        lineNumber: 129,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/medrelief.com/components/services.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 123,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/medrelief.com/components/services.tsx",
-                                                        lineNumber: 115,
+                                                        lineNumber: 117,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/services.tsx",
-                                                    lineNumber: 114,
+                                                    lineNumber: 116,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/medrelief.com/components/services.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 104,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 to-blue-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
                                         }, void 0, false, {
                                             fileName: "[project]/medrelief.com/components/services.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 136,
                                             columnNumber: 21
                                         }, this)
                                     ]
@@ -1180,7 +1182,7 @@ function Services() {
                                 children: "Need help choosing the right service?"
                             }, void 0, false, {
                                 fileName: "[project]/medrelief.com/components/services.tsx",
-                                lineNumber: 151,
+                                lineNumber: 153,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -1198,24 +1200,24 @@ function Services() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/medrelief.com/components/services.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 163,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/medrelief.com/components/services.tsx",
-                                lineNumber: 154,
+                                lineNumber: 156,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/medrelief.com/components/services.tsx",
-                        lineNumber: 150,
+                        lineNumber: 152,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/medrelief.com/components/services.tsx",
-                    lineNumber: 143,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, this)
             ]
@@ -2086,7 +2088,8 @@ function About() {
                                             },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-2 h-2 bg-blue-600 rounded-full"
+                                                    className: "w-2 h-2 bg-blue-600 rounded-full",
+                                                    "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/about.tsx",
                                                     lineNumber: 35,
@@ -2290,10 +2293,11 @@ function About() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/images/Untitled-design-2025-02-10T155200.358.webp",
-                                                alt: "MedRelief healthcare team - professional African medical staff members",
+                                                alt: "MedRelief healthcare team - professional African medical staff members working together to provide compassionate care",
                                                 fill: true,
                                                 className: "object-cover",
-                                                sizes: "(max-width: 768px) 100vw, 50vw"
+                                                sizes: "(max-width: 768px) 100vw, 50vw",
+                                                priority: true
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
                                                 lineNumber: 122,
@@ -2303,7 +2307,7 @@ function About() {
                                                 className: "absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 130,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -2339,15 +2343,16 @@ function About() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-                                                    className: "w-8 h-8 text-white"
+                                                    className: "w-8 h-8 text-white",
+                                                    "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/about.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 144,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 143,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2357,7 +2362,7 @@ function About() {
                                                         children: "100%"
                                                     }, void 0, false, {
                                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                                        lineNumber: 146,
+                                                        lineNumber: 147,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2365,24 +2370,24 @@ function About() {
                                                         children: "Patient Satisfaction"
                                                     }, void 0, false, {
                                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 148,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 146,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 142,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/medrelief.com/components/about.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -2441,15 +2446,16 @@ function About() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
-                                            className: "w-6 h-6 text-blue-600"
+                                            className: "w-6 h-6 text-blue-600",
+                                            "aria-hidden": "true"
                                         }, void 0, false, {
                                             fileName: "[project]/medrelief.com/components/about.tsx",
-                                            lineNumber: 176,
+                                            lineNumber: 177,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 176,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2459,7 +2465,7 @@ function About() {
                                                 children: stat.value
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 180,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2467,30 +2473,30 @@ function About() {
                                                 children: stat.label
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 180,
+                                                lineNumber: 181,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 178,
+                                        lineNumber: 179,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                lineNumber: 174,
+                                lineNumber: 175,
                                 columnNumber: 17
                             }, this)
                         }, stat.label, false, {
                             fileName: "[project]/medrelief.com/components/about.tsx",
-                            lineNumber: 165,
+                            lineNumber: 166,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/medrelief.com/components/about.tsx",
-                    lineNumber: 155,
+                    lineNumber: 156,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2518,7 +2524,7 @@ function About() {
                                 children: "Our Commitment to You"
                             }, void 0, false, {
                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                lineNumber: 197,
+                                lineNumber: 198,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2526,7 +2532,7 @@ function About() {
                                 children: "We understand that healthcare is more than just medical treatment - it's about dignity, and personalized care. Every member of our team is dedicated to providing you and your loved ones with the highest quality healthcare services in the comfort of your own environment."
                             }, void 0, false, {
                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                lineNumber: 198,
+                                lineNumber: 199,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2536,10 +2542,11 @@ function About() {
                                         className: "flex items-center gap-2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-2 h-2 bg-blue-400 rounded-full"
+                                                className: "w-2 h-2 bg-blue-400 rounded-full",
+                                                "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 205,
+                                                lineNumber: 206,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2547,23 +2554,24 @@ function About() {
                                                 children: "Licensed Professionals"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 206,
+                                                lineNumber: 207,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 204,
+                                        lineNumber: 205,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-2 h-2 bg-blue-400 rounded-full"
+                                                className: "w-2 h-2 bg-blue-400 rounded-full",
+                                                "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 209,
+                                                lineNumber: 210,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2571,23 +2579,24 @@ function About() {
                                                 children: "Personalized Care Plans"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 210,
+                                                lineNumber: 211,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 208,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center gap-2",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-2 h-2 bg-blue-400 rounded-full"
+                                                className: "w-2 h-2 bg-blue-400 rounded-full",
+                                                "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 213,
+                                                lineNumber: 214,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2595,30 +2604,30 @@ function About() {
                                                 children: "Compassionate Support"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                                lineNumber: 214,
+                                                lineNumber: 215,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/about.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 213,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/medrelief.com/components/about.tsx",
-                                lineNumber: 203,
+                                lineNumber: 204,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/medrelief.com/components/about.tsx",
-                        lineNumber: 196,
+                        lineNumber: 197,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/medrelief.com/components/about.tsx",
-                    lineNumber: 189,
+                    lineNumber: 190,
                     columnNumber: 9
                 }, this)
             ]

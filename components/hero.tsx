@@ -7,19 +7,19 @@ import Image from "next/image"
 const slides = [
   {
     src: "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif",
-    alt: "Smiling doctor with stethoscope",
+    alt: "Smiling doctor with stethoscope providing compassionate healthcare",
     title: "Walking the Health Journey with you",
     subtitle: "Compassionate care for every generation",
   },
   {
     src: "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp",
-    alt: "Doctor on telehealth video call",
+    alt: "Doctor on telehealth video call providing remote healthcare",
     title: "Accessible Telehealth",
     subtitle: "Care that meets you where you are",
   },
   {
     src: "/images/chrono-care.webp",
-    alt: "Home care team providing support",
+    alt: "Home care team providing support to patients",
     title: "Family-Centered Support",
     subtitle: "Personalized plans for lasting wellbeing",
   },

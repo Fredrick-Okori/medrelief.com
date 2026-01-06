@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Crawl-delay: 10
+
+Host: https://medrelief.com
+Sitemap: https://medrelief.com/sitemap.xml

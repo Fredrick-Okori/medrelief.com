@@ -46,9 +46,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_mod
 ;
 ;
 const metadata = {
-    title: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+    metadataBase: new URL('https://medrelief.com'),
+    title: {
+        default: "MedRelief - Compassionate Healthcare Services | Home Care & Medical Support",
+        template: "%s | MedRelief"
+    },
     description: "Quality healthcare services including home care for complex children, geriatric care, and travel medicare. 24/7 support with professional medical staff.",
-    keywords: "home care, geriatric healthcare, travel medicare, medical services, patient care",
+    keywords: [
+        "home care",
+        "geriatric healthcare",
+        "travel medicare",
+        "medical services",
+        "patient care",
+        "pediatric care",
+        "elderly care",
+        "telehealth",
+        "Uganda healthcare",
+        "Kampala medical services"
+    ],
     authors: [
         {
             name: "MedRelief"
@@ -56,7 +71,17 @@ const metadata = {
     ],
     creator: "MedRelief Healthcare",
     publisher: "MedRelief",
-    robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1
+        }
+    },
     openGraph: {
         type: "website",
         locale: "en_US",
@@ -77,7 +102,13 @@ const metadata = {
         card: "summary_large_image",
         title: "MedRelief - Healthcare Services",
         description: "Professional medical care and support",
-        creator: "@MedRelief"
+        creator: "@MedRelief",
+        images: [
+            "/og-image.jpg"
+        ]
+    },
+    facebook: {
+        appId: "123456789"
     },
     alternates: {
         canonical: "https://medrelief.com"
@@ -97,7 +128,8 @@ const metadata = {
                 type: "image/svg+xml"
             }
         ],
-        apple: "/apple-icon.png"
+        apple: "/apple-icon.png",
+        shortcut: "/favicon.ico"
     },
     generator: 'v0.app'
 };
@@ -122,43 +154,148 @@ function RootLayout({ children }) {
         lang: "en",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("head", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
-                    type: "application/ld+json",
-                    dangerouslySetInnerHTML: {
-                        __html: JSON.stringify({
-                            "@context": "https://schema.org",
-                            "@type": "MedicalBusiness",
-                            name: "MedRelief",
-                            description: "Compassionate healthcare services provider",
-                            url: "https://medrelief.com",
-                            telephone: "+256 784 040 350",
-                            address: {
-                                "@type": "PostalAddress",
-                                streetAddress: "",
-                                addressLocality: "Kampala",
-                                addressRegion: "Central Region",
-                                postalCode: "",
-                                addressCountry: "UG"
-                            },
-                            sameAs: [
-                                "https://www.facebook.com/medrelief",
-                                "https://www.instagram.com/medrelief"
-                            ],
-                            knowsAbout: [
-                                "Home Healthcare",
-                                "Geriatric Care",
-                                "Travel Medicine"
-                            ]
-                        })
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/medrelief.com/app/layout.tsx",
-                    lineNumber: 88,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                        type: "application/ld+json",
+                        dangerouslySetInnerHTML: {
+                            __html: JSON.stringify({
+                                "@context": "https://schema.org",
+                                "@type": "MedicalBusiness",
+                                name: "MedRelief",
+                                description: "Compassionate healthcare services provider offering home care, geriatric care, telehealth, and travel medicine services.",
+                                url: "https://medrelief.com",
+                                telephone: "+256 784 040 350",
+                                email: "medrelief325@gmail.com",
+                                address: {
+                                    "@type": "PostalAddress",
+                                    streetAddress: "",
+                                    addressLocality: "Kampala",
+                                    addressRegion: "Central Region",
+                                    postalCode: "",
+                                    addressCountry: "UG"
+                                },
+                                geo: {
+                                    "@type": "GeoCoordinates",
+                                    latitude: 0.3476,
+                                    longitude: 32.5825
+                                },
+                                openingHoursSpecification: {
+                                    "@type": "OpeningHoursSpecification",
+                                    dayOfWeek: [
+                                        "Monday",
+                                        "Tuesday",
+                                        "Wednesday",
+                                        "Thursday",
+                                        "Friday",
+                                        "Saturday",
+                                        "Sunday"
+                                    ],
+                                    opens: "00:00",
+                                    closes: "23:59"
+                                },
+                                priceRange: "$$",
+                                paymentAccepted: "Cash, Credit Card, Mobile Money",
+                                currenciesAccepted: "UGX, USD",
+                                areaServed: {
+                                    "@type": "Place",
+                                    name: "Uganda, Kenya, Tanzania, South Sudan, Rwanda, Burundi"
+                                },
+                                sameAs: [
+                                    "https://www.facebook.com/medrelief",
+                                    "https://www.instagram.com/medrelief",
+                                    "https://www.linkedin.com/company/medrelief"
+                                ],
+                                knowsAbout: [
+                                    "Home Healthcare",
+                                    "Geriatric Care",
+                                    "Travel Medicine",
+                                    "Pediatric Care",
+                                    "Telehealth",
+                                    "Physical Therapy",
+                                    "Chronic Disease Management"
+                                ],
+                                hasOfferCatalog: {
+                                    "@type": "OfferCatalog",
+                                    name: "Healthcare Services",
+                                    itemListElement: [
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "PediCare – Complex Needs"
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "GeriCare – Elderly Home Care"
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "TravelShield Medicare"
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "General Teleconsultation"
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "ChronoCare Navigation"
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            itemOffered: {
+                                                "@type": "Service",
+                                                name: "Home-Based physiotherapy"
+                                            }
+                                        }
+                                    ]
+                                }
+                            })
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/medrelief.com/app/layout.tsx",
+                        lineNumber: 119,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                        type: "application/ld+json",
+                        dangerouslySetInnerHTML: {
+                            __html: JSON.stringify({
+                                "@context": "https://schema.org",
+                                "@type": "WebSite",
+                                name: "MedRelief",
+                                url: "https://medrelief.com",
+                                potentialAction: {
+                                    "@type": "SearchAction",
+                                    target: {
+                                        "@type": "EntryPoint",
+                                        urlTemplate: "https://medrelief.com/services/{search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            })
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/medrelief.com/app/layout.tsx",
+                        lineNumber: 187,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/medrelief.com/app/layout.tsx",
-                lineNumber: 87,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -167,19 +304,19 @@ function RootLayout({ children }) {
                     children,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                         fileName: "[project]/medrelief.com/app/layout.tsx",
-                        lineNumber: 114,
+                        lineNumber: 209,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/medrelief.com/app/layout.tsx",
-                lineNumber: 112,
+                lineNumber: 207,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/medrelief.com/app/layout.tsx",
-        lineNumber: 86,
+        lineNumber: 116,
         columnNumber: 5
     }, this);
 }

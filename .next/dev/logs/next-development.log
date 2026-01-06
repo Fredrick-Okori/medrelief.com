@@ -1,332 +1,52 @@
-[00:00:03.217] Server  LOG      ✓ Ready in 2.2s
-[00:00:06.324] Server  LOG      ○ Compiling / ...
-[00:00:10.340] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:00:10.616] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:03.773] Server  LOG      ✓ Ready in 2.3s
+[00:00:06.973] Server  LOG      ○ Compiling / ...
+[00:00:18.798] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:19.260] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:11.339] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.713] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:20.485] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.068] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:14.513] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:14.513] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:14.513] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767345981725}
-[00:00:19.662] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:21.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:21.913] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:22.147] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:22.147] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:22.147] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767345991030}
-[00:00:24.662] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:07.093] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:01:12.093] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:03:08.028] Server  LOG      ✓ Compiled in 127ms
-[00:03:11.589] Server  LOG      ✓ Compiled in 93ms
-[00:03:14.969] Server  LOG      ✓ Compiled in 100ms
-[00:05:02.077] Server  LOG      ✓ Compiled in 88ms
-[00:05:04.717] Server  LOG      ✓ Compiled in 90ms
-[00:05:11.807] Server  LOG      ✓ Compiled in 76ms
-[00:05:13.717] Server  LOG      ✓ Compiled in 94ms
-[00:05:19.374] Server  LOG      ✓ Compiled in 111ms
-[00:05:37.898] Server  LOG      ✓ Compiled in 76ms
-[00:05:39.943] Server  LOG      ✓ Compiled in 75ms
-[00:07:39.671] Server  LOG      ✓ Compiled in 98ms
-[00:07:40.986] Server  LOG      ✓ Compiled in 86ms
-[00:08:59.855] Server  LOG      ✓ Compiled in 101ms
-[00:09:05.847] Server  LOG      ✓ Compiled in 153ms
-[00:09:30.184] Server  LOG      ✓ Compiled in 85ms
-[00:09:35.421] Server  LOG      ✓ Compiled in 79ms
-[00:10:50.811] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767346619702}
-[00:11:07.953] Server  LOG      ✓ Compiled in 156ms
-[00:11:30.623] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767346659506}
-[00:11:33.466] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:11:33.661] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/chronocare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/chronocare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767346662560}
-[00:15:01.598] Server  LOG      ✓ Compiled in 135ms
-[00:15:01.709] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better outcomes"
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:02.662] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better outcomes"
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:09.048] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better illness out"
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:09.662] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better illness out"
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:17.586] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better illness outcomes "
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:17.662] Browser ERROR   ./medrelief.com/lib/services-data.ts:128:7
-Parsing ecmascript source code failed
-  126 | "Cordinated illness management.",
-  127 |       "Better illness outcomes "
-> 128 |       "Personalized lifestyle coaching programs",
-      |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  129 |       "Medication management and adherence tracking",
-  130 |       "Regular health metrics monitoring",
-  131 |       "Specialist coordination and access",
-
-Expected ',', got 'string literal (Personalized lifestyle coaching programs, "Personalized lifestyle coaching programs")'
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/lib/services-data.ts [Client Component Browser]
-    ./medrelief.com/components/services.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/lib/services-data.ts [Client Component SSR]
-    ./medrelief.com/components/services.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:15:27.583] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:15:27.832] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:16:09.215] Server  LOG      ✓ Compiled in 88ms
-[00:17:54.838] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347044010}
-[00:18:24.976] Server  LOG      ✓ Compiled in 88ms
-[00:18:49.616] Server  LOG      ✓ Compiled in 89ms
-[00:20:36.143] Server  LOG      ✓ Compiled in 236ms
-[00:20:44.183] Server  LOG      ✓ Compiled in 234ms
-[00:20:47.303] Server  LOG      ✓ Compiled in 464ms
-[00:20:47.424] Browser ERROR   ./medrelief.com/components/contact.tsx:268:15
-Parsing ecmascript source code failed
-  266 |                 <option value="chrono-care">Chrono-care</option>
-  267 |                 <option
-> 268 |               </select>
-      |               ^
-  269 |             </div>
-  270 |
-  271 |             <div className="space-y-2">
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/components/contact.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/components/contact.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:20:47.424] Browser ERROR   ./medrelief.com/components/contact.tsx:268:16
-Parsing ecmascript source code failed
-  266 |                 <option value="chrono-care">Chrono-care</option>
-  267 |                 <option
-> 268 |               </select>
-      |                ^^^^^^^^
-  269 |             </div>
-  270 |
-  271 |             <div className="space-y-2">
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/components/contact.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/components/contact.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:20:47.967] Browser ERROR   ./medrelief.com/components/contact.tsx:268:15
-Parsing ecmascript source code failed
-  266 |                 <option value="chrono-care">Chrono-care</option>
-  267 |                 <option
-> 268 |               </select>
-      |               ^
-  269 |             </div>
-  270 |
-  271 |             <div className="space-y-2">
-
-Expression expected
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/components/contact.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/components/contact.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:20:47.967] Browser ERROR   ./medrelief.com/components/contact.tsx:268:16
-Parsing ecmascript source code failed
-  266 |                 <option value="chrono-care">Chrono-care</option>
-  267 |                 <option
-> 268 |               </select>
-      |                ^^^^^^^^
-  269 |             </div>
-  270 |
-  271 |             <div className="space-y-2">
-
-Unterminated regexp literal
-
-Import traces:
-  Client Component Browser:
-    ./medrelief.com/components/contact.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Client Component Browser]
-    ./medrelief.com/app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./medrelief.com/components/contact.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Client Component SSR]
-    ./medrelief.com/app/page.tsx [Server Component]
-[00:20:48.849] Server  LOG      ✓ Compiled in 274ms
-[00:20:49.497] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:21:06.447] Server  LOG      ✓ Compiled in 669ms
-[00:21:08.895] Server  LOG      ✓ Compiled in 439ms
-[00:21:23.563] Server  LOG      ✓ Compiled in 460ms
-[00:21:38.332] Server  LOG      ✓ Compiled in 620ms
-[00:21:41.233] Server  LOG      ✓ Compiled in 764ms
-[00:21:46.967] Server  LOG      ✓ Compiled in 767ms
-[00:21:57.436] Server  LOG      ✓ Compiled in 773ms
-[00:21:59.895] Server  LOG      ✓ Compiled in 749ms
-[00:22:06.838] Server  LOG      ✓ Compiled in 496ms
-[00:23:23.011] Server  LOG      ✓ Compiled in 91ms
-[00:23:38.021] Server  LOG      ✓ Compiled in 81ms
-[00:23:51.413] Server  LOG      ✓ Compiled in 109ms
-[00:23:56.113] Server  LOG      ✓ Compiled in 113ms
-[00:24:10.919] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:24:11.116] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/chronocare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/chronocare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347420307}
-[00:25:28.222] Server  LOG      ✓ Compiled in 156ms
-[00:25:31.278] Server  LOG      ✓ Compiled in 89ms
-[00:25:33.825] Server  LOG      ✓ Compiled in 82ms
-[00:25:36.173] Server  LOG      ✓ Compiled in 77ms
-[00:25:40.500] Server  LOG      ✓ Compiled in 95ms
-[00:26:29.876] Server  LOG      ✓ Compiled in 68ms
-[00:27:03.812] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:27:04.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347593261}
-[00:28:03.535] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:28:03.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:04.130] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:28:04.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#services color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#services","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767347653546}
-[00:28:10.662] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:28:15.662] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
-Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:28:22.273] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446 copy.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:21.405] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.405] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.405] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767707690736}
+[00:00:22.348] Browser WARN    Image with src "/images/dr.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:31:18.380] Server  LOG      ✓ Compiled in 287ms
-[00:31:27.825] Server  LOG      ✓ Compiled in 82ms
-[00:31:30.469] Server  LOG      ✓ Compiled in 82ms
-[00:31:32.814] Server  LOG      ✓ Compiled in 78ms
-[00:32:13.437] Server  LOG      ✓ Compiled in 212ms
+[00:00:24.590] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.353] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:31.354] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:01:23.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:24.509] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:01:24.852] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:24.963] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:24.963] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:24.963] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767707754296}
+[00:01:31.533] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:01:36.528] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:01:47.293] Server  LOG      ✓ Compiled in 915ms
+[00:02:34.191] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:39.223] Browser WARN    Image with src "/images/team-work-home-care-49-1024x682.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:39.506] Browser WARN    Image with src "/images/c02fcf_3951dd06c1b0442199694ebc3ed4aeaa~mv2.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:40.281] Browser WARN    Image with src "/images/Untitled-design-2025-02-10T151819.219.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:41.843] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446 copy.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:42.009] Browser WARN    Image with src "/images/image-6.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.124] Server  LOG      ✓ Compiled in 169ms
+[00:03:04.098] Server  LOG      ✓ Compiled in 159ms
+[00:03:17.041] Server  LOG      ✓ Compiled in 103ms
+[00:04:03.385] Server  LOG      ✓ Compiled in 102ms
+[00:08:52.538] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:08:52.983] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.191] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:08:53.350] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:53.350] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:53.350] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1767708202683}
+[00:09:06.930] Browser WARN    Image with src "/images/african-american-female-doctor-giving-video-call-consultation-looking-camera-13339-320446.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:09:11.929] Browser WARN    Image with src "/images/chrono-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities

@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__79652bd2._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_6dbb5981._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_7304f1c3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f432c221._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__60ce9a7d._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_ca5e8ea3._.js")
+R.c("server/chunks/ssr/medrelief_com__next-internal_server_app__global-error_page_actions_c4272436.js")
+R.m(78799)
+module.exports=R.m(78799).exports

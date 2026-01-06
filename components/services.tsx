@@ -81,9 +81,11 @@ export default function Services() {
                     <div className="relative w-full h-56 overflow-hidden bg-gray-100">
                       <Image
                         src={service.image}
-                        alt={service.title}
+                        alt={`${service.title} - ${service.targetPopulation} healthcare service`}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        loading="lazy"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-gray-900/20 to-transparent" />
                       

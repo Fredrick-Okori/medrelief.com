@@ -32,7 +32,7 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-600 rounded-full" aria-hidden="true"></div>
                 <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
                   About MedRelief
                 </span>
@@ -74,7 +74,7 @@ export default function About() {
                 convenient, and cost-effective services backed by 24/7 availability.
               </p>
               <p className="font-medium text-gray-700">
-                At MedRelief, we're committed to walking alongside you on your health journey, ensuring you receive the
+                At MedRelief, we&apos;re committed to walking alongside you on your health journey, ensuring you receive the
                 care and support you deserve.
               </p>
             </motion.div>
@@ -121,10 +121,11 @@ export default function About() {
               >
                 <Image
                   src="/images/Untitled-design-2025-02-10T155200.358.webp"
-                  alt="MedRelief healthcare team - professional African medical staff members"
+                  alt="MedRelief healthcare team - professional African medical staff members working together to provide compassionate care"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent" />
               </motion.div>
@@ -140,7 +141,7 @@ export default function About() {
             >
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center">
-                  <Heart className="w-8 h-8 text-white" />
+                  <Heart className="w-8 h-8 text-white" aria-hidden="true" />
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-gray-900">100%</p>
@@ -173,7 +174,7 @@ export default function About() {
               >
                 <div className="flex flex-col items-center text-center space-y-3">
                   <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center">
-                    <Icon className="w-6 h-6 text-blue-600" />
+                    <Icon className="w-6 h-6 text-blue-600" aria-hidden="true" />
                   </div>
                   <div>
                     <p className="text-3xl font-bold text-blue-600">{stat.value}</p>
@@ -196,21 +197,21 @@ export default function About() {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h3 className="text-2xl md:text-3xl font-bold">Our Commitment to You</h3>
             <p className="text-lg text-blue-100 leading-relaxed">
-              We understand that healthcare is more than just medical treatment - it's about dignity, and
+              We understand that healthcare is more than just medical treatment - it&apos;s about dignity, and
               personalized care. Every member of our team is dedicated to providing you and your loved ones with the
               highest quality healthcare services in the comfort of your own environment.
             </p>
             <div className="flex flex-wrap justify-center gap-4 pt-4">
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-400 rounded-full" aria-hidden="true"></div>
                 <span className="text-sm text-blue-100">Licensed Professionals</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-400 rounded-full" aria-hidden="true"></div>
                 <span className="text-sm text-blue-100">Personalized Care Plans</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-400 rounded-full" aria-hidden="true"></div>
                 <span className="text-sm text-blue-100">Compassionate Support</span>
               </div>
             </div>
@@ -220,3 +221,4 @@ export default function About() {
     </section>
   )
 }
+

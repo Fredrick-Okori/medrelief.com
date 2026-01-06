@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4fc615ab._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_6dbb5981._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_esm_build_templates_app-page_73a6b5fc.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f432c221._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__60ce9a7d._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_ca5e8ea3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__45a52670._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_client_components_b101416e._.js")
+R.c("server/chunks/ssr/1f09b_next_dist_client_components_builtin_forbidden_6854f366.js")
+R.c("server/chunks/ssr/medrelief_com__next-internal_server_app__not-found_page_actions_fba7ac85.js")
+R.m(99365)
+module.exports=R.m(99365).exports

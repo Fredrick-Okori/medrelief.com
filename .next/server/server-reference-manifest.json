@@ -1,0 +1,21 @@
+{
+  "node": {
+    "40dea183b45b80ff353db2bbe07ecf6d7b3c2ca7e8": {
+      "workers": {
+        "app/page": {
+          "moduleId": 98846,
+          "async": false,
+          "exportedName": "sendContactEmail",
+          "filename": "medrelief.com/app/actions/send-email.tsx"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "medrelief.com/app/actions/send-email.tsx",
+      "exportedName": "sendContactEmail"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "k+kR7/IfJLT7hOjc/W8FRCE4DQ18J4R4nNZwRVHlVAc="
+}

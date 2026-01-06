@@ -44,22 +44,110 @@ export default function ServiceDetail() {
 
   const Icon = service.icon
 
+  // Structured Data for SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "MedicalService",
+    "name": service.title,
+    "description": service.description,
+    "provider": {
+      "@type": "Organization",
+      "name": "MedRelief",
+      "url": "https://medrelief.com",
+      "telephone": "+256784040350",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kampala",
+        "addressCountry": "UG"
+      }
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": service.targetPopulation
+    },
+    "availableLanguage": "English",
+    "serviceType": service.title,
+    "url": `https://medrelief.com/services/${service.id}`,
+    "image": `https://medrelief.com${service.image}`,
+    "benefit": service.benefits,
+    "process": service.process.map((step, index) => ({
+      "@type": "Thing",
+      "name": `Step ${index + 1}`,
+      "description": step
+    }))
+  }
+
   return (
     <>
       <Header />
       <main className="min-h-screen bg-white">
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://medrelief.com"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Services",
+                  "item": "https://medrelief.com/#services"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": service.title,
+                  "item": `https://medrelief.com/services/${service.id}`
+                }
+              ]
+            })
+          }}
+        />
+
         {/* Hero Section */}
         <div className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white">
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]" />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
             {/* Back button */}
-            <Link 
-              href="/#services" 
-              className="inline-flex items-center text-white/80 hover:text-white mb-8 transition-colors group"
-            >
-              <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
-              Back to services
-            </Link>
+            <nav aria-label="Breadcrumb" className="mb-8">
+              <ol className="flex items-center gap-2 text-sm">
+                <li>
+                  <Link 
+                    href="/" 
+                    className="text-white/80 hover:text-white transition-colors"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li className="text-white/40">/</li>
+                <li>
+                  <Link 
+                    href="/#services" 
+                    className="text-white/80 hover:text-white transition-colors"
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li className="text-white/40">/</li>
+                <li className="text-white" aria-current="page">
+                  {service.title}
+                </li>
+              </ol>
+            </nav>
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Content */}
@@ -70,7 +158,7 @@ export default function ServiceDetail() {
                 transition={{ duration: 0.6 }}
               >
                 <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-                  <Icon className="w-5 h-5 text-blue-300" />
+                  <Icon className="w-5 h-5 text-blue-300" aria-hidden="true" />
                   <span className="text-sm font-medium text-blue-100">{service.targetPopulation}</span>
                 </div>
 
@@ -88,8 +176,9 @@ export default function ServiceDetail() {
                     className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
+                    aria-label="Book via WhatsApp"
                   >
-                    <MessageCircle className="w-5 h-5" />
+                    <MessageCircle className="w-5 h-5" aria-hidden="true" />
                     Book via WhatsApp
                   </motion.button>
                   <motion.button
@@ -97,8 +186,9 @@ export default function ServiceDetail() {
                     className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border border-white/20"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
+                    aria-label="Call now"
                   >
-                    <Phone className="w-5 h-5" />
+                    <Phone className="w-5 h-5" aria-hidden="true" />
                     Call Now
                   </motion.button>
                 </div>
@@ -136,7 +226,7 @@ export default function ServiceDetail() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 rounded-full mb-6">
-              <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+              <div className="w-2 h-2 bg-blue-600 rounded-full" aria-hidden="true"></div>
               <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
                 Service Overview
               </span>
@@ -169,7 +259,7 @@ export default function ServiceDetail() {
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: index * 0.1 }}
                     >
-                      <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0" aria-hidden="true">
                         <Check className="w-6 h-6 text-blue-600" />
                       </div>
                       <p className="text-gray-700 pt-1.5 leading-relaxed">{benefit}</p>
@@ -199,7 +289,7 @@ export default function ServiceDetail() {
                   >
                     {/* Connecting line */}
                     {index < service.process.length - 1 && (
-                      <div className="absolute left-5 top-12 w-0.5 h-full bg-gradient-to-b from-blue-600 to-blue-200" />
+                      <div className="absolute left-5 top-12 w-0.5 h-full bg-gradient-to-b from-blue-600 to-blue-200" aria-hidden="true" />
                     )}
                     
                     <div className="relative w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold shadow-lg z-10">
@@ -237,7 +327,7 @@ export default function ServiceDetail() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4" aria-hidden="true">
                     <ItemIcon className="w-7 h-7 text-white" />
                   </div>
                   <p className="text-sm font-semibold text-gray-600 mb-1">{item.label}</p>
@@ -268,8 +358,9 @@ export default function ServiceDetail() {
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border-2 border-white/20"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
+                  aria-label="Contact via WhatsApp"
                 >
-                  <Phone className="w-5 h-5" />
+                  <Phone className="w-5 h-5" aria-hidden="true" />
                   Whatsapp: +256 784 040 350
                 </motion.button>
               </div>

@@ -38,7 +38,7 @@ export const SERVICES: Service[] = [
       "Ongoing monitoring and care adjustments",
       "Regular family check-ins and progress updates",
     ],
-    image: "/images/Untitled-design-2025-02-10T151819.219.webp",
+    image: "/images/istockphoto-1392128457-612x612.jpg",
   },
   {
     id: "gericare",
@@ -164,6 +164,6 @@ export const SERVICES: Service[] = [
       "Progress monitoring and adjustments",
       "Ongoing telehealth support",
     ],
-    image: "/images/image-6.webp",
+    image: "/images/Haiti-MO_0.jpg",
   },
 ]

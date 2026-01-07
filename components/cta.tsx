@@ -30,18 +30,19 @@ export default function CTA() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left: Image */}
           <motion.div
-            className="relative h-80 md:h-96 rounded-3xl overflow-hidden hidden md:block shadow-2xl"
+            className="relative h-200 md:h-206 rounded-3xl overflow-hidden hidden md:block shadow-2xl"
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
             <Image
-              src="/images/dr.jpg"
+              src="/images/istockphoto-1392128457-612x612.jpg"
               alt="Dr. Namukwaya Josephine - Professional healthcare provider"
-              fill
+              width={600}
+              height={900}
               className="object-cover object-top"
-              sizes="(max-width: 768px) 100vw, 50vw"
+             
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/40 via-transparent to-transparent" />
           </motion.div>

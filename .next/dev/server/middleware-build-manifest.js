@@ -3,22 +3,9 @@ globalThis.__BUILD_MANIFEST = {
     "/_app": []
   },
   "devFiles": [],
-  "polyfillFiles": [
-    "static/chunks/1f09b_next_dist_build_polyfills_polyfill-nomodule.js"
-  ],
+  "polyfillFiles": [],
   "lowPriorityFiles": [],
-  "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_f1efd8cf._.js",
-    "static/chunks/1f09b_next_dist_compiled_react-dom_e42d4094._.js",
-    "static/chunks/1f09b_next_dist_compiled_react-server-dom-turbopack_08ea6328._.js",
-    "static/chunks/1f09b_next_dist_compiled_next-devtools_index_e3b8a4df.js",
-    "static/chunks/1f09b_next_dist_compiled_dbf9947c._.js",
-    "static/chunks/1f09b_next_dist_client_035f7b52._.js",
-    "static/chunks/1f09b_next_dist_6e6bcc1d._.js",
-    "static/chunks/1f09b_@swc_helpers_cjs_577fc19a._.js",
-    "static/chunks/medrelief_com_a0ff3932._.js",
-    "static/chunks/turbopack-medrelief_com_cfdc92fe._.js"
-  ]
+  "rootMainFiles": []
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
 "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",

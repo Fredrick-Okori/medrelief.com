@@ -1,5 +1,21 @@
 {
-  "node": {},
+  "node": {
+    "4074015bb89940c92eccc9681f699ff7ffcd7f4705": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/Desktop/MedRelief/medrelief.com/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitContact",
+          "filename": "Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx",
+      "exportedName": "submitContact"
+    }
+  },
   "edge": {},
   "encryptionKey": "LbnOb0tivVw2Vad8fDfJXnNHHsC0QimWkxOHQapwSmI="
 }

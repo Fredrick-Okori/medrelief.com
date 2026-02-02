@@ -300,8 +300,8 @@
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/graphics/medrelief.com",
-  "relativeAppDir": "medrelief.com",
+  "appDir": "/Users/graphics/Desktop/MedRelief/medrelief.com",
+  "relativeAppDir": "Desktop/MedRelief/medrelief.com",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

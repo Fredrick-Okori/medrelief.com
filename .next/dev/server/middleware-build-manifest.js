@@ -1,11 +1,49 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/2abf8_next_dist_compiled_be442b19._.js",
+      "static/chunks/2abf8_next_dist_shared_lib_eb81da1f._.js",
+      "static/chunks/2abf8_next_dist_client_ae530bbf._.js",
+      "static/chunks/2abf8_next_dist_b7b51911._.js",
+      "static/chunks/2abf8_next_app_7a3e08ab.js",
+      "static/chunks/[next]_entry_page-loader_ts_5faab6d8._.js",
+      "static/chunks/2abf8_react-dom_dce849c5._.js",
+      "static/chunks/2abf8_4afb761e._.js",
+      "static/chunks/[root-of-the-server]__86fc1eaa._.js",
+      "static/chunks/Desktop_MedRelief_medrelief_com_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_MedRelief_medrelief_com_pages__app_60e02f76._.js"
+    ],
+    "/_error": [
+      "static/chunks/2abf8_next_dist_compiled_be442b19._.js",
+      "static/chunks/2abf8_next_dist_shared_lib_5c762881._.js",
+      "static/chunks/2abf8_next_dist_client_ae530bbf._.js",
+      "static/chunks/2abf8_next_dist_13720a64._.js",
+      "static/chunks/2abf8_next_error_17146283.js",
+      "static/chunks/[next]_entry_page-loader_ts_032817b4._.js",
+      "static/chunks/2abf8_react-dom_dce849c5._.js",
+      "static/chunks/2abf8_4afb761e._.js",
+      "static/chunks/[root-of-the-server]__d6df19b9._.js",
+      "static/chunks/Desktop_MedRelief_medrelief_com_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_MedRelief_medrelief_com_pages__error_3255c8fd._.js"
+    ]
   },
   "devFiles": [],
-  "polyfillFiles": [],
+  "polyfillFiles": [
+    "static/chunks/2abf8_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
   "lowPriorityFiles": [],
-  "rootMainFiles": []
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0decb653._.js",
+    "static/chunks/2abf8_next_dist_compiled_react-dom_79584549._.js",
+    "static/chunks/2abf8_next_dist_compiled_react-server-dom-turbopack_bf35ad1c._.js",
+    "static/chunks/2abf8_next_dist_compiled_next-devtools_index_7589c911.js",
+    "static/chunks/2abf8_next_dist_compiled_174f9993._.js",
+    "static/chunks/2abf8_next_dist_client_626ea8d7._.js",
+    "static/chunks/2abf8_next_dist_7559c1a6._.js",
+    "static/chunks/2abf8_@swc_helpers_cjs_a620dc07._.js",
+    "static/chunks/Desktop_MedRelief_medrelief_com_a0ff3932._.js",
+    "static/chunks/turbopack-Desktop_MedRelief_medrelief_com_d99debfa._.js"
+  ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
 "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",

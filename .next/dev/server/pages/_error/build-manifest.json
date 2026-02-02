@@ -6,17 +6,17 @@
   "rootMainFiles": [],
   "pages": {
     "/_error": [
-      "static/chunks/47d66_next_dist_compiled_13b84246._.js",
-      "static/chunks/47d66_next_dist_shared_lib_081f98a3._.js",
-      "static/chunks/47d66_next_dist_client_656b754c._.js",
-      "static/chunks/47d66_next_dist_d1973afe._.js",
-      "static/chunks/47d66_next_error_05cc4808.js",
-      "static/chunks/[next]_entry_page-loader_ts_72fc5fcb._.js",
-      "static/chunks/47d66_react-dom_dffca993._.js",
-      "static/chunks/47d66_4bf1836d._.js",
-      "static/chunks/[root-of-the-server]__f8f917fb._.js",
-      "static/chunks/Downloads_medrelief_com_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-Downloads_medrelief_com_pages__error_e784da5d._.js"
+      "static/chunks/2abf8_next_dist_compiled_be442b19._.js",
+      "static/chunks/2abf8_next_dist_shared_lib_5c762881._.js",
+      "static/chunks/2abf8_next_dist_client_ae530bbf._.js",
+      "static/chunks/2abf8_next_dist_13720a64._.js",
+      "static/chunks/2abf8_next_error_17146283.js",
+      "static/chunks/[next]_entry_page-loader_ts_032817b4._.js",
+      "static/chunks/2abf8_react-dom_dce849c5._.js",
+      "static/chunks/2abf8_4afb761e._.js",
+      "static/chunks/[root-of-the-server]__d6df19b9._.js",
+      "static/chunks/Desktop_MedRelief_medrelief_com_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Desktop_MedRelief_medrelief_com_pages__error_3255c8fd._.js"
     ]
   },
   "ampFirstPages": []

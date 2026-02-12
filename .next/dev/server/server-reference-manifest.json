@@ -1,18 +1,18 @@
 {
   "node": {
-    "4074015bb89940c92eccc9681f699ff7ffcd7f4705": {
+    "407e2ff10c2e48ad47421835d83f740abfe1bf7d35": {
       "workers": {
         "app/page": {
-          "moduleId": "[project]/Desktop/MedRelief/medrelief.com/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/submit-contact.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
           "exportedName": "submitContact",
-          "filename": "Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx"
+          "filename": "app/actions/submit-contact.tsx"
         }
       },
       "layer": {
         "app/page": "action-browser"
       },
-      "filename": "Desktop/MedRelief/medrelief.com/app/actions/submit-contact.tsx",
+      "filename": "app/actions/submit-contact.tsx",
       "exportedName": "submitContact"
     }
   },

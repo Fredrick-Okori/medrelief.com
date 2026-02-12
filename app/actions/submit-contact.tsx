@@ -1,7 +1,8 @@
 "use server"
 
 import { Resend } from "resend"
-import { createClient } from "@/lib/supabase/server"
+import { createClient as createServerClient } from "@/lib/supabase/server"
+import { createClient } from "@supabase/supabase-js"
 import { z } from "zod"
 
 // Validation schema for appointment booking
@@ -66,7 +67,11 @@ export async function submitContact(
   }
 
   try {
-    const supabase = await createClient()
+    // Use service role client to bypass RLS policies for server-side operations
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.SUPABASE_SERVICE_ROLE_KEY!
+    )
 
     // Upload medical report if provided
     const medicalReportFile = rawData.medicalReport

@@ -2,20 +2,20 @@
   "devFiles": [],
   "ampDevFiles": [],
   "polyfillFiles": [
-    "static/chunks/2abf8_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0decb653._.js",
-    "static/chunks/2abf8_next_dist_compiled_react-dom_79584549._.js",
-    "static/chunks/2abf8_next_dist_compiled_react-server-dom-turbopack_bf35ad1c._.js",
-    "static/chunks/2abf8_next_dist_compiled_next-devtools_index_7589c911.js",
-    "static/chunks/2abf8_next_dist_compiled_174f9993._.js",
-    "static/chunks/2abf8_next_dist_client_626ea8d7._.js",
-    "static/chunks/2abf8_next_dist_7559c1a6._.js",
-    "static/chunks/2abf8_@swc_helpers_cjs_a620dc07._.js",
-    "static/chunks/Desktop_MedRelief_medrelief_com_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_MedRelief_medrelief_com_d99debfa._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_bae88007._.js",
+    "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
+    "static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_9212ccad._.js",
+    "static/chunks/node_modules_next_dist_compiled_next-devtools_index_1dd7fb59.js",
+    "static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js",
+    "static/chunks/node_modules_next_dist_client_aaee43fe._.js",
+    "static/chunks/node_modules_next_dist_7a8122d0._.js",
+    "static/chunks/node_modules_@swc_helpers_cjs_d80fb378._.js",
+    "static/chunks/_a0ff3932._.js",
+    "static/chunks/turbopack-_45210fd5._.js"
   ],
   "pages": {},
   "ampFirstPages": []

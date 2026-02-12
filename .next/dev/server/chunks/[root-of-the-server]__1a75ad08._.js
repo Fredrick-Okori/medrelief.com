@@ -1,0 +1,300 @@
+module.exports = [
+"[externals]/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-route-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-route-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-route-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/@opentelemetry/api", () => require("next/dist/compiled/@opentelemetry/api"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[externals]/node:crypto [external] (node:crypto, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("node:crypto", () => require("node:crypto"));
+
+module.exports = mod;
+}),
+"[project]/app/actions/submit-contact.tsx [app-route] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/* __next_internal_action_entry_do_not_use__ [{"407e2ff10c2e48ad47421835d83f740abfe1bf7d35":"submitContact"},"",""] */ __turbopack_context__.s([
+    "submitContact",
+    ()=>submitContact
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/server-reference.js [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/resend/dist/index.mjs [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@supabase/supabase-js/dist/index.mjs [app-route] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__ = __turbopack_context__.i("[project]/node_modules/zod/v3/external.js [app-route] (ecmascript) <export * as z>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/build/webpack/loaders/next-flight-loader/action-validate.js [app-route] (ecmascript)");
+;
+;
+;
+;
+// Validation schema for appointment booking
+const appointmentSchema = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].object({
+    firstName: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "First name is required"),
+    lastName: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "Last name is required"),
+    email: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().email("Invalid email address"),
+    phone: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "Phone number is required"),
+    service: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "Please select a service"),
+    preferredDate: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "Preferred date is required"),
+    preferredTime: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(1, "Preferred time is required"),
+    message: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__z$3e$__["z"].string().min(10, "Please provide additional details (at least 10 characters)")
+});
+const resend = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Resend"](process.env.RESEND_API_KEY);
+async function submitContact(formData) {
+    // Extract data from FormData
+    const rawData = {
+        firstName: formData.get("firstName"),
+        lastName: formData.get("lastName"),
+        email: formData.get("email"),
+        phone: formData.get("phone"),
+        service: formData.get("service"),
+        preferredDate: formData.get("preferredDate"),
+        preferredTime: formData.get("preferredTime"),
+        message: formData.get("message"),
+        medicalReport: formData.get("medicalReport")
+    };
+    // Validate the data
+    const validationResult = appointmentSchema.safeParse(rawData);
+    if (!validationResult.success) {
+        const errors = {};
+        validationResult.error.errors.forEach((error)=>{
+            errors[error.path[0]] = error.message;
+        });
+        return {
+            success: false,
+            message: "Please fix the errors below",
+            errors
+        };
+    }
+    const data = validationResult.data;
+    let medicalReportUrl = null;
+    // Map time slots to readable format
+    const timeSlotMap = {
+        morning: "Morning (8AM - 12PM)",
+        afternoon: "Afternoon (12PM - 4PM)",
+        evening: "Evening (4PM - 6PM)"
+    };
+    try {
+        // Use service role client to bypass RLS policies for server-side operations
+        const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])(("TURBOPACK compile-time value", "https://qukbllfpjuanmkcrztkz.supabase.co"), process.env.SUPABASE_SERVICE_ROLE_KEY);
+        // Upload medical report if provided
+        const medicalReportFile = rawData.medicalReport;
+        if (medicalReportFile && medicalReportFile.size > 0) {
+            const fileName = `${Date.now()}-${medicalReportFile.name.replace(/[^a-zA-Z0-9.-]/g, "")}`;
+            // Convert File to ArrayBuffer
+            const arrayBuffer = await medicalReportFile.arrayBuffer();
+            const uint8Array = new Uint8Array(arrayBuffer);
+            const { error: uploadError } = await supabase.storage.from("medical-reports").upload(`patients/${fileName}`, uint8Array, {
+                contentType: medicalReportFile.type
+            });
+            if (uploadError) {
+                console.error("[Supabase] Upload error:", uploadError);
+                return {
+                    success: false,
+                    message: "Failed to upload medical report. Please try again."
+                };
+            }
+            // Get public URL
+            const { data: urlData } = supabase.storage.from("medical-reports").getPublicUrl(`patients/${fileName}`);
+            medicalReportUrl = urlData.publicUrl;
+        }
+        // Insert appointment booking into database
+        const { error: dbError } = await supabase.from("patients").insert({
+            first_name: data.firstName,
+            last_name: data.lastName,
+            email: data.email,
+            phone: data.phone,
+            service: data.service,
+            message: `${data.message}\n\n📅 Preferred Date: ${data.preferredDate}\n🕐 Preferred Time: ${timeSlotMap[data.preferredTime] || data.preferredTime}`,
+            medical_report_url: medicalReportUrl,
+            status: "new"
+        });
+        if (dbError) {
+            console.error("[Supabase] Database error:", dbError);
+            return {
+                success: false,
+                message: "Failed to book your appointment. Please try again."
+            };
+        }
+        // Send email notification via Resend
+        const serviceNames = {
+            "home-care": "🏠 Pedicare – Complex Children",
+            "geriatric": "👴 GeriCare – Elderly Homecare",
+            "travel": "✈️ Travelshield Medicare",
+            "physical-therapy": "💪 Home-based PhysioTherapy",
+            "chrono-care": "🗓️ Chrono-care Navigation",
+            "general-consultation": "👨‍⚕️ General TeleConsultation"
+        };
+        const emailResult = await resend.emails.send({
+            from: "noreply@resend.dev",
+            to: "fred.okori@gmail.com",
+            replyTo: data.email,
+            subject: `📅 New Appointment: ${data.firstName} ${data.lastName} - ${serviceNames[data.service] || data.service}`,
+            html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <div style="background: linear-gradient(135deg, #080cc0 0%, #0a1628 100%); padding: 30px; border-radius: 8px 8px 0 0;">
+            <h1 style="color: white; margin: 0; font-size: 24px;">📅 New Appointment Request</h1>
+            <p style="color: rgba(255,255,255,0.8); margin: 10px 0 0 0;">MedRelief Healthcare Services</p>
+          </div>
+          
+          <div style="background-color: #f5f5f5; padding: 30px; border-radius: 0 0 8px 8px;">
+            <div style="background-color: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <h2 style="color: #080cc0; margin-top: 0; margin-bottom: 20px; font-size: 18px;">Patient Information</h2>
+              
+              <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333; width: 140px;">Name:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333; font-weight: 500;">${data.firstName} ${data.lastName}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Email:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333;"><a href="mailto:${data.email}" style="color: #080cc0;">${data.email}</a></td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Phone:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333;">${data.phone}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Service:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333;">${serviceNames[data.service] || data.service}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Preferred Date:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333;"><strong>${new Date(data.preferredDate).toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            })}</strong></td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Preferred Time:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; color: #333;">${timeSlotMap[data.preferredTime] || data.preferredTime}</td>
+                </tr>
+                ${medicalReportUrl ? `
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 600; color: #333;">Medical Report:</td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #eee;"><a href="${medicalReportUrl}" style="color: #080cc0; text-decoration: underline;">View Attached Report</a></td>
+                </tr>
+                ` : ""}
+              </table>
+            </div>
+            
+            <div style="background-color: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <h2 style="color: #080cc0; margin-top: 0; margin-bottom: 20px; font-size: 18px;">Additional Notes</h2>
+              <div style="background-color: #f9f9f9; padding: 20px; border-radius: 6px; border-left: 4px solid #080cc0; line-height: 1.7; color: #333;">
+                ${data.message.replace(/\n/g, "<br>")}
+              </div>
+            </div>
+            
+            <div style="margin-top: 20px; display: flex; gap: 10px; justify-content: center;">
+              <a href="https://supabase.com/dashboard/project/your-project-id/table/patients" style="display: inline-block; padding: 12px 24px; background-color: #080cc0; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">View in Dashboard</a>
+            </div>
+            
+            <p style="color: #999; font-size: 12px; text-align: center; margin-top: 30px;">
+              This is an automated appointment request from MedRelief website.<br>
+              Received at ${new Date().toLocaleString("en-US", {
+                dateStyle: "full",
+                timeStyle: "long"
+            })}
+            </p>
+          </div>
+        </div>
+      `
+        });
+        if (emailResult.error) {
+            console.error("[Resend] Email error:", emailResult.error);
+        // Don't fail the submission if email fails - data is saved in DB
+        }
+        return {
+            success: true,
+            message: "Appointment booked successfully! We'll confirm your appointment shortly."
+        };
+    } catch (error) {
+        console.error("[Appointment] Unexpected error:", error);
+        return {
+            success: false,
+            message: "An unexpected error occurred. Please try again later."
+        };
+    }
+}
+;
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
+    submitContact
+]);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["registerServerReference"])(submitContact, "407e2ff10c2e48ad47421835d83f740abfe1bf7d35", null);
+}),
+"[externals]/next/dist/server/app-render/after-task-async-storage.external.js [external] (next/dist/server/app-render/after-task-async-storage.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/server/app-render/after-task-async-storage.external.js", () => require("next/dist/server/app-render/after-task-async-storage.external.js"));
+
+module.exports = mod;
+}),
+"[project]/app/api/test-action/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "POST",
+    ()=>POST
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$actions$2f$submit$2d$contact$2e$tsx__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/actions/submit-contact.tsx [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/server.js [app-route] (ecmascript)");
+;
+;
+async function POST() {
+    try {
+        // Create a FormData object to test the server action
+        const formData = new FormData();
+        formData.append("firstName", "Action");
+        formData.append("lastName", "Test");
+        formData.append("email", "action@test.com");
+        formData.append("phone", "+256700000002");
+        formData.append("service", "chrono-care");
+        formData.append("preferredDate", "2025-01-28");
+        formData.append("preferredTime", "morning");
+        formData.append("message", "Testing server action directly");
+        const result = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$actions$2f$submit$2d$contact$2e$tsx__$5b$app$2d$route$5d$__$28$ecmascript$29$__["submitContact"])(formData);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(result);
+    } catch (err) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: err.message,
+            stack: err.stack
+        }, {
+            status: 500
+        });
+    }
+}
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__1a75ad08._.js.map

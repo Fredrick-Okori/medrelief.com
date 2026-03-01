@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Mail, Lock, Eye, EyeOff, Shield, AlertCircle, CheckCircle2 } from "lucide-react"
 import { motion } from "framer-motion"
@@ -102,8 +102,9 @@ export default function AdminLogin() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
-      <div className="w-full max-w-md">
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
+        <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <motion.div
           className="text-center mb-8"
@@ -270,6 +271,7 @@ export default function AdminLogin() {
         </motion.p>
       </div>
     </div>
+    </Suspense>
   )
 }
 

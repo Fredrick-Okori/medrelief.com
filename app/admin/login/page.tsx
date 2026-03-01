@@ -1,7 +1,7 @@
 "use client"
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
+import { useEffect, useState } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Mail, Lock, Eye, EyeOff, Shield, AlertCircle, CheckCircle2 } from "lucide-react"
 import { motion } from "framer-motion"
 import { createClient } from "@/lib/supabase/client"
@@ -15,7 +15,34 @@ export default function AdminLogin() {
   const [success, setSuccess] = useState(false)
 
   const router = useRouter()
+  const searchParams = useSearchParams()
   const supabase = createClient()
+
+  const isAdminUser = (user: any) => {
+    return user?.app_metadata?.role === "admin" || user?.user_metadata?.role === "admin"
+  }
+
+  useEffect(() => {
+    const errorParam = searchParams.get("error")
+    if (errorParam === "unauthorized") {
+      setError("You do not have access to the admin dashboard.")
+    }
+
+    const checkSession = async () => {
+      const { data } = await supabase.auth.getSession()
+      if (data.session?.user && isAdminUser(data.session.user)) {
+        router.replace("/admin/dashboard")
+        return
+      }
+
+      if (data.session?.user && !isAdminUser(data.session.user)) {
+        await supabase.auth.signOut()
+        setError("You do not have access to the admin dashboard.")
+      }
+    }
+
+    checkSession()
+  }, [router, searchParams, supabase])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -34,10 +61,38 @@ export default function AdminLogin() {
       }
 
       if (data.user) {
+        if (!isAdminUser(data.user)) {
+          await supabase.auth.signOut()
+          setError("You do not have access to the admin dashboard.")
+          return
+        }
+
         setSuccess(true)
         setTimeout(() => {
           router.push("/admin/dashboard")
         }, 1500)
+      }
+    } catch (err) {
+      setError("An unexpected error occurred. Please try again.")
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const handleGoogleSignIn = async () => {
+    setLoading(true)
+    setError("")
+
+    try {
+      const { error: oauthError } = await supabase.auth.signInWithOAuth({
+        provider: "google",
+        options: {
+          redirectTo: `${window.location.origin}/admin/dashboard`,
+        },
+      })
+
+      if (oauthError) {
+        setError(oauthError.message)
       }
     } catch (err) {
       setError("An unexpected error occurred. Please try again.")
@@ -152,6 +207,48 @@ export default function AdminLogin() {
               ) : (
                 "Sign In"
               )}
+            </motion.button>
+
+            <div className="relative py-2">
+              <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                <div className="w-full border-t border-gray-200" />
+              </div>
+              <div className="relative flex justify-center text-xs uppercase">
+                <span className="bg-white px-2 text-gray-500">Or continue with</span>
+              </div>
+            </div>
+
+            <motion.button
+              type="button"
+              onClick={handleGoogleSignIn}
+              disabled={loading || success}
+              className="w-full py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              <svg
+                className="w-5 h-5"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M21.805 10.023h-9.82v3.955h5.712c-.247 1.286-1.452 3.77-5.712 3.77-3.44 0-6.247-2.846-6.247-6.355s2.807-6.355 6.247-6.355c1.96 0 3.272.83 4.026 1.552l2.743-2.63C17.09 2.296 14.763 1.2 11.985 1.2 6.887 1.2 2.76 5.34 2.76 11.393S6.887 21.587 11.985 21.587c6.93 0 8.637-4.857 8.637-7.373 0-.496-.057-.87-.817-4.19Z"
+                  fill="#4285F4"
+                />
+                <path
+                  d="M2.76 7.978 5.98 10.26C6.863 8.27 9.29 6.355 11.985 6.355c1.96 0 3.272.83 4.026 1.552l2.743-2.63C17.09 2.296 14.763 1.2 11.985 1.2 8.61 1.2 5.657 3.05 2.76 7.978Z"
+                  fill="#34A853"
+                />
+                <path
+                  d="M11.985 21.587c3.684 0 6.776-1.21 9.025-3.294l-3.485-2.676c-.932.648-2.186 1.09-5.54 1.09-4.24 0-7.06-2.85-8.23-6.676l-3.376 2.6C1.61 18.276 6.05 21.587 11.985 21.587Z"
+                  fill="#FBBC05"
+                />
+                <path
+                  d="M3.73 10.13a6.633 6.633 0 0 1 0-4.475L.354 3.11c-1.478 2.948-1.478 6.496 0 9.444l3.376-2.424Z"
+                  fill="#EA4335"
+                />
+              </svg>
+              Sign in with Google
             </motion.button>
           </form>
 

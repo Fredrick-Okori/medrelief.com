@@ -170,7 +170,7 @@ export default function Contact() {
   const today = new Date().toISOString().split('T')[0]
 
   return (
-    <section id="contact" className="w-full py-20 md:py-32 bg-white">
+    <section className="w-full py-20 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}

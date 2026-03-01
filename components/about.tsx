@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { Award, Heart, Clock, Users } from "lucide-react"
 
 export default function About() {
@@ -13,7 +14,7 @@ export default function About() {
   ]
 
   return (
-    <section id="about" className="w-full py-20 md:py-24 bg-gray-50">
+    <section className="w-full py-20 md:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
@@ -86,22 +87,24 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.6 }}
             >
-              <motion.a
-                href="#contact"
-                className="inline-flex items-center px-8 py-3.5 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition-colors shadow-md"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Learn More
-              </motion.a>
-              <motion.a
-                href="#services"
-                className="inline-flex items-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 rounded-md font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Our Services
-              </motion.a>
+              <Link href="/contact">
+                <motion.span
+                  className="inline-flex items-center px-8 py-3.5 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition-colors shadow-md"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Learn More
+                </motion.span>
+              </Link>
+              <Link href="/services">
+                <motion.span
+                  className="inline-flex items-center px-8 py-3.5 border-2 border-gray-300 text-gray-700 rounded-md font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Our Services
+                </motion.span>
+              </Link>
             </motion.div>
           </motion.div>
 

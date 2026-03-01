@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 
 const slides = [
   {
@@ -51,7 +52,7 @@ const quickActions = [
       </svg>
     ),
     label: "Request Home Visit",
-    href: "#contact"
+    href: "/contact"
   },
  
 ]
@@ -141,18 +142,18 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
-              <a
-                href="#contact"
+              <Link
+                href="/contact"
                 className="inline-block px-8 py-3.5 bg-white text-blue-900 rounded-md font-semibold hover:bg-blue-50 transition-colors duration-200 shadow-lg"
               >
                 Get Started
-              </a>
-              <a
-                href="#services"
+              </Link>
+              <Link
+                href="/services"
                 className="inline-block px-8 py-3.5 border-2 border-white text-white rounded-md font-semibold hover:bg-white/10 transition-colors duration-200"
               >
                 Explore Services
-              </a>
+              </Link>
             </div>
 
             <div className="mt-10 pt-6 border-t border-white/20">

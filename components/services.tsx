@@ -30,7 +30,7 @@ const cardVariants = {
 
 export default function Services() {
   return (
-    <section id="services" className="w-full py-20 md:py-24 bg-white">
+    <section className="w-full py-20 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -153,15 +153,16 @@ export default function Services() {
             <p className="text-gray-600">
               Need help choosing the right service?
             </p>
-            <motion.a
-              href="#contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition-colors shadow-md"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Contact Our Team
-              <ArrowRight className="w-4 h-4" />
-            </motion.a>
+            <Link href="/contact">
+              <motion.span
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition-colors shadow-md"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Contact Our Team
+                <ArrowRight className="w-4 h-4" />
+              </motion.span>
+            </Link>
           </div>
         </motion.div>
       </div>

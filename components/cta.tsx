@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function CTA() {
   return (
@@ -80,22 +81,24 @@ export default function CTA() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <motion.a
-                href="#contact"
-                className="inline-block px-8 py-4 bg-white text-primary rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Contact Us Now
-              </motion.a>
-              <motion.a
-                href="#services"
-                className="inline-block px-8 py-4 border-2 border-white/50 text-white rounded-lg font-semibold hover:border-white hover:bg-white/10 transition-all"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Explore Services
-              </motion.a>
+              <Link href="/contact">
+                <motion.span
+                  className="inline-block px-8 py-4 bg-white text-primary rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Contact Us Now
+                </motion.span>
+              </Link>
+              <Link href="/services">
+                <motion.span
+                  className="inline-block px-8 py-4 border-2 border-white/50 text-white rounded-lg font-semibold hover:border-white hover:bg-white/10 transition-all"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  Explore Services
+                </motion.span>
+              </Link>
             </motion.div>
 
             <motion.div

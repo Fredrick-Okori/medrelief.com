@@ -10,10 +10,10 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
-    { label: "Services", href: "#services" },
-    { label: "About", href: "#about" },
-    { label: "Why Us", href: "#why-us" },
-    { label: "Contact", href: "#contact" },
+    { label: "Services", href: "/services" },
+    { label: "About", href: "/about" },
+    { label: "Why Us", href: "/why-us" },
+    { label: "Contact", href: "/contact" },
   ]
 
   return (
@@ -47,36 +47,40 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item, index) => (
-              <motion.a
+              <Link
                 key={item.label}
                 href={item.href}
-                className="text-sm font-medium text-white/80 hover:text-white transition-colors relative"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 + 0.3 }}
-                whileHover={{ y: -2 }}
               >
-                {item.label}
                 <motion.span
-                  className="absolute -bottom-1 left-0 w-full h-0.5 bg-white origin-left"
-                  initial={{ scaleX: 0 }}
-                  whileHover={{ scaleX: 1 }}
-                  transition={{ duration: 0.3 }}
-                />
-              </motion.a>
+                  className="text-sm font-medium text-white/80 hover:text-white transition-colors relative block"
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 + 0.3 }}
+                  whileHover={{ y: -2 }}
+                >
+                  {item.label}
+                  <motion.span
+                    className="absolute -bottom-1 left-0 w-full h-0.5 bg-white origin-left"
+                    initial={{ scaleX: 0 }}
+                    whileHover={{ scaleX: 1 }}
+                    transition={{ duration: 0.3 }}
+                  />
+                </motion.span>
+              </Link>
             ))}
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <motion.a
-              href="#contact"
-              className="px-6 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              Contact Us
-            </motion.a>
+            <Link href="/contact">
+              <motion.span
+                className="px-6 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors inline-block"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.98 }}
+              >
+                Contact Us
+              </motion.span>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -101,28 +105,34 @@ export default function Header() {
               transition={{ duration: 0.3 }}
             >
               {navItems.map((item, index) => (
-                <motion.a
+                <Link
                   key={item.label}
                   href={item.href}
-                  className="block px-4 py-2 text-sm font-medium text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
                   onClick={() => setIsMenuOpen(false)}
+                >
+                  <motion.span
+                    className="block px-4 py-2 text-sm font-medium text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.1 }}
+                  >
+                    {item.label}
+                  </motion.span>
+                </Link>
+              ))}
+              <Link
+                href="/contact"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <motion.span
+                  className="block px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors mt-4"
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: index * 0.1 }}
+                  transition={{ delay: navItems.length * 0.1 }}
                 >
-                  {item.label}
-                </motion.a>
-              ))}
-              <motion.a
-                href="#contact"
-                className="block px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors mt-4"
-                onClick={() => setIsMenuOpen(false)}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: navItems.length * 0.1 }}
-              >
-                Contact Us
-              </motion.a>
+                  Contact Us
+                </motion.span>
+              </Link>
             </motion.nav>
           )}
         </AnimatePresence>

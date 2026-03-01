@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { CheckCircle2, Clock, Users, Heart, ArrowRight } from "lucide-react"
 
 const containerVariants = {
@@ -183,15 +184,16 @@ export default function HowItWorks() {
               Schedule your consultation today and experience personalized care.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <motion.a
-                href="#contact"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-900 rounded-lg font-semibold hover:bg-gray-50 transition-colors shadow-lg"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Get Started Today
-                <ArrowRight className="w-5 h-5" />
-              </motion.a>
+              <Link href="/contact">
+                <motion.span
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-white text-blue-900 rounded-lg font-semibold hover:bg-gray-50 transition-colors shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Get Started Today
+                  <ArrowRight className="w-5 h-5" />
+                </motion.span>
+              </Link>
               <motion.a
                 href="tel:+256784040350"
                 className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-colors"

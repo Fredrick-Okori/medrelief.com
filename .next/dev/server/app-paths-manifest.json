@@ -1,3 +1,9 @@
 {
+  "/admin/analytics/page": "app/admin/analytics/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/admin/notifications/page": "app/admin/notifications/page.js",
+  "/admin/patients/page": "app/admin/patients/page.js",
+  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js"
 }

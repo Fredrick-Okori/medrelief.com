@@ -3,12 +3,13 @@
 import { useEffect, useState } from "react"
 import { useRouter } from "next/navigation"
 import { 
-  Users, Calendar, Clock, FileText, LogOut, Search, 
+  Users, Calendar, Clock, FileText, Search, 
   Filter, Eye, CheckCircle, XCircle, Download, RefreshCw,
   ChevronLeft, ChevronRight, Heart, Shield, Plane, Activity, CalendarClock, Stethoscope
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { createClient } from "@/lib/supabase/client"
+import AdminLayout from "@/components/admin/admin-layout"
 
 interface Patient {
   id: string
@@ -117,11 +118,6 @@ export default function AdminDashboard() {
     }
   }
 
-  const handleLogout = async () => {
-    await supabase.auth.signOut()
-    router.push("/admin/login")
-  }
-
   const updateStatus = async (id: string, newStatus: string) => {
     try {
       const { error } = await supabase
@@ -176,32 +172,8 @@ export default function AdminDashboard() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <Calendar className="w-5 h-5 text-white" />
-              </div>
-              <div>
-                <h1 className="text-lg font-semibold text-gray-900">MedRelief Admin</h1>
-                <p className="text-xs text-gray-500">Appointment Dashboard</p>
-              </div>
-            </div>
-            <button
-              onClick={handleLogout}
-              className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
-            >
-              <LogOut className="w-4 h-4" />
-              <span className="text-sm">Sign Out</span>
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <AdminLayout title="Appointment Dashboard" subtitle="Manage your healthcare appointments">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           <motion.div
@@ -448,7 +420,7 @@ export default function AdminDashboard() {
             </>
           )}
         </div>
-      </main>
+      </div>
 
       {/* Patient Details Modal */}
       <AnimatePresence>
@@ -603,7 +575,7 @@ export default function AdminDashboard() {
           </>
         )}
       </AnimatePresence>
-    </div>
+    </AdminLayout>
   )
 }
 

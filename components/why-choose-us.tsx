@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
   ]
 
   return (
-    <section id="why-us" className="w-full py-20 md:py-32 bg-gradient-to-b from-white/5 to-white/10 backdrop-blur-sm border-t border-white/10">
+    <section className="w-full py-20 md:py-32 bg-gradient-to-b from-white/5 to-white/10 backdrop-blur-sm border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div

@@ -98,7 +98,9 @@ async function submitContact(formData) {
             email: data.email,
             phone: data.phone,
             service: data.service,
-            message: `${data.message}\n\n📅 Preferred Date: ${data.preferredDate}\n🕐 Preferred Time: ${timeSlotMap[data.preferredTime] || data.preferredTime}`,
+            preferred_date: data.preferredDate,
+            preferred_time: timeSlotMap[data.preferredTime] || data.preferredTime,
+            message: data.message,
             medical_report_url: medicalReportUrl,
             status: "new"
         });

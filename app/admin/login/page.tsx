@@ -6,7 +6,7 @@ import { Mail, Lock, Eye, EyeOff, Shield, AlertCircle, CheckCircle2 } from "luci
 import { motion } from "framer-motion"
 import { createClient } from "@/lib/supabase/client"
 
-export default function AdminLogin() {
+function LoginFormContent({ errorParam }: { errorParam: string | null }) {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [showPassword, setShowPassword] = useState(false)
@@ -15,7 +15,6 @@ export default function AdminLogin() {
   const [success, setSuccess] = useState(false)
 
   const router = useRouter()
-  const searchParams = useSearchParams()
   const supabase = createClient()
 
   const isAdminUser = (user: any) => {
@@ -23,7 +22,6 @@ export default function AdminLogin() {
   }
 
   useEffect(() => {
-    const errorParam = searchParams.get("error")
     if (errorParam === "unauthorized") {
       setError("You do not have access to the admin dashboard.")
     }
@@ -42,7 +40,7 @@ export default function AdminLogin() {
     }
 
     checkSession()
-  }, [router, searchParams, supabase])
+  }, [router, errorParam, supabase])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -102,9 +100,8 @@ export default function AdminLogin() {
   }
 
   return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
-        <div className="w-full max-w-md">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
+      <div className="w-full max-w-md">
         {/* Logo/Brand */}
         <motion.div
           className="text-center mb-8"
@@ -271,6 +268,37 @@ export default function AdminLogin() {
         </motion.p>
       </div>
     </div>
+  )
+}
+
+function LoginForm() {
+  const searchParams = useSearchParams()
+
+  return <LoginFormContent errorParam={searchParams.get("error")} />
+}
+
+export default function AdminLogin() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center p-4">
+          <div className="w-full max-w-md">
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-2xl mb-4">
+                <Shield className="w-8 h-8 text-white" />
+              </div>
+              <h1 className="text-2xl font-bold text-white">MedRelief Admin</h1>
+              <p className="text-blue-200 mt-2">Appointment Management System</p>
+            </div>
+            <div className="bg-white rounded-2xl shadow-2xl p-8 flex items-center justify-center">
+              <div className="w-8 h-8 border-4 border-blue-600/30 border-t-blue-600 rounded-full animate-spin" />
+              <span className="ml-3 text-gray-600">Loading...</span>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <LoginForm />
     </Suspense>
   )
 }

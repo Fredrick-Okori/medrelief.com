@@ -106,7 +106,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/graphics",
+    "outputFileTracingRoot": "/Users/apple17",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -296,12 +296,12 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/Users/graphics"
+      "root": "/Users/apple17"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/graphics/Desktop/MedRelief/medrelief.com",
-  "relativeAppDir": "Desktop/MedRelief/medrelief.com",
+  "appDir": "/Users/apple17/medrelief.com",
+  "relativeAppDir": "medrelief.com",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

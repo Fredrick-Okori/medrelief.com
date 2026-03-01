@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[60585,["/_next/static/chunks/5ef0cd9f80064c4b.js","/_next/static/chunks/18394112f68f48ca.js"],"ClientPageRoot"]
-3:I[1360,["/_next/static/chunks/5826ffe0e87a9c75.js","/_next/static/chunks/45ad09c63d0c79d8.js","/_next/static/chunks/9958b7062e100643.js","/_next/static/chunks/90f641b18f913df0.js"],"default"]
-6:I[92572,["/_next/static/chunks/5ef0cd9f80064c4b.js","/_next/static/chunks/18394112f68f48ca.js"],"OutletBoundary"]
+2:I[82841,["/_next/static/chunks/c8c9f47cb81556f8.js","/_next/static/chunks/4ed6c9c03010e224.js"],"ClientPageRoot"]
+3:I[47264,["/_next/static/chunks/548652067890b41c.js","/_next/static/chunks/9c6907b36f67e8eb.js","/_next/static/chunks/9fada063ae3ac46f.js","/_next/static/chunks/54982954c5e1d2ee.js"],"default"]
+6:I[47526,["/_next/static/chunks/c8c9f47cb81556f8.js","/_next/static/chunks/4ed6c9c03010e224.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"buildId":"vipLOu6dzaZ2TSTN4UQ9f","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/45ad09c63d0c79d8.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9958b7062e100643.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/90f641b18f913df0.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"m0S5p-0q193-_yXYKi_IK","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/9c6907b36f67e8eb.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9fada063ae3ac46f.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/54982954c5e1d2ee.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:{}
 8:null

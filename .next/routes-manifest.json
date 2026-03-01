@@ -49,6 +49,18 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/admin/analytics",
+      "regex": "^/admin/analytics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/analytics(?:/)?$"
+    },
+    {
       "page": "/admin/dashboard",
       "regex": "^/admin/dashboard(?:/)?$",
       "routeKeys": {},
@@ -61,16 +73,88 @@
       "namedRegex": "^/admin/login(?:/)?$"
     },
     {
+      "page": "/admin/notifications",
+      "regex": "^/admin/notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/notifications(?:/)?$"
+    },
+    {
+      "page": "/admin/patients",
+      "regex": "^/admin/patients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/patients(?:/)?$"
+    },
+    {
+      "page": "/admin/settings",
+      "regex": "^/admin/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin/settings(?:/)?$"
+    },
+    {
+      "page": "/api/test-action",
+      "regex": "^/api/test\\-action(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/test\\-action(?:/)?$"
+    },
+    {
+      "page": "/api/test-form-submit",
+      "regex": "^/api/test\\-form\\-submit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/test\\-form\\-submit(?:/)?$"
+    },
+    {
+      "page": "/api/test-insert",
+      "regex": "^/api/test\\-insert(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/test\\-insert(?:/)?$"
+    },
+    {
+      "page": "/api/test-service-role",
+      "regex": "^/api/test\\-service\\-role(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/test\\-service\\-role(?:/)?$"
+    },
+    {
+      "page": "/api/test-supabase",
+      "regex": "^/api/test\\-supabase(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/test\\-supabase(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
       "page": "/robots.txt",
       "regex": "^/robots\\.txt(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/robots\\.txt(?:/)?$"
     },
     {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
       "page": "/sitemap.xml",
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/why-us",
+      "regex": "^/why\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/why\\-us(?:/)?$"
     }
   ],
   "dataRoutes": [],

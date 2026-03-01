@@ -1,10 +1,24 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/admin/analytics/page": "app/admin/analytics/page.js",
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
   "/admin/login/page": "app/admin/login/page.js",
+  "/admin/notifications/page": "app/admin/notifications/page.js",
+  "/admin/patients/page": "app/admin/patients/page.js",
+  "/admin/settings/page": "app/admin/settings/page.js",
+  "/api/test-action/route": "app/api/test-action/route.js",
+  "/api/test-form-submit/route": "app/api/test-form-submit/route.js",
+  "/api/test-insert/route": "app/api/test-insert/route.js",
+  "/api/test-service-role/route": "app/api/test-service-role/route.js",
+  "/api/test-supabase/route": "app/api/test-supabase/route.js",
+  "/blog/page": "app/blog/page.js",
+  "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/services/[id]/page": "app/services/[id]/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/services/page": "app/services/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/why-us/page": "app/why-us/page.js"
 }

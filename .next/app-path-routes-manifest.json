@@ -1,10 +1,24 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/admin/analytics/page": "/admin/analytics",
   "/admin/dashboard/page": "/admin/dashboard",
   "/admin/login/page": "/admin/login",
+  "/admin/notifications/page": "/admin/notifications",
+  "/admin/patients/page": "/admin/patients",
+  "/admin/settings/page": "/admin/settings",
+  "/api/test-action/route": "/api/test-action",
+  "/api/test-form-submit/route": "/api/test-form-submit",
+  "/api/test-insert/route": "/api/test-insert",
+  "/api/test-service-role/route": "/api/test-service-role",
+  "/api/test-supabase/route": "/api/test-supabase",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
   "/page": "/",
   "/robots.txt/route": "/robots.txt",
   "/services/[id]/page": "/services/[id]",
-  "/sitemap.xml/route": "/sitemap.xml"
+  "/services/page": "/services",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/why-us/page": "/why-us"
 }

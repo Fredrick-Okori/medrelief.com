@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40a4e2912485aefe41d34baeec1fdd69254ed63cc2": {
+      "workers": {
+        "app/contact/page": {
+          "moduleId": 43021,
+          "async": false,
+          "exportedName": "submitContact",
+          "filename": "medrelief.com/app/actions/submit-contact.tsx"
+        }
+      },
+      "layer": {
+        "app/contact/page": "action-browser"
+      },
+      "exportedName": "submitContact",
+      "filename": "medrelief.com/app/actions/submit-contact.tsx"
+    }
+  },
+  "edge": {}
+}

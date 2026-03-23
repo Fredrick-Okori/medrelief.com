@@ -17,9 +17,6 @@ export async function POST(request: Request) {
     const preferredTime = formData.get("preferredTime") as string
     const message = formData.get("message") as string
     
-    // Log values for debugging
-    console.log("Form values:", { firstName, lastName, email, phone, service, preferredDate, preferredTime, message })
-    
     // Try to insert
     const { data, error } = await supabase
       .from("patients")
@@ -37,7 +34,6 @@ export async function POST(request: Request) {
       .select()
     
     if (error) {
-      console.error("Supabase error:", error)
       return NextResponse.json({
         success: false,
         error: error.message,
@@ -53,7 +49,6 @@ export async function POST(request: Request) {
       data: data
     })
   } catch (err: any) {
-    console.error("Catch error:", err)
     return NextResponse.json({
       success: false,
       error: err.message,

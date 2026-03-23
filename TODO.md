@@ -1,53 +1,25 @@
-# MedRelief Admin & Appointment System
+# Contact → Book → Ref → Payment → Success Flow Implementation
 
-## Files Created
+## Progress: 6/8 ✅
 
-### Supabase Configuration
-- `lib/supabase/client.ts` - Browser-side Supabase client
-- `lib/supabase/server.ts` - Server-side Supabase client
-- `supabase/schema.sql` - Database schema (patients + admin_users tables)
+### 1. [✅] Create TODO.md [COMPLETED]
 
-### Public Pages
-- `components/contact.tsx` - Appointment booking form
-- `app/actions/submit-contact.tsx` - Server action for submissions
+### 2. [✅] DB Migration [FILE UPDATED - run new ALTER SQLs in Supabase dashboard]
 
-### Admin Pages
-- `app/admin/login/page.tsx` - Admin authentication
-- `app/admin/dashboard/page.tsx` - Appointment management dashboard
+### 3. [✅] Create app/actions/submit-contact.tsx [COMPLETED - fixed createClient import]
 
-## Setup Required
+### 4. [✅] lib/services-data.ts confirmed
 
-### 1. Run SQL Schema
-Execute `supabase/schema.sql` in Supabase Dashboard SQL Editor
+### 5. [✅] Edit components/contact.tsx [imports & handlers fixed]
 
-### 2. Create Admin User
-Insert admin user directly:
-```sql
-INSERT INTO admin_users (email, full_name, role)
-VALUES ('your-email@example.com', 'Admin Name', 'admin');
-```
+### 6. [✅] Edit app/actions/submit-payment-upload.tsx [queries payment_reference]
 
-### 3. Create Storage Bucket
-- Go to Supabase Storage → Create bucket
-- Name: `medical-reports`
-- Make public: No
+### 7. [ ] Test Flow
+   - pnpm dev
+   - /contact → submit details → see auto-gen ref → upload proof → success
+   - Verify DB inserts/updates, storage uploads
 
-### 4. Environment Variables
-Ensure `.env.local` has:
-```
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-```
-
-## Admin Access
-- Login: `/admin/login`
-- Dashboard: `/admin/dashboard`
-
-## Features
-- ✅ Patient appointment booking with date/time
-- ✅ Optional medical report upload
-- ✅ Admin authentication
-- ✅ View/manage all appointments
-- ✅ Update status (new → contacted → archived)
-- ✅ Email notifications via Resend
-
+### 8. [ ] Supabase Deploy & Polish
+   - Run migration SQL in dashboard
+   - Add email notification to submit-contact (optional)
+   - Update admin/patients to show new fields

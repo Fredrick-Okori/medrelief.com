@@ -496,7 +496,6 @@ function AdminLayout({ children, title, subtitle }) {
         try {
             const { data, error } = await supabase.from("patients").select("status");
             if (error) {
-                console.error("Error fetching stats:", error);
                 return;
             }
             const stats = {
@@ -506,9 +505,7 @@ function AdminLayout({ children, title, subtitle }) {
                 archived: data?.filter((p)=>p.status === "archived").length || 0
             };
             setStats(stats);
-        } catch (err) {
-            console.error("Unexpected error:", err);
-        }
+        } catch (err) {}
     };
     if (authChecking) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -520,25 +517,25 @@ function AdminLayout({ children, title, subtitle }) {
                         className: "w-6 h-6 border-2 border-blue-200 border-t-blue-600 rounded-full animate-spin"
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                        lineNumber: 76,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         children: "Checking session..."
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                        lineNumber: 77,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                lineNumber: 75,
+                lineNumber: 73,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-            lineNumber: 74,
+            lineNumber: 72,
             columnNumber: 7
         }, this);
     }
@@ -551,7 +548,7 @@ function AdminLayout({ children, title, subtitle }) {
                 stats: stats
             }, void 0, false, {
                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                lineNumber: 85,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -572,12 +569,12 @@ function AdminLayout({ children, title, subtitle }) {
                                                 className: "w-5 h-5 text-gray-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                                lineNumber: 97,
+                                                lineNumber: 95,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 91,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -587,7 +584,7 @@ function AdminLayout({ children, title, subtitle }) {
                                                     children: title
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 98,
                                                     columnNumber: 17
                                                 }, this),
                                                 subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -595,19 +592,19 @@ function AdminLayout({ children, title, subtitle }) {
                                                     children: subtitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 99,
                                                     columnNumber: 30
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 97,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -619,36 +616,36 @@ function AdminLayout({ children, title, subtitle }) {
                                                 className: "w-5 h-5 text-gray-600"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 104,
                                                 columnNumber: 17
                                             }, this),
                                             stats.new > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 106,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 103,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                            lineNumber: 91,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                        lineNumber: 90,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -656,19 +653,19 @@ function AdminLayout({ children, title, subtitle }) {
                         children: children
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                        lineNumber: 115,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-                lineNumber: 88,
+                lineNumber: 86,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/medrelief.com/components/admin/admin-layout.tsx",
-        lineNumber: 84,
+        lineNumber: 82,
         columnNumber: 5
     }, this);
 }

@@ -19,6 +19,10 @@ interface Patient {
   service: string
   message: string
   medical_report_url: string | null
+  payment_proof_url: string | null
+  payment_reference: string | null
+  preferred_date: string | null
+  preferred_time: string | null
   status: string
 }
 
@@ -74,14 +78,12 @@ export default function PatientsPage() {
       }
 
       const formattedData = (data || []).map((patient) => {
-        let formattedDate = "-"
-        let formattedTime = "-"
-        
-        const dateMatch = patient.message.match(/Preferred Date:\s*([^\n]+)/)
-        const timeMatch = patient.message.match(/Preferred Time:\s*([^\n]+)/)
-        
-        if (dateMatch) formattedDate = dateMatch[1].trim()
-        if (timeMatch) formattedTime = timeMatch[1].trim()
+        const formattedDate = patient.preferred_date
+          ? new Date(patient.preferred_date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })
+          : "-"
+        const formattedTime = patient.preferred_time
+          ? patient.preferred_time.charAt(0).toUpperCase() + patient.preferred_time.slice(1)
+          : "-"
 
         return { ...patient, formatted_date: formattedDate, formatted_time: formattedTime }
       })
@@ -238,7 +240,8 @@ export default function PatientsPage() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.03 }}
-                        className="hover:bg-gray-50 transition-colors"
+                        className="hover:bg-gray-50 transition-colors cursor-pointer"
+                        onClick={() => setSelectedPatient(patient)}
                       >
                         <td className="px-6 py-4">
                           <p className="font-medium text-gray-900">
@@ -272,13 +275,7 @@ export default function PatientsPage() {
                           </span>
                         </td>
                         <td className="px-6 py-4">
-                          <button
-                            onClick={() => setSelectedPatient(patient)}
-                            className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
-                            title="View Details"
-                          >
-                            <Eye className="w-4 h-4" />
-                          </button>
+                          <Eye className="w-4 h-4 text-blue-600" />
                         </td>
                       </motion.tr>
                     ))}
@@ -407,6 +404,43 @@ export default function PatientsPage() {
                       </a>
                     </div>
                   )}
+
+                  <div className="bg-gray-50 rounded-xl p-5">
+                    <h3 className="font-semibold text-gray-900 mb-4">Payment Details</h3>
+                    {selectedPatient.payment_reference && (
+                      <div className="flex justify-between mb-3">
+                        <span className="text-sm text-gray-500">Reference</span>
+                        <span className="text-sm font-mono font-medium text-gray-900">{selectedPatient.payment_reference}</span>
+                      </div>
+                    )}
+                    {selectedPatient.payment_proof_url ? (
+                      <div className="space-y-2">
+                        <a
+                          href={selectedPatient.payment_proof_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block"
+                        >
+                          <img
+                            src={selectedPatient.payment_proof_url}
+                            alt="Payment screenshot"
+                            className="w-full rounded-lg border border-gray-200 object-contain max-h-64 bg-white"
+                          />
+                        </a>
+                        <a
+                          href={selectedPatient.payment_proof_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 text-xs text-blue-600 hover:underline"
+                        >
+                          <Download className="w-3.5 h-3.5" />
+                          Open full image
+                        </a>
+                      </div>
+                    ) : (
+                      <p className="text-sm text-gray-400 italic">No payment screenshot uploaded yet.</p>
+                    )}
+                  </div>
 
                   <div className="flex gap-3">
                     {selectedPatient.status === "new" && (

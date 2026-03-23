@@ -52,7 +52,6 @@ export default function AdminLayout({ children, title, subtitle }: AdminLayoutPr
         .select("status")
 
       if (error) {
-        console.error("Error fetching stats:", error)
         return
       }
 
@@ -65,7 +64,6 @@ export default function AdminLayout({ children, title, subtitle }: AdminLayoutPr
 
       setStats(stats)
     } catch (err) {
-      console.error("Unexpected error:", err)
     }
   }
 

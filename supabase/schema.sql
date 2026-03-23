@@ -108,3 +108,14 @@ CREATE POLICY "Admins can manage admin_users" ON admin_users
 -- INSERT INTO admin_users (email, full_name, role)
 -- VALUES ('admin@medrelief.com', 'System Admin', 'admin');
 
+-- ============================================
+-- PATIENTS TABLE MIGRATION FOR BOOKING FLOW
+-- ============================================
+ALTER TABLE patients 
+ADD COLUMN IF NOT EXISTS payment_reference TEXT UNIQUE,
+ADD COLUMN IF NOT EXISTS payment_proof_url TEXT,
+ADD COLUMN IF NOT EXISTS preferred_date TIMESTAMPTZ,
+ADD COLUMN IF NOT EXISTS preferred_time TEXT;
+
+CREATE INDEX IF NOT EXISTS idx_patients_payment_reference ON patients(payment_reference);
+

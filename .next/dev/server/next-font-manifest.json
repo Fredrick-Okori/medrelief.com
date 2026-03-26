@@ -1,27 +1,15 @@
 {
   "app": {
-    "[project]/medrelief.com/app/_not-found/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
-    "[project]/medrelief.com/app/admin/analytics/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
-    "[project]/medrelief.com/app/admin/dashboard/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
-    "[project]/medrelief.com/app/admin/login/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
-    "[project]/medrelief.com/app/admin/notifications/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
-    "[project]/medrelief.com/app/admin/patients/page": [
-      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
-    ],
     "[project]/medrelief.com/app/contact/page": [
       "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
     ],
     "[project]/medrelief.com/app/page": [
+      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
+    ],
+    "[project]/medrelief.com/app/services/[id]/page": [
+      "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
+    ],
+    "[project]/medrelief.com/app/services/page": [
       "static/media/5c8bbc89ca099f34-s.p.871a2d56.woff2"
     ]
   },

@@ -116,6 +116,30 @@ const metadata = {
     icons: {
         icon: [
             {
+                url: "/favicon.ico",
+                sizes: "any"
+            },
+            {
+                url: "/favicon-16x16.png",
+                sizes: "16x16",
+                type: "image/png"
+            },
+            {
+                url: "/favicon-32x32.png",
+                sizes: "32x32",
+                type: "image/png"
+            },
+            {
+                url: "/android-chrome-192x192.png",
+                sizes: "192x192",
+                type: "image/png"
+            },
+            {
+                url: "/android-chrome-512x512.png",
+                sizes: "512x512",
+                type: "image/png"
+            },
+            {
                 url: "/icon-light-32x32.png",
                 media: "(prefers-color-scheme: light)"
             },
@@ -131,6 +155,7 @@ const metadata = {
         apple: "/apple-icon.png",
         shortcut: "/favicon.ico"
     },
+    manifest: "/site.webmanifest",
     generator: 'v0.app'
 };
 const viewport = {
@@ -266,7 +291,7 @@ function RootLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/app/layout.tsx",
-                        lineNumber: 119,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -289,13 +314,13 @@ function RootLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/medrelief.com/app/layout.tsx",
-                        lineNumber: 187,
+                        lineNumber: 193,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/medrelief.com/app/layout.tsx",
-                lineNumber: 117,
+                lineNumber: 123,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -304,19 +329,19 @@ function RootLayout({ children }) {
                     children,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$medrelief$2e$com$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                         fileName: "[project]/medrelief.com/app/layout.tsx",
-                        lineNumber: 209,
+                        lineNumber: 215,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/medrelief.com/app/layout.tsx",
-                lineNumber: 207,
+                lineNumber: 213,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/medrelief.com/app/layout.tsx",
-        lineNumber: 116,
+        lineNumber: 122,
         columnNumber: 5
     }, this);
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowLeft, MessageCircle, Check, Phone, Clock, Users, Star } from "lucide-react"
+import { ArrowLeft, MessageCircle, Check, Phone, Clock, Users, Star, CalendarDays } from "lucide-react"
 import { SERVICES } from "@/lib/services-data"
 import { useParams } from "next/navigation"
 import Header from "@/components/header"
@@ -181,16 +181,14 @@ export default function ServiceDetail() {
                     <MessageCircle className="w-5 h-5" aria-hidden="true" />
                     Book via WhatsApp
                   </motion.button>
-                  <motion.button
-                    onClick={handleCall}
+                  <Link
+                    href="/contact"
                     className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-colors border border-white/20"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    aria-label="Call now"
+                    aria-label="Book Appointment"
                   >
-                    <Phone className="w-5 h-5" aria-hidden="true" />
-                    Call Now
-                  </motion.button>
+                    <CalendarDays className="w-5 h-5" aria-hidden="true" />
+                    Book Appointment
+                  </Link>
                 </div>
               </motion.div>
 

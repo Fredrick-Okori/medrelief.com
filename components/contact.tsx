@@ -22,7 +22,7 @@ import { z } from "zod"
 const bookingSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
   lastName: z.string().min(1, "Last name is required"),
-  email: z.string().email("Invalid email address"),
+  email: z.string().email("Invalid email address").optional().or(z.literal("")),
   phone: z.string().min(10, "Phone number is required"),
   service: z.string().min(1, "Please select a service"),
   preferredDate: z.string().min(1, "Preferred date is required"),
@@ -326,7 +326,7 @@ export default function Contact() {
                       {/* Email */}
                       <div>
                         <label className="text-sm font-medium text-gray-700 mb-1.5 block">
-                          Email <span className="text-red-400">*</span>
+                          Email <span className="text-gray-400 text-xs font-normal">(optional)</span>
                         </label>
                         <div className="relative">
                           <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />

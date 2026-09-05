@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { Phone, Mail, MapPin, MessageCircle, CheckCircle, ArrowLeft, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Button } from '../ui/button';
-import { Input } from '../ui/input';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import Link from 'next/link';
 
 export default function SimpleContact() {
@@ -320,7 +320,7 @@ export default function SimpleContact() {
                     id="paymentProof"
                     type="file"
                     accept="image/*,.pdf"
-                    onChange={(e) => setPaymentProof(e.target.files?.[0] || null)}
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPaymentProof(e.target.files?.[0] || null)}
                     required
                   />
                   <p className="text-xs text-gray-500">Make sure reference is visible in screenshot</p>

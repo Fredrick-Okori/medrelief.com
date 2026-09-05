@@ -1,133 +1,57 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
-import Link from "next/link"
 
 export default function CTA() {
   return (
-    <section className="relative w-full py-20 md:py-32 bg-gradient-to-br from-primary via-primary/95 to-primary/90 overflow-hidden border-t border-primary/30">
-      {/* Animated background elements */}
-      <motion.div
-        className="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"
-        animate={{
-          x: [0, 40, 0],
-          y: [0, -30, 0],
-          scale: [1, 1.3, 1],
-        }}
-        transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute bottom-10 right-10 w-56 h-56 bg-white/10 rounded-full blur-3xl"
-        animate={{
-          x: [0, -40, 0],
-          y: [0, 30, 0],
-          scale: [1, 1.4, 1],
-        }}
-        transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
-      />
-
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left: Image */}
+    <section className="py-16 md:py-20 text-white bg-gradient-to-r from-[#071a51] via-[#050e32] to-[#0b2a7d]" aria-labelledby="final-title">
+      <div className="max-w-[1180px] mx-auto px-4 sm:px-6">
+        <div className="grid lg:grid-cols-[1fr_auto] gap-8 lg:gap-16 items-center">
+          {/* Copy */}
           <motion.div
-            className="relative h-200 md:h-206 rounded-3xl overflow-hidden hidden md:block shadow-2xl"
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-40px" }}
+            transition={{ duration: 0.5 }}
+            className="space-y-3"
           >
-            <Image
-              src="/images/istockphoto-1392128457-612x612.jpg"
-              alt="Dr. Namukwaya Josephine - Professional healthcare provider"
-              width={600}
-              height={900}
-              className="object-cover object-top"
-             
-            />
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary/40 via-transparent to-transparent" />
+            <span className="text-[#9ce6ff] text-xs sm:text-sm font-extrabold uppercase tracking-widest block">
+              Care can start with one conversation
+            </span>
+            <h2
+              id="final-title"
+              className="font-serif font-semibold text-white text-3xl sm:text-4xl md:text-5xl tracking-tight leading-[1.1]"
+            >
+              Tell us what your patient needs.
+            </h2>
+            <p className="text-white/80 text-base sm:text-lg max-w-[670px] leading-relaxed pt-1">
+              We’ll help you understand the next practical step—whether they are in hospital, preparing for discharge or already at home.
+            </p>
           </motion.div>
 
-          {/* Right: Content */}
-          <div className="space-y-8 text-white">
-            <motion.div
-              className="space-y-4"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
+          {/* Action Buttons */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, margin: "-40px" }}
+            transition={{ delay: 0.15, duration: 0.5 }}
+            className="flex flex-col sm:flex-row lg:flex-col gap-3 min-w-[245px]"
+          >
+            <a
+              href="https://wa.me/256784040350?text=Hello%20MedRelief%2C%20I%20need%20help%20arranging%20patient%20care."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-white hover:bg-[#f1f4ff] text-[#0012fd] hover:text-[#0010c7] font-extrabold text-[15px] sm:text-base shadow-xl transition-all text-center"
             >
-              <p className="text-sm font-semibold uppercase tracking-widest text-white/80">Ready to Get Started?</p>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight drop-shadow-lg">
-                Transform Your Health Journey Today
-              </h2>
-            </motion.div>
-
-            <motion.p
-              className="text-lg text-white/90 max-w-2xl leading-relaxed drop-shadow"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.15 }}
+              WhatsApp MedRelief
+            </a>
+            <a
+              href="tel:+256784040350"
+              className="inline-flex items-center justify-center px-7 py-3.5 rounded-full border border-white/50 hover:bg-white/10 text-white font-extrabold text-[15px] sm:text-base transition-all text-center"
             >
-              Let us walk with you every step of the way. Our compassionate team is ready to provide personalized care
-              that meets your unique health needs.
-            </motion.p>
-
-            <motion.div
-              className="flex flex-col sm:flex-row gap-4 pt-4"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-            >
-              <Link href="/contact">
-                <motion.span
-                  className="inline-block px-8 py-4 bg-white text-primary rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  Contact Us Now
-                </motion.span>
-              </Link>
-              <Link href="/services">
-                <motion.span
-                  className="inline-block px-8 py-4 border-2 border-white/50 text-white rounded-lg font-semibold hover:border-white hover:bg-white/10 transition-all"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  Explore Services
-                </motion.span>
-              </Link>
-            </motion.div>
-
-            <motion.div
-              className="pt-8 border-t border-white/20 space-y-3"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-white/90"><span className="font-semibold">24/7 Support</span> - Always here for you</p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-white/90"><span className="font-semibold">Expert Team</span> - Highly trained professionals</p>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-white/90"><span className="font-semibold">Personalized Care</span> - Tailored to your needs</p>
-              </div>
-            </motion.div>
-          </div>
+              Call +256 784 040 350
+            </a>
+          </motion.div>
         </div>
       </div>
     </section>

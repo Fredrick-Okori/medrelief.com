@@ -276,6 +276,7 @@
 
 @layer theme {
   :root, :host {
+    --font-serif: var(--font-urbanist);
     --color-red-50: #fef2f2;
     --color-red-100: #ffe2e2;
     --color-red-200: #ffcaca;
@@ -8008,6 +8009,19 @@
   --sidebar-accent-foreground: #fff;
   --sidebar-border: #d9e7f1;
   --sidebar-ring: #080cc0;
+  --brand: #0012fd;
+  --brand-deep: #0010c7;
+  --navy: #071a51;
+  --navy-deep: #050e32;
+  --cyan: #45c9f5;
+  --green: #25d366;
+  --mint: #e9fbf4;
+  --sky: #eef3ff;
+  --ink: #132044;
+  --muted-text: #5e6a86;
+  --line-border: #dbe2f2;
+  --paper: #fff;
+  --cream: #f7f9ff;
 }
 
 @supports (color: lab(0% 0 0)) {

@@ -14,6 +14,8 @@
   "/api/test-service-role/route": "app/api/test-service-role/route.js",
   "/api/test-supabase/route": "app/api/test-supabase/route.js",
   "/blog/page": "app/blog/page.js",
+  "/booking/[id]/page": "app/booking/[id]/page.js",
+  "/booking/[id]/upload/page": "app/booking/[id]/upload/page.js",
   "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",

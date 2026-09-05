@@ -3,140 +3,106 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Phone } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
-    { label: "Services", href: "/services" },
-    { label: "About", href: "/about" },
-    { label: "Why Us", href: "/why-us" },
-    { label: "Contact", href: "/contact" },
+    { label: "Hospital & home care", href: "/#care-options" },
+    { label: "Services", href: "/#services" },
+    { label: "How it works", href: "/#how-it-works" },
+    { label: "Questions", href: "/#questions" },
   ]
 
   return (
-    <motion.header
-      className="sticky top-0 z-50 w-full border-b border-primary/20 bg-primary backdrop-blur supports-[backdrop-filter]:bg-primary/95"
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <motion.div
-              className="relative w-30 h-12 sm:w-14 sm:h-14 md:w-40 md:h-16 overflow-hidden"
-              whileHover={{ rotate: 6, scale: 1.03 }}
-              transition={{ type: "spring", stiffness: 300 }}
+    <header className="sticky top-0 z-50 w-full bg-[#0012fd] shadow-[0_8px_24px_rgba(0,18,253,0.13)]">
+      <div className="max-w-[1180px] mx-auto px-4 sm:px-6 flex items-center justify-between h-[76px]">
+        {/* Brand Logo */}
+        <Link href="/" className="inline-flex items-center" aria-label="MedRelief home">
+          <div className="relative w-[165px] h-[40px]">
+            <Image
+              src="/images/logo-white.png"
+              alt="MedRelief"
+              fill
+              priority
+              className="object-contain object-left"
+              sizes="165px"
+            />
+          </div>
+        </Link>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden lg:flex items-center gap-7" aria-label="Main navigation">
+          {navItems.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="relative text-white/90 hover:text-white text-[15px] font-bold tracking-tight transition-colors py-1 group"
             >
-              {/* Use the colored SVG so it contrasts against the header background */}
-              <Image
-                src="/images/logo_white.png"
-                alt="MedRelief logo"
-                fill
-                sizes="(max-width: 640px) 100px, (max-width: 768px) 100px, 100px"
-                className="object-contain"
-              />
-            </motion.div>
+              <span>{item.label}</span>
+              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-[#45c9f5] group-hover:w-full transition-all duration-200" />
+            </Link>
+          ))}
+        </nav>
 
-          </Link>
+        {/* Nav Call Button */}
+        <div className="hidden sm:flex items-center">
+          <a
+            href="tel:+256784040350"
+            className="inline-flex items-center gap-2.5 px-4 py-2 border border-white/40 rounded-full text-white bg-white/10 hover:bg-white/20 text-sm font-extrabold transition-all duration-200 shadow-sm"
+            aria-label="Call MedRelief on +256 784 040 350"
+          >
+            <span className="w-2 h-2 rounded-full bg-white shadow-[0_0_0_4px_rgba(255,255,255,0.2)] animate-pulse" />
+            +256 784 040 350
+          </a>
+        </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            {navItems.map((item, index) => (
+        {/* Mobile Menu Toggle */}
+        <button
+          className="lg:hidden p-2 rounded-xl border border-white/25 text-white hover:bg-white/10 transition-colors"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle navigation menu"
+        >
+          {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+        </button>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.nav
+            className="lg:hidden bg-white border-t border-gray-100 px-5 py-4 shadow-xl space-y-1"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            aria-label="Mobile navigation"
+          >
+            {navItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
+                onClick={() => setIsMenuOpen(false)}
+                className="block px-3 py-2.5 rounded-lg text-[#071a51] hover:bg-[#eef3ff] font-bold text-[15px] transition-colors"
               >
-                <motion.span
-                  className="text-sm font-medium text-white/80 hover:text-white transition-colors relative block"
-                  initial={{ opacity: 0, y: -20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 + 0.3 }}
-                  whileHover={{ y: -2 }}
-                >
-                  {item.label}
-                  <motion.span
-                    className="absolute -bottom-1 left-0 w-full h-0.5 bg-white origin-left"
-                    initial={{ scaleX: 0 }}
-                    whileHover={{ scaleX: 1 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                </motion.span>
+                {item.label}
               </Link>
             ))}
-          </nav>
-
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-4">
-            <Link href="/contact">
-              <motion.span
-                className="px-6 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors inline-block"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Contact Us
-              </motion.span>
-            </Link>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <motion.button
-            className="md:hidden p-2"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-            whileTap={{ scale: 0.9 }}
-          >
-            {isMenuOpen ? <X className="w-6 h-6 text-white" /> : <Menu className="w-6 h-6 text-white" />}
-          </motion.button>
-        </div>
-
-        {/* Mobile Navigation */}
-        <AnimatePresence>
-          {isMenuOpen && (
-            <motion.nav
-              className="md:hidden pb-4 space-y-2 overflow-hidden"
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.3 }}
-            >
-              {navItems.map((item, index) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <motion.span
-                    className="block px-4 py-2 text-sm font-medium text-white/80 hover:text-white hover:bg-white/10 rounded-lg transition-colors"
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                  >
-                    {item.label}
-                  </motion.span>
-                </Link>
-              ))}
-              <Link
-                href="/contact"
+            <div className="pt-2 border-t border-gray-100">
+              <a
+                href="tel:+256784040350"
                 onClick={() => setIsMenuOpen(false)}
+                className="flex items-center gap-2 px-3 py-2.5 text-[#0012fd] font-extrabold text-[15px]"
               >
-                <motion.span
-                  className="block px-4 py-2 bg-white text-primary rounded-lg font-medium text-sm hover:bg-white/90 transition-colors mt-4"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: navItems.length * 0.1 }}
-                >
-                  Contact Us
-                </motion.span>
-              </Link>
-            </motion.nav>
-          )}
-        </AnimatePresence>
-      </div>
-    </motion.header>
+                <Phone className="w-4 h-4" />
+                Call +256 784 040 350
+              </a>
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
+    </header>
   )
 }

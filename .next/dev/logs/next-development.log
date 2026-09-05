@@ -1,28 +1,67 @@
-[00:00:01.996] Server  LOG      ✓ Ready in 1440ms
-[00:00:12.411] Server  LOG      ○ Compiling / ...
-[00:00:15.553] Server  WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:04.703] Server  LOG      ✓ Ready in 3.9s
+[00:00:08.968] Server  LOG      ○ Compiling / ...
+[00:00:13.659] Server  ERROR    ⨯ ./app/layout.tsx:181:28
+Parsing ecmascript source code failed
+  179 |             }),
+  180 |           }}
+> 181 |         {/* Google Fonts */}
+      |                            ^
+  182 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+  183 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  184 |         <link
+
+Expected '</', got '}'
+
+
+[00:00:16.683] Server  LOG      ○ Compiling /_error ...
+[00:00:18.464] Browser ERROR   uncaughtError: Error: ./app/layout.tsx:181:28
+Parsing ecmascript source code failed
+  179 |             }),
+  180 |           }}
+> 181 |         {/* Google Fonts */}
+      |                            ^
+  182 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+  183 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  184 |         <link
+
+Expected '</', got '}'
+
+
+[00:00:22.215] Browser ERROR   ./app/layout.tsx:181:28
+Parsing ecmascript source code failed
+  179 |             }),
+  180 |           }}
+> 181 |         {/* Google Fonts */}
+      |                            ^
+  182 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+  183 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  184 |         <link
+
+Expected '</', got '}'
+[00:00:22.215] Browser ERROR   ./app/layout.tsx:181:28
+Parsing ecmascript source code failed
+  179 |             }),
+  180 |           }}
+> 181 |         {/* Google Fonts */}
+      |                            ^
+  182 |         <link rel="preconnect" href="https://fonts.googleapis.com" />
+  183 |         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  184 |         <link
+
+Expected '</', got '}'
+[00:00:33.682] Server  LOG      ✓ Compiled in 1310ms
+[00:00:34.438] Server  WARN    Image with src "/images/hospital-bedside-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:16.572] Browser WARN    Image with src "/images/11062b_bc1fa5955b4d457892efb751a0588eb0~mv2.avif" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+[00:00:36.816] Browser WARN    Image with src "/images/hospital-bedside-care.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
-[00:00:16.808] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:16.808] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:16.808] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774535802007} /_vercel/insights/view
-[00:00:23.053] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774535808222} /_vercel/insights/view
-[00:00:26.515] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774535811704} /_vercel/insights/view
-[00:00:30.108] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774535815236} /_vercel/insights/view
-[00:01:15.999] Server  LOG      ✓ Compiled in 211ms
-[00:01:39.161] Server  LOG      ✓ Compiled in 321ms
-[00:02:03.327] Server  LOG      ✓ Compiled in 257ms
-[00:05:14.205] Server  LOG      ✓ Compiled in 296ms
-[00:05:15.509] Browser ERROR   uncaughtError: ReferenceError: CalendarDays is not defined
-[00:07:27.417] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:27.428] Server  LOG      ✓ Compiled in 329ms
-[00:07:29.510] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:29.510] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services/pedicare","route":"/services/[id]"}
-[00:07:29.510] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536234414} /_vercel/insights/view
-[00:08:16.212] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536281385} /_vercel/insights/view
-[00:11:38.402] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536483585} /_vercel/insights/view
-[00:11:40.336] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536485529} /_vercel/insights/view
-[00:11:46.766] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536491941} /_vercel/insights/view
-[00:12:15.899] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services/pedicare color: rgb(120, 120, 120) color: inherit {"dp":"/services/[id]","o":"http://localhost:3000/services/pedicare","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536521090} /_vercel/insights/view
-[00:12:19.160] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1774536524336} /_vercel/insights/view
+[00:00:37.865] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:37.865] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:37.865] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1788638043504} /_vercel/insights/view
+[00:00:43.917] Browser WARN    Image with src "/images/medrelief-home-nursing-hero.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:49.814] Browser WARN    Image with src "/images/medrelief-elderly-care-hero.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:00:55.814] Browser WARN    Image with src "/images/medrelief-physiotherapy-hero.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[00:01:02.664] Browser WARN    Image with src "/images/medrelief-child-care-hero.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities

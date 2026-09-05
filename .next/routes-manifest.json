@@ -21,6 +21,22 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/booking/[id]",
+      "regex": "^/booking/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/booking/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/booking/[id]/upload",
+      "regex": "^/booking/([^/]+?)/upload(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/booking/(?<nxtPid>[^/]+?)/upload(?:/)?$"
+    },
+    {
       "page": "/services/[id]",
       "regex": "^/services/([^/]+?)(?:/)?$",
       "routeKeys": {

@@ -110,7 +110,13 @@ const metadata = {
         apple: "/apple-icon.png",
         shortcut: "/favicon.ico"
     },
-    manifest: "/site.webmanifest"
+    manifest: "/site.webmanifest",
+    other: {
+        "geo.region": "UG-C",
+        "geo.placename": "Kampala",
+        "geo.position": "0.3476;32.5825",
+        "ICBM": "0.3476, 32.5825"
+    }
 };
 const viewport = {
     width: "device-width",
@@ -129,18 +135,67 @@ function RootLayout({ children }) {
                         dangerouslySetInnerHTML: {
                             __html: JSON.stringify({
                                 "@context": "https://schema.org",
+                                "@type": "WebSite",
+                                "@id": "https://www.medreliefservices.com/#website",
+                                name: "MedRelief Services",
+                                url: "https://www.medreliefservices.com/",
+                                inLanguage: "en-UG",
+                                description: "Hospital bedside nursing and continued home nursing care in Uganda."
+                            })
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/app/layout.tsx",
+                        lineNumber: 102,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                        type: "application/ld+json",
+                        dangerouslySetInnerHTML: {
+                            __html: JSON.stringify({
+                                "@context": "https://schema.org",
                                 "@type": "MedicalBusiness",
+                                "@id": "https://www.medreliefservices.com/#organization",
                                 name: "MedRelief Services",
                                 url: "https://www.medreliefservices.com/",
                                 logo: "https://www.medreliefservices.com/images/logo-white.png",
                                 image: "https://www.medreliefservices.com/images/medrelief-og.jpg",
                                 telephone: "+256784040350",
                                 email: "medrelief325@gmail.com",
+                                address: {
+                                    "@type": "PostalAddress",
+                                    addressLocality: "Kampala",
+                                    addressRegion: "Central Region",
+                                    addressCountry: "UG"
+                                },
+                                geo: {
+                                    "@type": "GeoCoordinates",
+                                    latitude: 0.3476,
+                                    longitude: 32.5825
+                                },
+                                openingHoursSpecification: [
+                                    {
+                                        "@type": "OpeningHoursSpecification",
+                                        dayOfWeek: [
+                                            "Monday",
+                                            "Tuesday",
+                                            "Wednesday",
+                                            "Thursday",
+                                            "Friday",
+                                            "Saturday",
+                                            "Sunday"
+                                        ],
+                                        opens: "00:00",
+                                        closes: "23:59"
+                                    }
+                                ],
+                                currenciesAccepted: "UGX, USD",
+                                paymentAccepted: "Cash, Mobile Money, Bank Transfer",
+                                priceRange: "$$",
                                 areaServed: {
                                     "@type": "Country",
                                     "name": "Uganda"
                                 },
-                                description: "Professional bedside nursing in hospitals and continued patient care at home, with physiotherapy and coordinated support for chronic, complex and elderly care needs.",
+                                description: "Professional bedside nursing in hospitals and continued patient care at home, with physiotherapy and coordinated support for chronic, complex and elderly care needs across Uganda.",
                                 availableService: [
                                     {
                                         "@type": "MedicalService",
@@ -171,7 +226,7 @@ function RootLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 96,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -234,7 +289,7 @@ function RootLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 123,
+                        lineNumber: 176,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -242,7 +297,7 @@ function RootLayout({ children }) {
                         href: "https://fonts.googleapis.com"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 183,
+                        lineNumber: 236,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -251,21 +306,21 @@ function RootLayout({ children }) {
                         crossOrigin: "anonymous"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 184,
+                        lineNumber: 237,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap",
+                        href: "https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700;800&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap",
                         rel: "stylesheet"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 185,
+                        lineNumber: 238,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 94,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -274,19 +329,19 @@ function RootLayout({ children }) {
                     children,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 192,
+                        lineNumber: 245,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 190,
+                lineNumber: 243,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 93,
+        lineNumber: 99,
         columnNumber: 5
     }, this);
 }

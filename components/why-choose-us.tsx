@@ -65,7 +65,7 @@ export default function WhyChooseUs() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm font-semibold text-accent uppercase tracking-widest">Why Choose Us</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-foreground">What Sets Us Apart</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">What Sets Us Apart</h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto mt-4">Discover why families trust MedRelief for their healthcare needs</p>
         </motion.div>
 
@@ -94,7 +94,7 @@ export default function WhyChooseUs() {
                 <CheckCircle2 className="w-7 h-7 text-primary\" />
               </motion.div>
 
-              <h3 className="font-serif font-bold text-foreground text-lg mb-3">{reason.title}</h3>
+              <h3 className="font-bold text-foreground text-lg mb-3">{reason.title}</h3>
               <p className="text-foreground/60 leading-relaxed">{reason.description}</p>
             </motion.div>
           ))}

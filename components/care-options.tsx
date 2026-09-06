@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, CheckCircle2 } from "lucide-react"
 
 export default function CareOptions() {
   const options = [
@@ -45,16 +45,17 @@ export default function CareOptions() {
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6">
         {/* Section Heading */}
         <div className="text-center max-w-[720px] mx-auto mb-12 sm:mb-14">
-          <span className="text-[#0012fd] text-xs sm:text-sm font-extrabold uppercase tracking-widest block mb-2">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0012fd]/10 text-[#0012fd] text-xs font-bold tracking-widest uppercase mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0012fd]" />
             Two settings. One continuous care plan.
-          </span>
+          </div>
           <h2
             id="care-title"
-            className="font-serif font-semibold text-[#071a51] text-3xl sm:text-4xl md:text-5xl tracking-tight mt-3"
+            className="font-bold text-[#071a51] text-3xl sm:text-4xl md:text-5xl tracking-tight mt-1"
           >
             Care that follows the patient
           </h2>
-          <p className="text-[#5e6a86] text-base sm:text-lg mt-4 max-w-[640px] mx-auto leading-relaxed">
+          <p className="text-[#5e6a86] text-base sm:text-lg mt-3 max-w-[640px] mx-auto leading-relaxed">
             Start where the need is greatest. We help the family plan the next safe step.
           </p>
         </div>
@@ -64,7 +65,7 @@ export default function CareOptions() {
           {options.map((option, idx) => (
             <motion.article
               key={option.number}
-              className="group relative min-h-[540px] sm:min-h-[560px] rounded-[24px] overflow-hidden flex flex-col justify-end p-7 sm:p-9 shadow-[0_20px_50px_rgba(7,26,81,0.12)] border border-[#dbe2f2]/60"
+              className="group relative min-h-[540px] sm:min-h-[560px] rounded-[24px] overflow-hidden flex flex-col justify-end p-7 sm:p-9 shadow-[0_20px_50px_rgba(7,26,81,0.12)] border border-[#dbe2f2]/60 hover:shadow-[0_25px_60px_rgba(7,26,81,0.2)] transition-all duration-300"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
@@ -84,7 +85,7 @@ export default function CareOptions() {
               </div>
 
               {/* Number Badge */}
-              <div className="absolute top-6 left-6 z-10 w-12 h-12 rounded-full border border-white/40 bg-[#050e32]/40 backdrop-blur-md text-white font-extrabold text-base flex items-center justify-center">
+              <div className="absolute top-6 left-6 z-10 w-12 h-12 rounded-full border border-white/30 bg-[#050e32]/50 backdrop-blur-md text-white font-extrabold text-base flex items-center justify-center shadow-lg">
                 {option.number}
               </div>
 
@@ -94,7 +95,7 @@ export default function CareOptions() {
                   {option.label}
                 </span>
 
-                <h3 className="font-serif font-semibold text-2xl sm:text-3xl md:text-[2.2rem] leading-tight text-white">
+                <h3 className="font-bold text-2xl sm:text-3xl md:text-[2.2rem] leading-tight text-white">
                   {option.title}
                 </h3>
 
@@ -105,23 +106,23 @@ export default function CareOptions() {
                 {/* Features list */}
                 <ul className="grid sm:grid-cols-2 gap-2.5 pt-2 pb-2 list-none p-0">
                   {option.features.map((feat) => (
-                    <li key={feat} className="flex items-start gap-2 text-sm sm:text-[15px] text-white/95 font-medium">
-                      <span className="text-[#9ce6ff] mt-0.5">✓</span>
+                    <li key={feat} className="flex items-center gap-2 text-sm sm:text-[15px] text-white/95 font-medium">
+                      <CheckCircle2 className="w-4 h-4 text-[#45c9f5] shrink-0" />
                       <span>{feat}</span>
                     </li>
                   ))}
                 </ul>
 
-                {/* Direct WhatsApp Link */}
+                {/* Direct Action Button */}
                 <div className="pt-2">
                   <a
                     href={option.ctaHref}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-white font-extrabold text-[15px] sm:text-base underline underline-offset-4 hover:text-[#9ce6ff] transition-colors"
+                    className="inline-flex items-center justify-between gap-3 w-full sm:w-auto px-6 py-3.5 rounded-full bg-white text-[#071a51] hover:bg-[#f1f4ff] font-bold text-sm sm:text-[15px] shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 group/btn"
                   >
                     <span>{option.ctaText}</span>
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-4 h-4 text-[#0012fd] transition-transform duration-200 group-hover/btn:translate-x-1" />
                   </a>
                 </div>
               </div>

@@ -1,6 +1,8 @@
 User-Agent: *
 Allow: /
-Crawl-delay: 10
+Disallow: /admin/
+Disallow: /api/
+Disallow: /booking/*/upload
 
-Host: https://medreliefservices.com
-Sitemap: https://medreliefservices.com/sitemap.xml
+Host: https://www.medreliefservices.com
+Sitemap: https://www.medreliefservices.com/sitemap.xml

@@ -2,13 +2,15 @@ import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      crawlDelay: 10,
-    },
-    sitemap: 'https://medreliefservices.com/sitemap.xml',
-    host: 'https://medreliefservices.com',
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/admin/', '/api/', '/booking/*/upload'],
+      },
+    ],
+    sitemap: 'https://www.medreliefservices.com/sitemap.xml',
+    host: 'https://www.medreliefservices.com',
   }
 }
 

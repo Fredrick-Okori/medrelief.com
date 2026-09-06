@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
+import { CheckCircle2, MessageCircle, Phone } from "lucide-react"
 
 interface Slide {
   src: string
@@ -112,7 +113,7 @@ export default function Hero() {
           {/* Heading */}
           <h1
             id="hero-title"
-            className="font-serif font-semibold text-white text-[2.75rem] sm:text-5xl md:text-6xl lg:text-[4.25rem] leading-[1.08] tracking-[-0.035em]"
+            className="font-bold text-white text-[2.75rem] sm:text-5xl md:text-6xl lg:text-[4.25rem] leading-[1.08] tracking-[-0.035em]"
           >
             When you can’t always be at their bedside,{" "}
             <em className="text-[#9ce6ff] italic">we can.</em>
@@ -124,52 +125,65 @@ export default function Hero() {
           </p>
 
           {/* CTA Actions */}
-          <div className="flex flex-col sm:flex-row gap-3 pt-2">
+          <div className="flex flex-col sm:flex-row gap-3.5 pt-2">
             <a
               href="https://wa.me/256784040350?text=Hello%20MedRelief%2C%20I%20need%20help%20arranging%20patient%20care."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-white hover:bg-[#f1f4ff] text-[#0012fd] hover:text-[#0010c7] font-extrabold text-[15px] sm:text-base shadow-xl hover:-translate-y-0.5 transition-all duration-200"
+              className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-bold text-[15px] sm:text-base shadow-[0_10px_25px_rgba(16,185,129,0.35)] hover:shadow-[0_14px_32px_rgba(16,185,129,0.5)] hover:-translate-y-0.5 transition-all duration-200"
             >
+              <MessageCircle className="w-5 h-5 fill-white/20" />
               Chat on WhatsApp <span aria-hidden="true">↗</span>
             </a>
             <a
               href="tel:+256784040350"
-              className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full border border-white/40 bg-white/10 hover:bg-white/20 text-white font-extrabold text-[15px] sm:text-base backdrop-blur-md hover:-translate-y-0.5 transition-all duration-200"
+              className="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-full border border-white/30 bg-white/[0.08] hover:bg-white/[0.18] hover:border-white/50 text-white font-bold text-[15px] sm:text-base backdrop-blur-md hover:-translate-y-0.5 transition-all duration-200 shadow-sm"
             >
-              Not sure? Call our care team
+              <Phone className="w-4 h-4 text-[#45c9f5]" />
+              Not sure? Call care team
             </a>
           </div>
 
-          {/* Trust Row */}
-          <ul className="flex flex-wrap gap-x-6 gap-y-2 pt-6 border-t border-white/20 text-white/90 font-bold text-sm sm:text-[15px] list-none p-0 m-0">
-            <li className="flex items-center gap-1.5">
-              <span className="text-[#9ce6ff]">✓</span> Flexible shifts
+          {/* Trust Badges */}
+          <ul className="flex flex-wrap gap-2.5 pt-5 border-t border-white/15 text-white/95 font-semibold text-xs sm:text-sm list-none p-0 m-0">
+            <li className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.08] border border-white/15 backdrop-blur-md">
+              <CheckCircle2 className="w-4 h-4 text-[#45c9f5]" />
+              Flexible day &amp; night shifts
             </li>
-            <li className="flex items-center gap-1.5">
-              <span className="text-[#9ce6ff]">✓</span> Hospital + home
+            <li className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.08] border border-white/15 backdrop-blur-md">
+              <CheckCircle2 className="w-4 h-4 text-[#45c9f5]" />
+              Hospital bedside + home recovery
             </li>
-            <li className="flex items-center gap-1.5">
-              <span className="text-[#9ce6ff]">✓</span> Family updates
+            <li className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.08] border border-white/15 backdrop-blur-md">
+              <CheckCircle2 className="w-4 h-4 text-[#45c9f5]" />
+              Consistent family updates
             </li>
           </ul>
 
-          {/* Hero Slider Dots */}
-          <div className="flex items-center gap-2.5 pt-2" aria-label="Hero image controls">
-            {slides.map((slide, idx) => (
-              <button
-                key={slide.label}
-                type="button"
-                onClick={() => setActiveIndex(idx)}
-                aria-label={`Show ${slide.label}`}
-                aria-current={idx === activeIndex ? "true" : undefined}
-                className={`h-2.5 rounded-full transition-all duration-300 ${
-                  idx === activeIndex
-                    ? "w-7 bg-white"
-                    : "w-2.5 bg-white/30 hover:bg-white/60"
-                }`}
-              />
-            ))}
+          {/* Hero Slider Dots & Active Preview */}
+          <div className="flex flex-wrap items-center justify-between gap-3 pt-3" aria-label="Hero image controls">
+            <div className="flex items-center gap-2">
+              {slides.map((slide, idx) => (
+                <button
+                  key={slide.label}
+                  type="button"
+                  onClick={() => setActiveIndex(idx)}
+                  aria-label={`Show ${slide.label}`}
+                  aria-current={idx === activeIndex ? "true" : undefined}
+                  className={`h-2 rounded-full transition-all duration-300 ${
+                    idx === activeIndex
+                      ? "w-8 bg-[#45c9f5] shadow-[0_0_10px_rgba(69,201,245,0.7)]"
+                      : "w-2 bg-white/30 hover:bg-white/60"
+                  }`}
+                />
+              ))}
+            </div>
+
+            {/* Current Slide Label Pill */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/30 border border-white/15 backdrop-blur-md text-white/80 text-xs font-medium">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#45c9f5] animate-pulse" />
+              <span>{slides[activeIndex].label}</span>
+            </div>
           </div>
         </div>
       </div>

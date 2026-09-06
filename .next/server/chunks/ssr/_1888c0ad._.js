@@ -1,3 +1,0 @@
-module.exports=[87924,(a,b,c)=>{"use strict";b.exports=a.r(42602).vendored["react-ssr"].ReactJsxRuntime},38783,(a,b,c)=>{"use strict";b.exports=a.r(42602).vendored["react-ssr"].ReactServerDOMTurbopackClient},35112,(a,b,c)=>{"use strict";b.exports=a.r(42602).vendored["react-ssr"].ReactDOM},47326,a=>{"use strict";var b=a.i(87924),c=a.i(70382),d=a.i(6325),e=a.i(28887);function f(){return(0,b.jsxs)("main",{className:"w-full",children:[(0,b.jsx)(c.default,{}),(0,b.jsx)(d.default,{}),(0,b.jsx)(e.default,{})]})}a.s(["default",()=>f])}];
-
-//# sourceMappingURL=_1888c0ad._.js.map

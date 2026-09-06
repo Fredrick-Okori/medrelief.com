@@ -1,5 +1,4 @@
-"use client"
-
+import type { Metadata } from "next"
 import Header from "@/components/header"
 import Hero from "@/components/hero"
 import CareOptions from "@/components/care-options"
@@ -10,6 +9,15 @@ import FAQ from "@/components/faq"
 import CTA from "@/components/cta"
 import Footer from "@/components/footer"
 import MobileContactBar from "@/components/mobile-contact-bar"
+
+export const metadata: Metadata = {
+  title: "Hospital & Home Nursing Care in Uganda | MedRelief",
+  description:
+    "Professional bedside nursing in hospitals and continued patient care at home in Uganda. MedRelief also provides physiotherapy, chronic care support, care for children with complex needs and elderly care.",
+  alternates: {
+    canonical: "https://www.medreliefservices.com/",
+  },
+}
 
 export default function Home() {
   return (

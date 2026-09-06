@@ -77,7 +77,7 @@ export default function Features() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm font-semibold text-primary uppercase tracking-widest">Our Capabilities</p>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">Advanced Healthcare Features</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground">Advanced Healthcare Features</h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto mt-4">
             Everything you need for comprehensive, modern healthcare management
           </p>
@@ -107,7 +107,7 @@ export default function Features() {
                   <Icon className="w-7 h-7 text-primary" />
                 </motion.div>
 
-                <h3 className="text-lg font-serif font-bold text-white mb-3">{feature.title}</h3>
+                <h3 className="text-lg font-bold text-white mb-3">{feature.title}</h3>
                 <p className="text-white leading-relaxed">{feature.description}</p>
               </motion.div>
             )

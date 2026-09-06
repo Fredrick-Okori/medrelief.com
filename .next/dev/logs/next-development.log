@@ -65,3 +65,33 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
 [00:01:02.664] Browser WARN    Image with src "/images/medrelief-child-care-hero.webp" is using quality "90" which is not configured in images.qualities [75]. Please update your config to [75, 90].
 Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities
+[10:41:12.982] Server  LOG      ✓ Compiled in 226ms
+[10:41:26.979] Server  LOG      ✓ Compiled in 98ms
+[10:46:46.187] Server  LOG      ✓ Compiled in 475ms
+[10:48:59.820] Server  LOG      ✓ Compiled in 474ms
+[10:49:03.421] Server  LOG      ✓ Compiled in 399ms
+[10:52:11.907] Server  LOG      ✓ Compiled in 558ms
+[10:52:15.099] Server  LOG      ✓ Compiled in 428ms
+[10:54:33.034] Server  LOG      ✓ Compiled in 503ms
+[10:54:37.893] Server  LOG      ✓ Compiled in 381ms
+[10:54:46.708] Server  LOG      ✓ Compiled in 87ms
+[10:54:55.667] Server  LOG      ✓ Compiled in 118ms
+[10:55:03.119] Server  LOG      ✓ Compiled in 184ms
+[10:55:11.159] Server  LOG      ✓ Compiled in 102ms
+[10:55:16.461] Server  LOG      ✓ Compiled in 141ms
+[10:55:26.552] Server  LOG      ✓ Compiled in 193ms
+[10:55:34.828] Server  LOG      ✓ Compiled in 89ms
+[10:55:43.201] Server  LOG      ✓ Compiled in 72ms
+[10:55:51.669] Server  LOG      ✓ Compiled in 97ms
+[10:58:27.146] Server  LOG      ✓ Compiled in 351ms
+[10:58:41.364] Server  LOG      ✓ Compiled in 367ms
+[10:58:50.697] Server  LOG      ✓ Compiled in 467ms
+[10:59:13.778] Server  LOG      ✓ Compiled in 471ms
+[10:59:28.487] Server  LOG      ✓ Compiled in 214ms
+[10:59:42.236] Server  LOG      ✓ Compiled in 571ms
+[10:59:57.333] Server  LOG      ✓ Compiled in 490ms
+[11:00:12.478] Server  LOG      ✓ Compiled in 893ms
+[11:00:28.041] Server  LOG      ✓ Compiled in 276ms
+[11:00:43.039] Server  LOG      ✓ Compiled in 600ms
+[11:01:00.262] Server  LOG      ✓ Compiled in 377ms
+[11:01:13.781] Server  LOG      ✓ Compiled in 233ms

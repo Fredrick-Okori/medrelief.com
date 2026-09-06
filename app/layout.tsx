@@ -76,6 +76,12 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   manifest: "/site.webmanifest",
+  other: {
+    "geo.region": "UG-C",
+    "geo.placename": "Kampala",
+    "geo.position": "0.3476;32.5825",
+    "ICBM": "0.3476, 32.5825",
+  },
 }
 
 export const viewport: Viewport = {
@@ -92,6 +98,22 @@ export default function RootLayout({
   return (
     <html lang="en-UG" className="scroll-smooth">
       <head>
+        {/* WebSite Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://www.medreliefservices.com/#website",
+              name: "MedRelief Services",
+              url: "https://www.medreliefservices.com/",
+              inLanguage: "en-UG",
+              description: "Hospital bedside nursing and continued home nursing care in Uganda."
+            }),
+          }}
+        />
+
         {/* MedicalBusiness Schema */}
         <script
           type="application/ld+json"
@@ -99,14 +121,45 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
+              "@id": "https://www.medreliefservices.com/#organization",
               name: "MedRelief Services",
               url: "https://www.medreliefservices.com/",
               logo: "https://www.medreliefservices.com/images/logo-white.png",
               image: "https://www.medreliefservices.com/images/medrelief-og.jpg",
               telephone: "+256784040350",
               email: "medrelief325@gmail.com",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Kampala",
+                addressRegion: "Central Region",
+                addressCountry: "UG"
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 0.3476,
+                longitude: 32.5825
+              },
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ],
+                  opens: "00:00",
+                  closes: "23:59"
+                }
+              ],
+              currenciesAccepted: "UGX, USD",
+              paymentAccepted: "Cash, Mobile Money, Bank Transfer",
+              priceRange: "$$",
               areaServed: { "@type": "Country", "name": "Uganda" },
-              description: "Professional bedside nursing in hospitals and continued patient care at home, with physiotherapy and coordinated support for chronic, complex and elderly care needs.",
+              description: "Professional bedside nursing in hospitals and continued patient care at home, with physiotherapy and coordinated support for chronic, complex and elderly care needs across Uganda.",
               availableService: [
                 { "@type": "MedicalService", "name": "Hospital bedside nursing care" },
                 { "@type": "MedicalService", "name": "Home nursing and recovery support" },
@@ -183,7 +236,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700;800&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
           rel="stylesheet"
         />
       </head>
